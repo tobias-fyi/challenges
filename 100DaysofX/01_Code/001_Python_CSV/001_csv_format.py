@@ -1,7 +1,7 @@
 #! /anaconda3/envs/tobias_fyi/bin/python
 
 # 100DaysofCode - Day 001
-# 001_csv_capitalize.py
+# 001_csv_format.py
 # convert text fields to title case + format phone numbers
 
 import os

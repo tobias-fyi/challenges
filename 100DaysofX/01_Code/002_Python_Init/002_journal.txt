@@ -6,10 +6,10 @@
 ---------------CSG---------------
 TASK_002 : Write Python script to initialize a new coding session
     CWT√01 : Prompts user to choose challenge + navs into that directory
-    CWT_0 : Compares current vs starting date to determine day # 
-    CWT_0 : Checks if directory for the day exists. If not, creates it.
-    CWT_0 : Generate new journal entry based off of CLI prompts
-    CWT_0 : Opens that journal entry in VSCode
+    CWTx : Compares current vs starting date to determine day # 
+    CWTx : Checks if directory for the day exists. If not, creates it.
+    CWTx : Generate new journal entry based off of CLI prompts
+    CWTx : Opens that journal entry in VSCode
 ----------------º----------------
 
 ----01:30

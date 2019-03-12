@@ -1,4 +1,4 @@
------------------------------------tobias fyi-----------------------------------
+--------------------------------100 Days of Code--------------------------------
 ----------------------------------Journal #001----------------------------------
 -----------------------------------2019-03-04-----------------------------------
 ---------------------------------------º----------------------------------------
@@ -14,7 +14,6 @@ Ideas for first day:
     - Website
     - Add json functionality to init script
     - Write the csv capitalizer
-    - 
 ----------------º----------------
 
 ----20:10
@@ -121,7 +120,7 @@ This Elder Scrolls soundtrack is epic - been my music for the evening:
 
 And there you have it, a freshly capitalized and formatted list.
 
-TASK√01
+TASK√001
 
 I'll create a list with dummy data to upload as an example.
 
@@ -133,7 +132,7 @@ For no reason at all (that I can think of) the titlecase function isn't fixing t
 Will fix and upload everything tomorrow.
 ----------------º----------------
 
-TASK_ : Create github repo
+TASK√ : Create github repo
 I wonder if I could bring the code directly in from github to the site?
 
-IDEA_ : Tomorrow - write script to create daily challenge journal entries - with counter / json functionality
+IDEA√ : Tomorrow - write script to create daily challenge journal entries - with counter / json functionality
