@@ -1,0 +1,73 @@
+--------------------------------100 Days of Code--------------------------------
+----------------------------------Journal #002----------------------------------
+-----------------------------------2019-03-05-----------------------------------
+---------------------------------------º----------------------------------------
+--------------------------------------------------------------------------------
+---------------CSG---------------
+TASK_002 : Write Python script to initialize a new coding session
+    CWT√01 : Prompts user to choose challenge + navs into that directory
+    CWT_0 : Compares current vs starting date to determine day # 
+    CWT_0 : Checks if directory for the day exists. If not, creates it.
+    CWT_0 : Generate new journal entry based off of CLI prompts
+    CWT_0 : Opens that journal entry in VSCode
+----------------º----------------
+
+----01:30
+I know it's technically not March 5 anymore.
+Just want to keep it consistent.
+
+created new python file - 002_session_init.py
+
+Set up variables that hold current time and date.
+----------------º----------------
+
+----02:08
+autopep8 is running on this workspace.
+I had to get a little creative to not have it be angry at me for writing in the entire filepath as one string.
+How I got around it:
+    Hard-coded the root directory into a dictionary.
+    Throughout the script I can add dirs within the root to the dictionary.
+    That way, when I need the entire path, I can just os.path.join them up.
+
+Sometimes having constraints like that end up forcing a more creative solution to the surface.
+Using the dictionary seems much more flexible, as I can use the root as the base for joining / generating other paths in the tree as well.
+----------------º----------------
+
+----02:19
+I remembered that I'd created a simple script a while ago that displays an array like a table of contents - justified on sides with separator in middle.
+
+Found it and worked that into the script as a function.
+Now choosing the directories looks so nice!
+----------------º----------------
+
+----02:27
+I'm fairly certain this is the very first time I've actually used a try/except statement for exception handling...
+I'm growing up so fast.
+
+Still to come - UNIT TESTING!
+But I should probably learn to stand before learning to dance.
+
+...or something like that.
+I guess I could just dance everywhere.
+----------------º----------------
+
+----02:37
+I'm obviously starting to spin my wheels a little bit here.
+But hey I got the script to print out a nice list of directories!
+Looks something like this:
+
+----------------º----------------
+------Choose your challenge------
+0.......               100DaysofY
+1.......               100DaysofX
+2.......               100DaysofW
+3.......               100DaysofV
+----------------º----------------
+
+And I did the full hour at 2am.
+
+Calling it.
+Hasta Mañana, Amigo!
+
+After I write in some TODOs for next time.
+----------------º----------------

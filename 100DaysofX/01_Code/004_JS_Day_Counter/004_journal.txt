@@ -1,0 +1,83 @@
+--------------------------------100 Days of Code--------------------------------
+----------------------------------Journal #004----------------------------------
+-----------------------------------2019-03-07-----------------------------------
+---------------------------------------º----------------------------------------
+--------------------------------------------------------------------------------
+---------------CSG---------------
+TASK√004 : Build a automatic day and challenge number for tobyreaper.com
+    CWT√01 : Day counter
+    CWT√02 : Challenge counter
+    CWTx03 : Insert into live site
+----------------º----------------
+
+----23:23
+Nice time to start at.
+It's like the 11:11 of 24-hour clocks.
+
+It's been a little while since I've written any significant javascript.
+So getting started will take a little longer than with Python.
+Funny, that. It used to be the other way around.
+I just love Python.
+
+I am very excited to dig into some js though.
+Particularly, I've been meaning to spend time with:
+    vue.js
+    p5.js
+    node.js
+----------------‡----------------
+
+----23:28
+Popped a Bootstrap starter template into the html page.
+Man, it really has been a while since I've coded with js.
+It's nice to get back to it though, as it was my first "real" language.
+
+Going to put the hour on hold to read up a bit on the basics.
+
+Forgot how easy / quick it is to get up and running with javascript.
+----------------‡----------------
+
+----23:47
+Ok I'm back, and I actually only spent 10mins or so reading.
+Wrote a simply little page with a single button.
+When clicked it:
+    Calculates the difference between the current and starting dates
+    Converts that number from milliseconds into days
+    Rounds it to days
+
+Took me a little while to remember that the starting day is day 0.
+It's not day 1.
+
+duh.
+----------------‡----------------
+
+----23:55
+Putting some css in with the html.
+Haven't done that since the first week I started learning to code.
+
+This whole session has been a blast from the not-so-distant past.
+
+Actually, not going to worry about any css right now.
+I'll be putting it onto the index.html of tobyreaper.com anyways.
+----------------‡----------------
+
+----00:07
+I remember once again why js frameworks are great.
+So much repetition to do simple things.
+Maybe it won't look so messy with some experience.
+----------------‡----------------
+
+----00:17
+There are a few different ways for me to do this.
+Starting to spin my wheels - getting tired.
+Going snowboarding tomorrow and need sleep, 
+So just writing the first one I think of.
+Some VERY clunky if statements. I feel dumb doing it this way.
+But my mind is so tired.
+----------------‡----------------
+
+----00:24
+Yaaaay at least it works.
+I would've felt even dumb and dumber if I didn't get that on the first try.
+Will obviously make it much better next time I work on it.
+Also will put it into the live web page.
+----------------‡----------------

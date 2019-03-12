@@ -1,0 +1,91 @@
+--------------------------------100 Days of Code--------------------------------
+----------------------------------Journal #005----------------------------------
+-----------------------------------2019-03-08-----------------------------------
+---------------------------------------º----------------------------------------
+--------------------------------------------------------------------------------
+---------------CSG---------------
+TASK√005 : Build a automatic day and challenge number for tobyreaper.com
+    CWT√00 : Day counter
+    CWT√00 : Challenge counter
+    CWT√01 : Insert into live site
+----------------º----------------
+
+----23:28
+Day 5: Engage.
+
+Today / tonight (into tomorrow, too?) I'm working on:
+    Putting the day/challenge counter onto my live site.
+    Any time left over will be used to work on other misc site stuff.
+----------------‡----------------
+
+----23:38
+Copied over the JavaScript to its own file.
+Uploaded to server.
+Decided to install an extension in VSCode called 'Live Server' to test it out.
+
+Ayye the favicon icon shows up on the tab in Chrome now!
+Rad.
+Looks super pixelated, but actually not too bad.
+Will try to make it look a little better soon.
+----------------‡----------------
+
+----23:47
+Added script to index.html.
+Updated some lines to match the info on the live site.
+Don't worry I tested it out...
+Just a little.
+----------------‡----------------
+
+----23:54
+Worked the first time!
+
+Only thing I had to change was add +1 to the days because it starts on day 0 and is thus one day behind without the extra.
+
+At least I think that's why it's showing day 4—it's seeing March 4 as day 0.
+#DayZero
+
+Tested out the Challenge # by setting the start date back more than 100 days.
+
+Aaaaand it's not working.
+I need to find a better way to handle that anyways.
+
+I got got with the zero days thing again...
+----------------‡----------------
+
+----00:09
+I was confused as to why it was showing day_count = -24.
+Obviously it thought that date was a month or so ahead.
+I had written in the month of the beginning day as 3 for March.
+It should be 2 as January is 0.
+Duh.
+----------------‡----------------
+
+----00:11
+I like how it looks when the profile card is stretched out all the way across the page. So I'm going to spend the rest of the time working on that.
+----------------‡----------------
+
+----00:21
+Made it work by removing the row div and making the column wider for both cards.
+Want to replace the banner image to something a little more exciting.
+
+Centered the NavBar logo.
+
+Just noticed that the horizon in my profile photo matches up almost exactly with the horizontal line of the card.
+Neat.
+----------------‡----------------
+
+----00:40
+Spent the rest of the time and then some attempting to improve the favicon icon.
+It took a little while for the icon to show up the first time.
+So we'll see I guess.
+
+Hasta luego!
+----------------‡----------------
+
+----00:43
+It worked right away!
+But now that I see the color that small I realize it's time to switch the main color to something a little more noticable on dark background.
+Or add something to make the color more discernible.
+
+That's bad design, that is.
+----------------‡----------------

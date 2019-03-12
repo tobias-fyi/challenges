@@ -1,0 +1,65 @@
+--------------------------------100 Days of Code--------------------------------
+----------------------------------Journal #006----------------------------------
+-----------------------------------2019-03-09-----------------------------------
+---------------------------------------º----------------------------------------
+--------------------------------------------------------------------------------
+---------------CSG---------------
+TASK√006 : Write Python script to initialize a new coding session
+    CWT√01 : Compares current vs starting date to determine day # 
+    CWT√02 : Nav to nested challenge directories
+    CWT√03 : Checks if directory for the day exists. If not, creates it.
+    CWTx04  : Generate new journal entry based off of CLI prompts
+    CWTx05  : Opens that journal entry in VSCode
+
+TASKx  : Write the user input / confirmation into function
+
+----------------º----------------
+
+----21:08
+Starting it off.
+
+First up: Check / create directory
+    Ask for subject of session / goal
+    Create dir name out of day # + subject
+----------------º----------------
+
+----21:22
+There are a few ways I could go about checking if dir exists.
+I don't think a try/except statement here would really be the right way to go.
+
+Going to use the good ol' os module.
+The code will be very similar to finding the selected directory.
+That thing that I want to convert into a function so I can be high and DRY.
+
+First, gotta append the new path (dir title) to the paths dictionary.
+----------------º----------------
+
+----21:33
+Making that directory if it don't exist.
+----------------º----------------
+
+----21:42
+Directory created succussfully!
+Now to create the journal entry.
+----------------º----------------
+
+----21:51
+Added a function that notifies user then exits the program.
+
+Created header text for journal entry.
+Created first time stamp with current time already filled out.
+
+The setup of the header and body doesn't make the code look pretty.
+Not at all.
+Will fix later.
+----------------º----------------
+
+----22:14
+Got most of it to work except the header and the journal file location.
+    File location - forgot to change into new directory before creation.
+
+Going to worry about the header tomorrow.
+Early morn tomorrow.
+
+Hasta Mañana, Amigo.
+----------------º----------------

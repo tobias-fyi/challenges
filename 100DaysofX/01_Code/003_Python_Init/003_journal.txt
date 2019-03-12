@@ -1,0 +1,179 @@
+--------------------------------100 Days of Code--------------------------------
+----------------------------------Journal #003----------------------------------
+-----------------------------------2019-03-06-----------------------------------
+---------------------------------------º----------------------------------------
+--------------------------------------------------------------------------------
+---------------CSG---------------
+TASK_003 : Write Python script to initialize a new coding session
+    CWT√01 : Compares current vs starting date to determine day # 
+    CWT√02 : Nav to nested challenge directories
+    CWT_  : Checks if directory for the day exists. If not, creates it.
+    CWT_  : Generate new journal entry based off of CLI prompts
+    CWT_  : Opens that journal entry in VSCode
+----------------º----------------
+
+Really digging the soundtrack for this session.
+Octopath Traveler OST - https://youtu.be/WdxbRJx4JFk
+Thanks for the SICK Pick, Scott (from the Syntax podcast).
+He's also a Denver local.
+I think I can call myself that after three years of living here.
+
+----22:34
+With the intention of getting better at estimating time / being realistic I want to set smaller tasks as the goal for each hour then add on as needed.
+I'd like to get to the point where I can consistently reach a pre-determined goal during the hour.
+
+I don't like leaving things partially done.
+
+So the goal for this session is to complete CWTs (Current Working Task) 1 + 2.
+----------------º----------------
+
+----22:44
+Did a little research on the datetime module using Python docs.
+
+Set up the start_date variable.
+Subtracting that from the variable today gives:
+3 days, 0:00:00
+
+Now I just need to extract that 3 days into a day_num variable.
+Looks like I can use the .days method to get only the days.
+I guess I knew that already from creating the current day.
+
+Now that I think about it, I could clean up my laundry list of date variables.
+The reason I created those was to use them in f-strings.
+However, I can just call those methods inside of the f-strings.
+No need to declare separate variables for each one.
+
+Running type(today) gives: 
+$ print(type(today))
+> <class 'datetime.date'>
+
+One of the reasons why I justified declaring all the dates as variables was to convert them to strings. 
+I could also do that within the f-strings.
+I'll worry about that when it comes up.
+----------------º----------------
+
+----22:57
+Boom!
+Got the time differential as a simple integer.
+
+$ day_num = today - start_date
+$ day_num = day_num.days
+$ print(day_num)
+> 3
+print(type(day_num))
+> <class 'int'>
+
+Niiice...
+Super simple, I know.
+But sometimes it's good to celebrate even the little successes.
+Practicing gratitude and all that.
+----------------º----------------
+
+----23:02
+Now adding a .zfill(3) formats it how I want it (w/ leading zeros).
+'int' object has no attribute 'zfill'...duh, make it a string.
+Someday I'll remember that the first time.
+
+$ day_num = today - start_date
+$ day_num = str(day_num.days).zfill(3)
+$ print(day_num)
+> 003
+
+And the first two lines can really be condensed into one:
+$ day_num = str((today - start_date).days).zfill(3)
+$ print(day_num)
+> 003
+
+Checking that off the list.
+
+CWT√01 : Compares current vs starting date to determine day # 
+
+You might be wondering why I write those how I do.
+I have a neat VSCode extension installed called TODOTree.
+I set up a bunch of custom tags with custom colors and fills.
+Now, scanning through code for tasks and whatnot is much quicker.
+
+I made them POP.
+
+Bonus points for the tags once I write a script I've been thinking about for a while now.
+Actually, it will end up integrating nicely into the session initialize script I'm writing right now.
+
+Basically, it will crawl all of the previous journals looking for these tags.
+Any open ones will be written to a JSON file.
+When the init script runs, I want to build in the option to have the open tags written into a section of the journal entry being created.
+----------------º----------------
+
+----23:11
+Time to do some os module-ing.
+Creating directories n such.
+
+First, nav into the specific challenge directory.
+I'll take the longer, clunkier way right now.
+Breaking it into two separate steps.
+
+I just can't...
+...be so WET.
+
+As in, DRY - Don't Repeat Yourself
+
+Going to put the directory listing into a function.
+Wish me luck.
+----------------º----------------
+
+----23:24
+I may have just tricked myself into staying up way too late again.
+In the name of DRYness!
+
+But actually, finishing the function would be a good spot to pick it up tomorrow.
+
+Writing it out WET - Without Ever Thinking (?) - for now.
+
+def dir_picker():
+    pass
+
+Speaking of functions, that reminds me of another TODO for this script:
+TASK_ : Write the user input / confirmation into function
+
+Alright giving this WETness a go without ever thinking about it.
+Or worrying.
+I do too much of that elsewhere.
+No time for it now.
+----------------º----------------
+
+----23:37
+This soundtrack is killing it with this celtic rock.
+
+It worked first try!
+Now I'm hopeful I can make it work...
+...first DRY.
+
+But I can check that one off the list as well and call it a morning.
+Hopefully tomorrow will be DRYer.
+
+CWT√02
+
+Here's what it looks like:
+
+----------------º----------------
+------Choose your challenge------
+0.......               100DaysofY
+1.......               100DaysofX
+2.......               100DaysofW
+3.......               100DaysofV
+----------------º----------------
+              --º--
+1
+
+/Users/Tobias/Documents/Projects/Challenges/100DaysofX
+----------------º----------------
+-----------Choose again----------
+0.......                  01_Code
+1.......                  02_Coed
+2.......                  03_Data
+3.......                  04_Tobe
+----------------º----------------
+              --º--
+0
+
+/Users/Tobias/Documents/Projects/Challenges/100DaysofX/01_Code
+----------------º----------------

@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Day | Challenge</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">tobiasfyi</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="#">Day Count<span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="#">About</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1 class="border-bottom mb-4">Day Count</h1>
+
+        <div>
+
+        </div>
+
+        <div class="mt-4" id="numDisplay">
+            <button id="dButt" class="btn btn-dark">Get Count</button>
+            <div>
+
+                <p id="begin">This challenge began on </p>
+                <p id="current">The current date is </p>
+                <p id="count">Today is day # </p>
+                <p id="chal">I am currently on challenge # </p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script>
+        var date_diff_indays = function (date1, date2) {
+            d1 = new Date(date1);
+            d2 = new Date(date2);
+            return Math.floor((Date.UTC(d2.getFullYear(), d2.getMonth(), d2.getDate()) - Date.UTC(d1.getFullYear(), d1.getMonth(), d1.getDate())) / (1000 * 60 * 60 * 24));
+        }
+
+        d1_begin = new Date(2019, 2, 4);
+        chal_num = 0;
+
+        document.getElementById("dButt").onclick = function () {
+            document.getElementById("begin").innerHTML = document.getElementById("begin").innerHTML + d1_begin.toDateString();
+
+            d_current = new Date();
+            document.getElementById("current").innerHTML = document.getElementById("current").innerHTML + d_current.toDateString();
+
+            day_count = document.getElementById("count").innerHTML + date_diff_indays(d1_begin, d_current);
+
+            document.getElementById("count").innerHTML = day_count;
+
+            if (0 < day_count <= 100) {
+                chal_num = 1;
+            } else if (100 < day_count <= 200) {
+                chal_num = 2;
+            } else if (200 < day_count <= 300) {
+                chal_num = 3;
+            }
+
+            document.getElementById("chal").innerHTML = document.getElementById("chal").innerHTML + chal_num;
+
+        }
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

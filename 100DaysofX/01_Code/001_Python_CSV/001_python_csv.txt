@@ -1,0 +1,139 @@
+-----------------------------------tobias fyi-----------------------------------
+----------------------------------Journal #001----------------------------------
+-----------------------------------2019-03-04-----------------------------------
+---------------------------------------º----------------------------------------
+--------------------------------------------------------------------------------
+---------------CSG---------------
+TASK√001 : Write Python script to format csv
+    CWT√01 : Text > Title Case
+    CWT√02 : Phone > XXX-XXX-XXXX
+----------------º----------------
+
+----14:47
+Ideas for first day:
+    - Website
+    - Add json functionality to init script
+    - Write the csv capitalizer
+    - 
+----------------º----------------
+
+----20:10
+Rules & Goals
+    - 1 hour spent writing code every single day for 100 days
+    - Time that does not count:
+        - Watching tutorials, listening to podcasts, or reading (except for when looking for very specific information)
+        - Writing the daily post about the code I've written
+    - Complete the following courses on edX:
+        - HarvardX: CS50W - Web Programming with Python and JavaScript
+        - BerkeleyX: Data8.1x - Computational Thinking with Python
+----------------º----------------
+
+----21:54
+Starting at 22:00
+Writing the script to Title Case csv data.
+created new directory for challenge - day
+----------------º----------------
+
+----22:15
+Used dictionary for filepaths to adhere to pep8's 80 char limit
+csv module - DictReaper / DictReader
+If time left over, try Pandas to do the same thing.
+
+Python .title() method
+    Issue with apostrophes
+    Workaround in the docs uses regular expressions and lambda function
+    I'm relatively comfortable with regex - not lambda functions
+
+A little research on lambda functions
+    An anonymous function - function created without def keyword
+    Can define lambdas inside of other code
+
+The workaround in the Python Docs works great outta the box!
+The script now successfully prints the company name in Title Case
+
+Goal is to write to new csv all the same data with text fields titlecase:
+    Customer, First, Last
+
+While I'm at it—might be worth it to make email all lowercase.
+Looks nicer that way.
+
+Got it to work!
+Text fields are Title Cased correctly; email is lowercase.
+
+CWT√01
+
+If I can squeeze it in before time's up I'd like to format the phone as well.
+I guess I don't have to do ONLY 1 hour - right?
+I could go a little over...
+
+Goal with the phone number formatting is:
+    Give them all the same separator "-"
+    Separate extension out into a its own field
+    I guess I'll have to put my regex where my mouth is.
+
+Wow it's been an hour already?
+Crazy.
+
+Not quite done with the phone number regex.
+Going to do another 10 mins.
+If I'm not close by then I'll save it for later.
+
+Got it working!
+Extracting the extension was a little tricky at first:
+    Could be formatted a number of different ways
+    Like x11000 or X 12020 or ext. 1229 or .1235 etc.
+
+Obviously now that I found out how to do that it seems easy.
+But that's how it goes I guess.
+
+Last part - write the extension to a new field in the csv.
+
+Ayyy the regex even caught the tricky one where the extension was attached to the number like 111-222-3333444
+Ahh the magic of computers...
+
+A little example of DRY (Don't Repeat Yourself):
+    Used the specific repetitions matching functionality to reduce total characters by a few.
+    Woooop.
+    High and DRY baby!
+    Call me Low Tide.
+
+Oh maaaaan...
+An hour later I finally got it.
+I thought there was something wrong with how I was writing the row.
+Or with how I was dealing with the ordered dictionary.
+But...
+It ended up being a simple matter of variable scope.
+...
+All it took in the end was a taking a block of code near the end,
+and moving it back one tab.
+
+Lesson learned.
+
+But hey, at least the workaround I tried to use actually fixed the order.
+It's the little things.
+Like looking pretty.
+Being neat n tidy.
+
+CWT√02
+
+This Elder Scrolls soundtrack is epic - been my music for the evening:
+    https://youtu.be/EL0gz9COxBs
+
+And there you have it, a freshly capitalized and formatted list.
+
+TASK√01
+
+I'll create a list with dummy data to upload as an example.
+
+Created example csv - 001_before.csv
+Ran script          - 001_after.csv
+
+Of course...
+For no reason at all (that I can think of) the titlecase function isn't fixing the apostrophe problem now...
+Will fix and upload everything tomorrow.
+----------------º----------------
+
+TASK_ : Create github repo
+I wonder if I could bring the code directly in from github to the site?
+
+IDEA_ : Tomorrow - write script to create daily challenge journal entries - with counter / json functionality

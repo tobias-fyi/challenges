@@ -1,0 +1,113 @@
+--------------------------------100 Days of Code--------------------------------
+----------------------------------Journal #007----------------------------------
+-----------------------------------2019-03-10-----------------------------------
+---------------------------------------º----------------------------------------
+--------------------------------------------------------------------------------
+---------------CSG---------------
+TASK√007 : Write Python script that initializes a new coding challenge session
+    CWT√01 : Compares current vs starting date to determine day # 
+    CWT√02 : Nav to nested challenge directories
+    CWT√03 : Checks if directory for the day exists. If not, creates it.
+    CWT√04 : Generate new journal entry based off of CLI prompts
+    CWT√05 : Opens that journal entry in VSCode
+----------------º----------------
+
+----17:41
+Starting it off!
+
+On the menu for today:
+TASK√007 : Get the init script to work correctly (create dir + journal entry)
+TASK√007 : Refactor to make as DRY as I can
+TASKx : Try out two new Python Standard Library Modules
+----------------º----------------
+
+----17:48
+Switched the direction of the if statements.
+Makes the indentation easier.
+
+Actually nope, going to do it the way it was before, just cleaner.
+----------------º----------------
+
+----18:03
+...actually...
+Going to forgo the if statements for now.
+I just want it to work first.
+Refinements later.
+----------------º----------------
+
+----18:09
+It worked!
+Just a couple of things to add before the first iteration is complete.
+    Prompt for session goal.
+----------------º----------------
+
+----18:17
+Boom!
+It at least goes through all the basic / necessary functions correctly.
+Now time for some fine-tuning.
+
+2. Refactor in DRY fashion (maybe using 3. new Python stdlib modules)
+
+First, going to turn some things into functions.
+Starting with prompts.
+----------------º----------------
+
+----18:27
+Done, Zo.
+Now going to try to functionalize the directory chooser.
+----------------º----------------
+
+----18:33
+I think in this case I can begin utilizing some more advanced functionality.
+Particularly in the realm of OOP.
+
+I say that because I need a good way to distinguish the variables set each time.
+But I don't really, because all I'm getting from the function is whatever is returned.
+I just need whatever is returned to be correct and useful for later on.
+
+Well...since I am appending to the paths dictionary, I do need to distinguish them to make sure subsequent calls of the function don't overwrite the previously appended data.
+
+A workaround for now could be just to have another parameter.
+I think I know a good way to solve this though...to do later.
+TASK_ : def dir_picker(path) - use derivation of path as dictionary key
+----------------º----------------
+
+----18:39
+Probably easist just to do it now while I'm thinking about it.
+I remember seeing a method in the os module that pulls only the last part of the path out. Gots to find it...
+
+Hmm I accidentally pressed cmd+t and something happened...
+    ctags inside of vscode - something to check out.
+    LEARN_ : ctags (command line tool)
+----------------º----------------
+
+----18:56
+Seeing the following as potential methods:
+    os.ftruncate(fd, length)
+        Not useful unless can truncate to last part of path
+        Useful for other things not relating to CWT (current working task)
+
+        Oh it's not what I thought it was - this is for the content inside of the file, not the filepath
+
+I should be looking in the os.path module documentation:
+    os.path.dirname(path)
+        I believe this is what I was looking for / thinking about
+        Let's try it out!
+        Creating a separate file to test this out - 007_path_method.py
+
+Hmm...it just returned the full path.
+
+According to docs:
+    Return the directory name of pathname path. This is the first element of the pair returned by passing path to the function split().
+
+    I could just use split to get what I want I guess.
+
+    Split on the slash, then call on the -1 index to get the last segment.
+
+I bet there's a better way to do it.
+
+Ok well it's been over an hour and I'm going to go eat dinner.
+I'll pick this up tomorrow.
+
+Hasta Bañanas, Friend.
+----------------º----------------
