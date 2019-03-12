@@ -9,4 +9,4 @@
 ----
 
 #### Notes:
-- I left the shebang line in the .py files, so if you plan on running scripts in your own environment, remember to change that.
+- I left the shebang line in .py files - if you plan on running scripts in your own environment, remember to change it.
