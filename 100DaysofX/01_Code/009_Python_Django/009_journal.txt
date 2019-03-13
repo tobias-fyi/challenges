@@ -1,0 +1,51 @@
+--------------------------------100 Days of Code--------------------------------
+------------------------------------Day #009------------------------------------
+-----------------------------------2019-03-12-----------------------------------
+---------------------------------------º----------------------------------------
+--------------------------------------------------------------------------------
+----------Python Django----------
+Session Goals
+TASK_009 : Practice And Learn More Django
+    CWT√01 : Part 7 of Corey Schafer's Django series
+    CWT√02 : Write in the basic customizations as appropriate for SassyJo
+    CWT_03 :
+----------------º----------------
+
+----23:09
+I've been working through Corey Schafer's Django tutorials on Youtube in order to set up the first iteration of a project I'm building.
+Well, really django will be the backend of a few projects I'm building:
+    Smart Journal App (SMART ASSistive Journal = SmartAss Journal / SassyJo)
+    Resume Builder App
+    Online PDF Form Tool
+
+As django is directly applicable to so much of what I'm working on, I don't feel like I'm cheating my 'no tutorials' rule for the challenge. Plus I'd like to use it as the back end for further practice with JavaScript / Vue.
+
+The code for this app is much more complex than what I've been doing. 
+Thus, I'm not going to include it in the repository quite yet.
+I'd like to figure out a good way to tell the story of what I'm building through code without the reader having to read through all of it.
+
+So this entry is a short one.
+----------------º----------------
+
+----23:39
+Building a login / logout / user profile system for the journal app.
+Having trouble with the profile route / url.
+Getting the error that template does not exist.
+Everything seems like it should work.
+----------------º----------------
+
+----23:50
+Found the error.
+I typed in user/profile.html instead of users/profile.html
+
+Sometimes it really is that simple.
+----------------º----------------
+
+----00:11
+I'm exhausted - calling it for the night.
+Still catching up on the last bit of sleep from a full weekend.
+
+Hasta Fuego, Amigo!
+
+Keep practicing.
+----------------º----------------
