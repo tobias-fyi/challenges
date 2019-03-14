@@ -1,0 +1,237 @@
+--------------------------------100 Days of Code--------------------------------
+------------------------------------Day #011------------------------------------
+-----------------------------------2019-03-14-----------------------------------
+---------------------------------------º----------------------------------------
+--------------------------------------------------------------------------------
+---------Python Dirrename--------
+Session Goals
+TASK_011 : Write Python Script To Recursively Rename Directories
+    CWT√01 : Split up the name segments correctly whether separator is - or _
+    CWT_02 : Check if leading segment is int or str, convert accordingly
+    CWT_03 :
+----------------º----------------
+
+My soundtrack for this session:
+https://www.youtube.com/watch?v=Evb31p5vFs4
+
+----12:37
+Decided to write a script in order to fix a directory structure for one of my freelance projects. Originally I was going to work on Project 0 during my Day 11 coding session, but decided this script would be more potentiall useful for others.
+
+Created an example directory structure for the version of the script I'll be writing and running for the challenge.
+
+Below is the directory tree prior to running the script. 
+As you can see, it's rather messy with regards to consistency. 
+For this session, I'm going to be focusing primarily on the directories.
+My general naming convention for directories is 01_Directory_Name.
+
+The purpose of this script is to recursively rename all of the directories contained in the following directory tree such that they follow my general naming convention.
+
+011_Project_Ex
+.
+├── 0_admin
+│   ├── contract
+│   │   └── 2019-03-14_contract_ex.txt
+│   └── invoices
+│       └── 2019-03-11_invoice_ex.txt
+├── 1_notes
+│   ├── 2019-02-12_branding.txt
+│   ├── 2019-02-20_prototype_review.txt
+│   └── 2019-03-11_seo_notes.txt
+├── 2_data
+│   ├── 2019-03-10_email_list.csv
+│   └── 2019-03-11_keyword_stats.csv
+└── 3_visual
+    ├── 1_branding
+    │   ├── 1-iteration
+    │   │   └── 2019-02-03_branding_png.txt
+    │   ├── 2-iteration
+    │   │   └── 2019-02-09_branding_png.txt
+    │   ├── 3_iteration
+    │   │   └── 2019-02-10_branding_png.txt
+    │   ├── 4_final
+    │   │   └── 2019-02-15_branding_final_png.txt
+    │   ├── Y-inspiration
+    │   │   ├── inspo-1.png
+    │   │   └── inspo-2.png
+    │   └── Z-creative-files
+    │       └── 2019-02-01_some_ai_file.txt
+    └── 2_Site_Prototype
+        ├── 6_site_wireframe
+        │   ├── wireframe-1.png
+        │   └── wireframe-2.png
+        ├── 8_for_prototype
+        │   ├── prototype-1.png
+        │   └── prototype-2.png
+        └── screenshots
+            ├── screenshot-1.png
+            └── screenshot-2.png
+
+----------------º----------------
+
+----12:41
+First, going to write the code to rename files within one specific directory.
+Keep it simple at first.
+----------------º----------------
+
+----12:54
+Ok wrote a simple block of code that loops through a directory setting up the name how I like it.
+
+Some important functionality I need:
+CWT√01 : Split up the name segments correctly whether separator is - or _
+
+CWT_02 : Check if leading segment is int or str, convert accordingly
+        If letter, replace with number
+        If number, add leading zero
+            I'd check for leading zero first, but zfill has me covered.
+            zfill won't do anything if the string it's called on is already the length passed in.
+    
+----------------º----------------
+
+----13:05
+Thought of one way I can code CWT√01.
+Before calling the split method, I can call the replace method.
+This way I can replace both - and _ with the same character, such as a space.
+Then I can use .split(' ') to split up the names wherever a space occurs.
+
+It's a little ugly, as I'm calling .replace() twice in one line, but it works!
+One way I can think of right now to get around the repeat is to use a regex.
+But I don't need to open up that can of worms just yet.
+This works.
+
+Now to check for letters / numbers
+Going to use the string method .isalpha() to check for letters.
+----------------º----------------
+
+----13:18
+Got it to separate out the ones with leading letters.
+
+One thing I that just came to mind is that the conversion to numbers cannot be arbitrary, as I used particular letters in order to sort the directories.
+
+This means I'll have to keep the sorting the same.
+To keep it simple, I'll assume no directory will have greater than 99 children.
+Would be an easy change to undertake later on - just change the zfill number.
+In fact, I'm going to make it REALLY easy to change by assigning the zfill number to a variable. This way that one number can be changed and it would propagate appropriately.
+This way, I can assign higher numbers to letters toward the end of the alphabet.
+
+So I need to call .sort() in such a way to sort the list of lists by index[0].
+Well now that I think about it, I need to create the list of lists first.
+The loop makes it look like a list of lists.
+----------------º----------------
+
+----13:25
+Welp...
+Power just went out.
+Thankfully, I invested in a good surge protectors for the valuable equipment in the studio.
+
+Also, just thought of another feature I'd like to add to this script:
+IDEA_ : Define the naming convention as a variable so others can use the script to rename their directories using their own conventions - or in case I change my conventions at some point.
+----------------º----------------
+
+----14:06
+Ayoo the power's back on.
+Groovy!
+----------------º----------------
+
+----15:45
+Back from getting some other things done.
+
+Figured one way to do the alphabet / number replacement would be to assign each letter of the alphabet to corresponding value in a dictionary or list.
+I'll do it that way for now, and only use WXYZ.
+I didn't assign them to sequential numbers just in case I ever want to sort folders between them.
+----------------º----------------
+
+----15:52
+It worked!
+
+However, of course I've thought of something else that complicates things:
+    The case where there is NO leading segment at all.
+
+I'll have to use another if clause to separate those cases.
+Something like: 
+    If index[0] length is > 2, then insert leading numbers into index[0].
+----------------º----------------
+
+----16:07
+Taking care of the title case first, as I realized I hadn't code that in yet.
+I used a for loop to loop through the list that resulted from the initial split of the directory name.
+However, I got stuck for awhile on why I couldn't set i = i.title().
+I knew it had to do with not accessing each item by its index.
+I looked it up and found the other method of looping through a list:
+    for i in range(len(f_split))
+
+I remember learning this way back when I was first learning Python, but back then I didn't really understand how it was different from my initial attempt:
+    for i in f_split
+
+Now I understand why I would use the former - I'll try to explain as best I can:
+    using the range() function in a for loop means that the variable being iterated (I think that's the correct term), which is 'i' in this case, is a number - it's like setting up a the following for loop, with the number of items in the list (f_split) replacing the number within the range function:
+        for n in range(4)
+
+    Having i as a decimal means I can plug it into the index of the list to get the value. 
+        i.e. f_split[i]
+    Why is that important? - Well, mi amigo, because then I can set the value of that index position equal to itself + some change or addition.
+        i.e. f_split[i] = f_split[i].title() 
+
+    What I'm taking away from this is that in order to change the value of an item in a list, I have to access it with the index, not directly.
+
+    From doing a few minutes of research, it seems list comprehensions would be a good way to go.
+
+I'll try to do a list comprehension to accomplish the same thing.
+i.e. turn this:
+
+for i in range(len(f_split)):
+    f_split[i] = f_split[i].title()
+
+into this:
+
+f_split = [f_split[i].title() for i in range(len(f_split))]
+
+It worked! Woop woop! 
+
+Haven't done those in at least a month so it's nice being reminded of how powerful they are.
+
+Now that I'm thinking about list comprehensions, I think I should try to use one for the if statement I wrote earlier to replace letters with numbers.
+i.e. turn this:
+
+if f_split[0].isalpha():
+    f_split[0] = alnum[f'{f_split[0]}']
+
+into this:
+
+f_split[0] = [alnum[f'{f_split[0]}'] if f_split[0].isalpha()]
+
+But NOPE! It doesn't work. 
+That's because I'm not actually looping through a list, I'm only accessing the value in the list. 
+----------------º----------------
+
+----16:37
+Been way over an hour now but I want to get at least the single directory script working.
+Ok now back to the case where there is no leading 0.
+
+To keep this brief for now, I'm just going to use the method above:
+    if len(f_split[0]) > 2
+
+But how do I assign the leading segment / prefix?
+    I could have an integer variable that is set to the maximum prefix used.
+    Then every time one is assigned, add 1 to that integer.
+
+Not a perfect method as it will assign them somewhat arbitrarily, when in the past when I've done this manually, I assign numbers and letters in order to sort by some sort of importance.
+
+Good enough for now.
+----------------º----------------
+
+----16:47
+Thought about how I want to go about this for a few seconds.
+I'm thinking that a more flexible way of writing this entire script would be to read each directory's content into a dictionary or list.
+
+Using a dictionary, I could append any files in the directory as well.
+    ie dir_contents = {'dir': '01_Dir', 'file': '01_file'}
+
+This would make it easier (I'm guessing) to apply the conventions set as a function like I was talking about earlier. But then again, maybe not...
+
+Damn, of course now that I'm thinking of fuctions I should make this into a function regardless.
+
+But, not going to do that right now - I have other things I need to work on.
+I guess I'll just leave it not quite finished...for now.
+
+Hasta Iguanas, Amigo!
+----------------º----------------
