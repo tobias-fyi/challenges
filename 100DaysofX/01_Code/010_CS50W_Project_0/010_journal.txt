@@ -1,0 +1,80 @@
+--------------------------------100 Days of Code--------------------------------
+------------------------------------Day #010------------------------------------
+-----------------------------------2019-03-13-----------------------------------
+---------------------------------------º----------------------------------------
+--------------------------------------------------------------------------------
+-------HTML/CSS/SCSS CS50W-------
+Session Goals
+TASK_010 : Complete Project 0 Of Cs50W - Requirements for Project 0:
+    CWT√01 : Must contain 4 < .html pages with navigation between all
+    CWT_02 : Must include 1 < one of each of...
+        CWT_02.01 : List 
+        CWT_02.02 : Table
+        CWT_02.03 : Image
+    CWT_03 : 1 < stylesheet file with...
+        CWT_03.01 : 5 < CSS Properties
+        CWT_03.02 : 5 < CSS Selectors
+        CWT_03.03 : 1 < #id and .class
+        CWT_03.04 : 1 < @media query that changes styling for smaller screens
+    CWT_04 : Use Bootstrap 4
+        CWT√04.01 : 1 < Bootstrap component
+        CWT_04.02 : 2 < Bootstrap columns for using Bootstrap's grid model
+    CWT_05 : SCSS
+        CWT_05.01 : 1 < SCSS variable
+        CWT_05.02 : 1 < SCSS nesting
+        CWT_05.03 : 1 < SCSS inheritance
+    CWT_06 : README.md
+        CWT_06.01 : Short writeup describing the project
+        CWT_06.02 : What's contained in each file
+        CWT_06.03 : Any other additional info the staff should know (optional)
+----------------º----------------
+
+----19:58
+Compiling all of the Project 0 Requirements
+----------------º----------------
+
+----20:16
+Time to start building!
+
+Created new directory - project0
+
+DECIDE√ : What the site will be about.
+
+The Culture Series by Iain M. Banks is my favorite sci-fi series I've ever read.
+I've read all of the books at least twice, and the audiobooks at least once.
+Going to build a site about The Culture, based off of info from the internet.
+
+I already own the URL contactsection.com so I'll probably end up using that if the site is cool enough.
+Otherwise it'll just be GitHub pages (once I have internet again)
+----------------º----------------
+
+----20:24
+Created all of the relevant files.
+Still don't have any internet here (huge winter storm).
+That means I'll have to copy over files needed to run Bootstrap.
+----------------º----------------
+
+----21:00
+Downloaded (hopefully all) the files I need using my phone's internet.
+Created initial directory structure for site.
+Replaced CDN links with filepaths for js and css.
+----------------º----------------
+
+----21:05
+First up - Navbar!
+Got a simple dark themed one going.
+Navigation between the four pages works.
+Would like to add dropdowns with links to sections on each page.
+----------------º----------------
+
+----22:07
+Started the copy/paste/format process of the information from Wikipedia.
+Later on I could maybe hook up the site to the Wikipedia API to pull the text.
+Not right now though.
+----------------º----------------
+
+----22:13
+Got the basic skeleton of the site ready to go for next time.
+
+Hasta luego, Amigo!
+----------------º----------------
