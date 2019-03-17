@@ -1,0 +1,76 @@
+--------------------------------100 Days of Code--------------------------------
+------------------------------------Day #012------------------------------------
+-----------------------------------2019-03-15-----------------------------------
+---------------------------------------º----------------------------------------
+--------------------------------------------------------------------------------
+--------Html/Css Project 0-------
+Session Goals
+TASK_012 : Complete Project 0 Of Cs50W - Requirements for Project 0:
+    CWT√01 : Must contain 4 < .html pages with navigation between all
+    CWT_02 : Must include 1 < one of each of...
+        CWT√02.01 : List 
+        CWT√02.02 : Table
+        CWT√02.03 : Image
+    CWT_03 : 1 < stylesheet file with...
+        CWT_03.01 : 5 < CSS Properties
+        CWT_03.02 : 5 < CSS Selectors
+        CWT_03.03 : 1 < #id and .class
+        CWT√03.04 : 1 < @media query that changes styling for smaller screens
+    CWT_04 : Use Bootstrap 4
+        CWT√04.01 : 1 < Bootstrap component
+        CWT√04.02 : 2 < Bootstrap columns for using Bootstrap's grid model
+    CWT_05 : SCSS
+        CWT√05.01 : 1 < SCSS variable
+        CWT_05.02 : 1 < SCSS nesting
+        CWT_05.03 : 1 < SCSS inheritance
+    CWT_06 : README.md
+        CWT_06.01 : Short writeup describing the project
+        CWT_06.02 : What's contained in each file
+        CWT_06.03 : Any other additional info the staff should know (optional)
+----------------º----------------
+
+----20:37
+I worked on the site a bit yesterday.
+Hopefully can finish most if not all of the site code today.
+
+Let's get it.
+----------------º----------------
+
+----20:41
+Just decided after looking around that I'm going to switch the list of books to being a page of cards in a responsive grid.
+
+| Display        | Cards per row |
+| -------------- | ------------- |
+| Large (992px)  | 3             |
+| Medium (768px) | 2             |
+| Small (576px)  | 1             |
+
+^^ Just started using a cool VSCode extension that auto-generates text tables.
+| Pretty |
+| ------ |
+| NEAT   |
+| Eh?    |
+
+Then... 
+I'll use a table (html) for the ship names
++ a list on the Author page
+----------------ª----------------
+
+----20:45
+Downloading the book jacket images to use in the cards.
+----------------º----------------
+
+----21:02
+Actually...after looking at the layout, I think I'm going to do 2 per row for medium and large, then 1 per row for small displays plus make the cards wider.
+----------------º----------------
+
+----21:20
+Done with the books page.
+----------------º----------------
+
+----21:39
+I'm actually putting lists INSIDE of table cells.
+So meta.
+
+Going to finish adding all the rows to the Ships table before calling it.
+----------------º----------------

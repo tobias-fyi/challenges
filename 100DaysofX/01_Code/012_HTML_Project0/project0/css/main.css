@@ -1,0 +1,15 @@
+@media (min-width: 576px) {
+  .pg-hdr {
+    height: 96px;
+  }
+}
+@media (min-width: 992px) {
+  .pg-hdr {
+    height: 64px;
+  }
+}
+.pg-hdr {
+  background-color: cadetblue;
+}
+
+/*# sourceMappingURL=main.css.map */

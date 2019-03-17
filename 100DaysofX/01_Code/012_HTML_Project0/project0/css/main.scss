@@ -1,0 +1,23 @@
+$brand-color: cadetblue;
+$pg-hdr-sm: 96px;
+$pg-hdr-lg: 64px;
+
+@media (min-width: 576px) {
+    .pg-hdr {
+        height: $pg-hdr-sm;
+    }
+}
+
+@media (min-width: 768px) {
+    
+}
+
+@media (min-width: 992px) {
+    .pg-hdr {
+        height: $pg-hdr-lg;
+    }
+}
+
+.pg-hdr {
+    background-color: $brand-color;
+}
