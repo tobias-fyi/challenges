@@ -1,0 +1,168 @@
+$brand-color: cadetblue;
+$brand-secondary: #567190;
+$brand-accent: #A0615F;
+$pg-hdr-sm: 96px;
+$pg-hdr-lg: 64px;
+
+@media (max-width: 575px) {
+    
+}
+
+@media (min-width: 576px) {
+    h2 {
+        margin: .2em 0 .1em 0;
+    }
+
+    .pg-hdr {
+        height: $pg-hdr-sm;
+        padding: 8px 0;
+    }
+
+    #banks-quote {
+        font-size: 1em;
+    }
+
+    .book-card {
+        width: 28rem;
+        margin: 1em;
+    }
+
+}
+
+@media (min-width: 768px) {
+    h2 {
+        margin: .5em 0 .3em 0;
+    }
+
+    #banks-quote {
+        font-size: 1.2em;
+    }
+
+    .book-card {
+        width: 20rem;
+        margin: 1em;
+    }
+
+    .table {
+        font-size: .8em;
+
+        ul {
+            font-size: 0.7em;
+        }
+
+        td {
+            padding: .3em .1em .4em .1em;
+        }
+
+        #col1 {
+            width: 7%;
+        }
+
+        #col2 {
+            width: 8%;
+        }
+
+        #col3 {
+            width: 50%;
+        }
+
+        #col4 {
+            width: 35%;
+        }
+    }
+}
+
+@media (min-width: 992px) {
+    h2 {
+        margin: 1em 0 .5em 0;
+    }
+
+    .pg-hdr {
+        height: $pg-hdr-lg;
+        padding: 8px 0;
+    }
+
+    #banks-quote {
+        font-size: 1.5em;
+    }
+
+    .page-intro {
+        margin: 1em 0;
+
+        p {
+            margin-top: .5em;
+            margin-bottom: .5em;
+        }
+    }
+
+    .book-card {
+        width: 28rem;
+        margin: 1em;
+    }
+
+}
+
+a {
+    color: $brand-color;
+}
+
+a:hover {
+    color: $brand-accent;
+}
+
+a:visited {
+    color: $brand-secondary;
+}
+
+.table {
+    font-size: .9em;
+
+    ul {
+        font-size: 0.8em;
+    }
+
+    td {
+        padding: .5em .1em .5em .1em;
+    }
+
+    #col1 {
+        width: 7%;
+    }
+
+    #col2 {
+        width: 8%;
+    }
+
+    #col3 {
+        width: 50%;
+    }
+
+    #col4 {
+        width: 35%;
+    }
+
+}
+
+.pg-hdr {
+    background-color: $brand-color;
+    
+    h1 {
+        vertical-align: middle;
+    }
+}
+
+.page-container {
+
+    p {
+        text-align: justify;
+        text-indent: 2em;
+    }
+
+}
+
+.dot-separator {
+    color: $brand-color;
+    margin: auto;
+    text-align: center;
+    font-size: 6em;
+}

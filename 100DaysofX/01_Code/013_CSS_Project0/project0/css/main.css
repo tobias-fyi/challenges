@@ -1,0 +1,136 @@
+@media (min-width: 576px) {
+  h2 {
+    margin: 0.2em 0 0.1em 0;
+  }
+
+  .pg-hdr {
+    height: 96px;
+    padding: 8px 0;
+  }
+
+  #banks-quote {
+    font-size: 1em;
+  }
+
+  .book-card {
+    width: 28rem;
+    margin: 1em;
+  }
+}
+@media (min-width: 768px) {
+  h2 {
+    margin: 0.5em 0 0.3em 0;
+  }
+
+  #banks-quote {
+    font-size: 1.2em;
+  }
+
+  .book-card {
+    width: 20rem;
+    margin: 1em;
+  }
+
+  .table {
+    font-size: 0.8em;
+  }
+  .table ul {
+    font-size: 0.7em;
+  }
+  .table td {
+    padding: 0.3em 0.1em 0.4em 0.1em;
+  }
+  .table #col1 {
+    width: 7%;
+  }
+  .table #col2 {
+    width: 8%;
+  }
+  .table #col3 {
+    width: 50%;
+  }
+  .table #col4 {
+    width: 35%;
+  }
+}
+@media (min-width: 992px) {
+  h2 {
+    margin: 1em 0 0.5em 0;
+  }
+
+  .pg-hdr {
+    height: 64px;
+    padding: 8px 0;
+  }
+
+  #banks-quote {
+    font-size: 1.5em;
+  }
+
+  .page-intro {
+    margin: 1em 0;
+  }
+  .page-intro p {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+  }
+
+  .book-card {
+    width: 28rem;
+    margin: 1em;
+  }
+}
+a {
+  color: cadetblue;
+}
+
+a:hover {
+  color: #A0615F;
+}
+
+a:visited {
+  color: #567190;
+}
+
+.table {
+  font-size: 0.9em;
+}
+.table ul {
+  font-size: 0.8em;
+}
+.table td {
+  padding: 0.5em 0.1em 0.5em 0.1em;
+}
+.table #col1 {
+  width: 7%;
+}
+.table #col2 {
+  width: 8%;
+}
+.table #col3 {
+  width: 50%;
+}
+.table #col4 {
+  width: 35%;
+}
+
+.pg-hdr {
+  background-color: cadetblue;
+}
+.pg-hdr h1 {
+  vertical-align: middle;
+}
+
+.page-container p {
+  text-align: justify;
+  text-indent: 2em;
+}
+
+.dot-separator {
+  color: cadetblue;
+  margin: auto;
+  text-align: center;
+  font-size: 6em;
+}
+
+/*# sourceMappingURL=main.css.map */
