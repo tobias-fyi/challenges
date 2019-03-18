@@ -1,11 +1,27 @@
 $brand-color: cadetblue;
 $brand-secondary: #567190;
 $brand-accent: #A0615F;
+$brand-dark: #1C2F30;
 $pg-hdr-sm: 96px;
 $pg-hdr-lg: 64px;
 
+%special-quote {
+    background-color: $brand-secondary;
+    color: white;
+}
+
 @media (max-width: 575px) {
-    
+    .text-highlight {
+        font-size: 1em;
+        padding: .8em 1em;
+        margin: .2em -.5em;
+    }
+
+    .dot-separator {
+        margin: auto;
+        font-size: 4em;
+        line-height: 2em;
+    }
 }
 
 @media (min-width: 576px) {
@@ -18,13 +34,21 @@ $pg-hdr-lg: 64px;
         padding: 8px 0;
     }
 
-    #banks-quote {
-        font-size: 1em;
-    }
-
     .book-card {
         width: 28rem;
         margin: 1em;
+    }
+
+    .text-highlight {
+        font-size: 1.4em;
+        padding: 1em;
+        margin: .4em -1em;
+    }
+
+    .dot-separator {
+        margin: auto 1em;
+        font-size: 4em;
+        line-height: 1.5em;
     }
 
 }
@@ -34,13 +58,30 @@ $pg-hdr-lg: 64px;
         margin: .5em 0 .3em 0;
     }
 
-    #banks-quote {
-        font-size: 1.2em;
+    .pg-hdr {
+        height: $pg-hdr-sm;
+        padding: 8px 0;
+    }
+
+    .hdr-right {
+        padding-top: none;
     }
 
     .book-card {
         width: 20rem;
         margin: 1em;
+    }
+
+    .text-highlight {
+        font-size: 1.6em;
+        padding: 1em;
+        margin: .5em -2em;
+    }
+
+    .dot-separator {
+        margin: auto .4em;
+        font-size: 4em;
+        line-height: .5em;
     }
 
     .table {
@@ -82,22 +123,25 @@ $pg-hdr-lg: 64px;
         padding: 8px 0;
     }
 
-    #banks-quote {
-        font-size: 1.5em;
-    }
-
-    .page-intro {
-        margin: 1em 0;
-
-        p {
-            margin-top: .5em;
-            margin-bottom: .5em;
-        }
+    .hdr-right {
+        padding-top: 16px;
     }
 
     .book-card {
         width: 28rem;
         margin: 1em;
+    }
+
+    .text-highlight {
+        font-size: 2em;
+        padding: 1.4em;
+        margin: .5em -3em;
+    }
+
+    .dot-separator {
+        margin: auto .5em;
+        font-size: 6em;
+        line-height: .5em;
     }
 
 }
@@ -112,6 +156,10 @@ a:hover {
 
 a:visited {
     color: $brand-secondary;
+}
+
+#books-body {
+    background-color: $brand-dark;
 }
 
 .table {
@@ -150,9 +198,6 @@ a:visited {
         vertical-align: middle;
     }
 
-    h4 {
-        vertical-align: middle;
-    }
 }
 
 .page-container {
@@ -164,9 +209,20 @@ a:visited {
 
 }
 
+.page-intro {
+    margin: 1em 0;
+
+    p {
+        margin-top: .5em;
+        margin-bottom: .5em;
+    }
+}
+
 .dot-separator {
     color: $brand-color;
-    margin: auto;
     text-align: center;
-    font-size: 6em;
+}
+
+.text-highlight {
+    @extend %special-quote;
 }

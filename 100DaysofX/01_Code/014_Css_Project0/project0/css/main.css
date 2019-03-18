@@ -1,0 +1,193 @@
+.text-highlight {
+  background-color: #567190;
+  color: white;
+}
+
+@media (max-width: 575px) {
+  .text-highlight {
+    font-size: 1em;
+    padding: 0.8em 1em;
+    margin: 0.2em -0.5em;
+  }
+
+  .dot-separator {
+    margin: auto;
+    font-size: 4em;
+    line-height: 2em;
+  }
+}
+@media (min-width: 576px) {
+  h2 {
+    margin: 0.2em 0 0.1em 0;
+  }
+
+  .pg-hdr {
+    height: 96px;
+    padding: 8px 0;
+  }
+
+  .book-card {
+    width: 28rem;
+    margin: 1em;
+  }
+
+  .text-highlight {
+    font-size: 1.4em;
+    padding: 1em;
+    margin: 0.4em -1em;
+  }
+
+  .dot-separator {
+    margin: auto 1em;
+    font-size: 4em;
+    line-height: 1.5em;
+  }
+}
+@media (min-width: 768px) {
+  h2 {
+    margin: 0.5em 0 0.3em 0;
+  }
+
+  .pg-hdr {
+    height: 96px;
+    padding: 8px 0;
+  }
+
+  .hdr-right {
+    padding-top: none;
+  }
+
+  .book-card {
+    width: 20rem;
+    margin: 1em;
+  }
+
+  .text-highlight {
+    font-size: 1.6em;
+    padding: 1em;
+    margin: 0.5em -2em;
+  }
+
+  .dot-separator {
+    margin: auto 0.4em;
+    font-size: 4em;
+    line-height: 0.5em;
+  }
+
+  .table {
+    font-size: 0.8em;
+  }
+  .table ul {
+    font-size: 0.7em;
+  }
+  .table td {
+    padding: 0.3em 0.1em 0.4em 0.1em;
+  }
+  .table #col1 {
+    width: 7%;
+  }
+  .table #col2 {
+    width: 8%;
+  }
+  .table #col3 {
+    width: 50%;
+  }
+  .table #col4 {
+    width: 35%;
+  }
+}
+@media (min-width: 992px) {
+  h2 {
+    margin: 1em 0 0.5em 0;
+  }
+
+  .pg-hdr {
+    height: 64px;
+    padding: 8px 0;
+  }
+
+  .hdr-right {
+    padding-top: 16px;
+  }
+
+  .book-card {
+    width: 28rem;
+    margin: 1em;
+  }
+
+  .text-highlight {
+    font-size: 2em;
+    padding: 1.4em;
+    margin: 0.5em -3em;
+  }
+
+  .dot-separator {
+    margin: auto 0.5em;
+    font-size: 6em;
+    line-height: 0.5em;
+  }
+}
+a {
+  color: cadetblue;
+}
+
+a:hover {
+  color: #A0615F;
+}
+
+a:visited {
+  color: #567190;
+}
+
+#books-body {
+  background-color: #1C2F30;
+}
+
+.table {
+  font-size: 0.9em;
+}
+.table ul {
+  font-size: 0.8em;
+}
+.table td {
+  padding: 0.5em 0.1em 0.5em 0.1em;
+}
+.table #col1 {
+  width: 7%;
+}
+.table #col2 {
+  width: 8%;
+}
+.table #col3 {
+  width: 50%;
+}
+.table #col4 {
+  width: 35%;
+}
+
+.pg-hdr {
+  background-color: cadetblue;
+}
+.pg-hdr h1 {
+  vertical-align: middle;
+}
+
+.page-container p {
+  text-align: justify;
+  text-indent: 2em;
+}
+
+.page-intro {
+  margin: 1em 0;
+}
+.page-intro p {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.dot-separator {
+  color: cadetblue;
+  text-align: center;
+}
+
+/*# sourceMappingURL=main.css.map */
