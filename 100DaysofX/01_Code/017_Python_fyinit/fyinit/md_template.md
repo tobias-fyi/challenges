@@ -1,8 +1,8 @@
-# {date} | {j_num}
+# {date} | {#journal}
 
 \#100DaysofCode
 
-- [{date} | {j_num}](#date--jnum)
+- [{date} | {#journal}](#date--journal)
   - [MENU_Today](#menutoday)
     - [Main Course](#main-course)
     - [Extras](#extras)

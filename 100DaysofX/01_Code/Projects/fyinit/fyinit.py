@@ -1,23 +1,30 @@
 import click
-
-# import os
+import re
+import datetime
 
 
 @click.command()
-@click.argument("input", type=click.File("rb"), nargs=-1)
-@click.argument("output", type=click.File("wb"))
+@click.argument("input", type=click.File(mode="rb"), default="md_template.md")
+@click.argument("output", type=click.File(mode="wb"), default="journal.md")
 def cli(input, output):
     """Initialize session from input."""
-    for f in input:
-        while True:
-            chunk = f.read(1024)
-            if not chunk:
-                break
-            output.write(chunk)
-            output.flush
 
-    # with open(input, "r") as rf:
-    #     with open(output, "w") as wf:
-    #         for line in rf:
-    #             wf.write(line)
+    def date_search(p):
+        p.decode()
+        return re.sub(r"{{date}}", str(datetime.date.today()), p)
 
+    def j_search(p):
+        today = datetime.date.today()
+        start_date = datetime.date(2019, 3, 4)
+        day_num = str((today - start_date).days + 1).zfill(3)
+
+        return re.sub(r"{{j_num}}", day_num, p)
+
+    while True:
+        chunk = input.read(1024)
+        if not chunk:
+            break
+        date_search(chunk)
+        j_search(chunk)
+        output.write(chunk)
+        output.flush

@@ -1,8 +1,8 @@
-# 2019-03-19 | #016
+# 2019-03-20 | #017
 
 \#100DaysofCode
 
-- [2019-03-19 | #016](#2019-03-19--016)
+- [2019-03-20 | #017](#2019-03-20--017)
   - [MENU_Today](#menutoday)
     - [Main Course](#main-course)
     - [Extras](#extras)
@@ -21,7 +21,7 @@
     GOAL_ : Begin learning Unit Testing by utilizing the Python Unit Testing module  
     GOAL_ : Build INIT script as CLI Tool using Click
     ---º---
-    TASK_ : Output from the script to a markdown file
+    TASK√ : Output from the script to a markdown file
 
 ### Extras
 
