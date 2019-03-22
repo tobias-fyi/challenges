@@ -1,19 +1,23 @@
 import click
 
+# import os
+
 
 @click.command()
-@click.option(
-    "-c",
-    "--content",
-    default="World",
-    help="Content to be written to file after greeting.",
-)
-@click.option("--name", "-n", prompt=True)
-@click.argument("out", type=click.File("w"), default="-", required=False)
-def cli(content, name, out):
-    """Just a tezt."""
-    out.write(f"My name is {name}.\n")
-    out.write("----+----\n")
-    out.write("Content:\n")
-    out.write(f"{content}\n")
-    # click.echo(f"Hello, {name}.\n--+--\n Content:\n {content}.", file=out)
+@click.argument("input", type=click.File("rb"), nargs=-1)
+@click.argument("output", type=click.File("wb"))
+def cli(input, output):
+    """Initialize session from input."""
+    for f in input:
+        while True:
+            chunk = f.read(1024)
+            if not chunk:
+                break
+            output.write(chunk)
+            output.flush
+
+    # with open(input, "r") as rf:
+    #     with open(output, "w") as wf:
+    #         for line in rf:
+    #             wf.write(line)
+
