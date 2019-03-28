@@ -1,14 +1,11 @@
-# 2019-03-23 | #020
+# 2019-03-22 | #019
 
 \#100DaysofCode
 
-- [2019-03-23 | #020](#2019-03-23--020)
+- [2019-03-22 | #019](#2019-03-22--019)
   - [Today's Menu](#todays-menu)
     - [Main Course](#main-course)
-    - [LVL0_](#lvl0)
-    - [LVL1_](#lvl1)
-    - [LVL2_](#lvl2)
-    - [LVL3_](#lvl3)
+    - [CUE_](#cue)
     - [Extras](#extras)
   - [Session Log](#session-log)
     - [00:05 -∫- Session Init](#0005--%E2%88%AB--session-init)
@@ -22,21 +19,9 @@
 
 --------∫--------
 
-### LVL0_  
+### CUE_  
 
-    GOAL_ : Run Legacy Init Script As Click Command + Create Journal
-
---------∫--------
-
-### LVL1_  
-
---------∫--------
-
-### LVL2_  
-
---------∫--------
-
-### LVL3_  
+    GOAL√ : Run Legacy Init Script As Click Command + Create Journal
 
 --------∫--------
 
