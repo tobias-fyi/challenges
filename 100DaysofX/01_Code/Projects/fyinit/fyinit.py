@@ -144,7 +144,7 @@ def cli():
 
 ## Session Log
 
-### {c_time} -∫- Session Init
+### {c_time} -+- Session Init
 """
 
     day_dir = f"{day_num}_{lang}_{subject}"
