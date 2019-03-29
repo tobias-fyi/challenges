@@ -1,12 +1,13 @@
 from setuptools import setup
 
 setup(
-    name="directree",
+    name="directoree",
     version="0.1",
-    py_modules=["directree"],
+    py_modules=["directoree"],
     install_requires=["Click"],
     entry_points="""
         [console_scripts]
-        directree=directree:cli
+        directoree=directoree:cli
     """,
 )
+
