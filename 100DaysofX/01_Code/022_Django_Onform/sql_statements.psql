@@ -1,0 +1,50 @@
+
+INSERT INTO pdform_formdata (
+    id,
+    request_date,
+    request_type,
+    department,
+    phone,
+    address,
+    city,
+    state,
+    zip_code,
+    request_by_id
+)
+
+VALUES (
+    '1',
+    '2019-03-28',
+    'envelope',
+    'mathematics',
+    '3032840418',
+    '1234 Five Way',
+    'Six Town',
+    'CO',
+    '80212',
+    '1'
+)
+
+INSERT INTO pdform_formdata (
+    request_date,
+    request_type,
+    department,
+    phone,
+    address,
+    city,
+    state,
+    zip_code,
+    request_by_id
+)
+
+VALUES (
+    '2019-03-21',
+    'school logo envelope',
+    'science',
+    '3033033033',
+    '2345 Six Way',
+    'Seven Town',
+    'CO',
+    '80221',
+    '1'
+)
