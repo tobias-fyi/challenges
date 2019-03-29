@@ -144,6 +144,8 @@ def cli():
 
 ## Session Log
 
+--------∫--------
+
 ### {c_time} -+- Sessionit
 """
 
