@@ -138,7 +138,15 @@ def cli():
 
 --------∫--------
 
-### Extras
+### SELECT * FROM session
+
+#### Soundtrack
+
+- pass
+
+#### Extras
+
+- pass
 
 ---
 
