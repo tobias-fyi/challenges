@@ -15,13 +15,18 @@ def justify_center(content, width, symbol):
     return text
 
 
-def table_printer(array, title, left_width, right_width):
-    """Formats list - table of contents style."""
+def table_printer(array, title, table_width):
+    """Format an array - table of contents style."""
 
-    print(f"{title}".center(left_width + right_width, "-"))
+    print(f"{title}".center(table_width, icon_seperator))
 
     for k, v in enumerate(array):
-        print(str(k).ljust(left_width, ".") + str(v).rjust(right_width))
+        right_width = len(v)
+        left_width = table_width - right_width
+        print(
+            str(k).ljust(left_width, icon_justified)
+            + str(v).rjust(right_width)
+        )
 
 
 def exit_program():
@@ -45,7 +50,7 @@ def dir_picker(path, prefix):
             dir_list.remove(d)  # removes .file + .folders from list
 
     print(sep)
-    table_printer(dir_list, "Choose-a-Dir", 8, 25)
+    table_printer(dir_list, "Projects", v_width)
     print(sep)
     print(sep_ps)
 
@@ -68,14 +73,15 @@ def separator(line):
 
 # aesthetic informatics
 v_width = 33
-p_icon = "º"
-s_icon = "-"
+icon_project = "º"
+icon_seperator = "-"
+icon_justified = "."
 spacer = " "
-ps_spacer = f"{s_icon*2}{p_icon}{s_icon*2}"
+ps_spacer = f"{icon_seperator*2}{icon_project}{icon_seperator*2}"
 
 # visual separators
-sep = justify_center(p_icon, v_width, s_icon)
-sep_space = justify_center(p_icon, v_width, spacer)
+sep = justify_center(icon_project, v_width, icon_seperator)
+sep_space = justify_center(icon_project, v_width, spacer)
 sep_ps = justify_center(ps_spacer, v_width, spacer)
 
 
@@ -111,7 +117,7 @@ def cli(project, directory):
         click.echo(sep)
         click.echo()
         click.echo("'ere's where you're at...")
-        click.echo(os.getcwd())
+        dir_picker(os.getcwd(), "dir_list")
         click.echo(sep)
 
         click.echo()

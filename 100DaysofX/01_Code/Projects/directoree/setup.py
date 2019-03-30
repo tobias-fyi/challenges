@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name="directoree",
-    version="0.1",
+    version="0.2",
     py_modules=["directoree"],
     install_requires=["Click"],
     entry_points="""
@@ -10,4 +10,3 @@ setup(
         directoree=directoree:cli
     """,
 )
-
