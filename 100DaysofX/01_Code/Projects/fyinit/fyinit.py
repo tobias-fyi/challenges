@@ -126,7 +126,7 @@ def cli():
     - [Main Course](#main-course)
     - [Extras](#extras)
   - [Session Log](#session-log)
-    - [{c_time} -∫- Session Init](#ctime--%E2%88%AB--session-init)
+    - [{c_time} -+- Session Init](#ctime----session-init)
 
 ---
 
