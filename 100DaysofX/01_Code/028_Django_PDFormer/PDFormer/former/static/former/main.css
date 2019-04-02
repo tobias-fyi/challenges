@@ -1,0 +1,17 @@
+body {
+    background-color: #55738E;
+}
+
+nav {
+    background-image: url("cloudy-texture.jpeg");
+    background-blend-mode: hard-light;
+    background-size: cover;
+}
+
+label {
+    padding: 10px;
+}
+
+#id_department {
+    background-color: blueviolet;
+}

@@ -212,11 +212,11 @@ Ok let's try this again:
 
 AAAAAND BOOM! No more Chinese laundry.
 
-<!-- ![Like a sign from god](no_more.gif) -->
+![Like a sign from god](no_more.gif)
 
 Ah yes, those sweet, sweet TABLES!
 
-<!-- ![pgAdmin Sweetable Schemas](sweetables.png) -->
+![pgAdmin Sweetable Schemas](sweetables.png)
 
 Man, that was much easier than the Docker route. Of course I'm going to learn how to do it that way as well, and it really does interest me. I just don't have time for that this session. I need to give my boss a working prototype of this feature on Tuesday. That gives me one more session after this one to build it.
 
