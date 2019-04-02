@@ -1,1 +1,0 @@
-/Applications/Postgres.app/Contents/Versions/11/bin/postgres "-D" "/Users/Tobias/Documents/Projects/Challenges/100DaysofX/01_Code/028_Django_PDFormer/PDFormer/db_data" "-p" "5432"
