@@ -1,6 +1,9 @@
 # The Culture
+
 ## A Project 0 Site for Harvardx - CS50w
-## By Tobias Reaper
+
+## By Tobias Reaper | tobias-fyi
+
 ----
 
 This is a site about The Culture, a fictional far-future utopian society created by the late, great Iain M. Banks, with a page dedicated to him as well. 
