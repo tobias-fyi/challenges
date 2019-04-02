@@ -42,7 +42,7 @@ def cli():
         print(f"{prompt.title()} for this session:")
         print(sep)
         print(sep_ps)
-        return input().title()
+        return input()
 
     def dir_picker(path, prefix):
         """Allows user to choose from list of paths in cwd."""
