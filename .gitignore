@@ -2,8 +2,7 @@
 00_Admin/
 */db_data/
 
-# Compiled source #
-###################
+# Compiled source
 *.com
 *.class
 *.dll
@@ -11,8 +10,7 @@
 *.o
 *.so
 
-# Packages #
-############
+# Packages
 # it's better to unpack these files and commit the raw source
 # git has its own built in compression methods
 *.7z

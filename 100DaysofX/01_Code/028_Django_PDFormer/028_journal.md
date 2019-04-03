@@ -114,17 +114,17 @@ settings.py:
 models.py:
 
     from django.db import models
-        from django.utils import timezone
+    from django.utils import timezone
 
 
-        class input_data(models.Model):
-            date_requested = models.DateTimeField(default=timezone.now)
-            phone = models.PositiveIntegerField()
-            email = models.EmailField()
-            address = models.CharField(max_length=140)
-            city = models.CharField(max_length=80)
-            state = models.CharField(max_length=2)
-            zip_code = models.PositiveIntegerField()
+    class input_data(models.Model):
+        date_requested = models.DateTimeField(default=timezone.now)
+        phone = models.CharField(max_length=10)
+        email = models.EmailField()
+        address = models.CharField(max_length=140)
+        city = models.CharField(max_length=80)
+        state_code = models.CharField(max_length=2)
+        zip_code = models.CharField(max_length=5)
 
 Created first view in views.py:
 
@@ -244,12 +244,12 @@ Decided to change the model class to be a bit more descriptive with the title. H
 
     class OrderForm(models.Model):
         date_requested = models.DateTimeField(default=timezone.now)
-        phone = models.PositiveIntegerField()
+        phone = models.CharField(max_length=10)
         email = models.EmailField()
         address = models.CharField(max_length=140)
         city = models.CharField(max_length=80)
         state = models.CharField(max_length=2)
-        zip_code = models.PositiveIntegerField()
+        zip_code = models.CharField(max_length=5)
 
 Now let's give the ol' migration a go:
 
