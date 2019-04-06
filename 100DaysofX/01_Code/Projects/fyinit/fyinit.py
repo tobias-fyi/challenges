@@ -121,13 +121,6 @@ def cli():
 
 \#100DaysofCode
 
-- [{c_date} | {day_num}](#cdate--daynum)
-  - [Today's Menu](#todays-menu)
-    - [Main Course](#main-course)
-    - [Extras](#extras)
-  - [Session Log](#session-log)
-    - [{c_time} -+- Session Init](#ctime----session-init)
-
 ---
 
 ## Today's Menu
