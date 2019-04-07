@@ -209,3 +209,7 @@ Unfortunately, I have to end this session right there, before even the database 
 But alas, dinner calls.
 
 Hasta BBQ, Amigo!
+
+---
+
+### Cont'd in Smartass Knowledge Base
