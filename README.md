@@ -37,7 +37,11 @@
 
 #### IDEA_01
 
-Topics I'm exploring or want to explore during the challenge:
+Projects
+
+- Auto-tweet when I push a new session's code to the Challenge remote repo
+
+Topics
 
 - Python
   - Django
