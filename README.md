@@ -40,6 +40,8 @@
 Projects
 
 - Auto-tweet when I push a new session's code to the Challenge remote repo
+- Fitbit app that creates timestamped "acivities"  in the session_log
+- Script or CLI Tool that finds and copies journal entries from all my different projects into one cental repository
 
 Topics
 
