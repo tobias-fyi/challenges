@@ -143,11 +143,11 @@ def cli():
 
 ---
 
-## Session Log
+## Session.log
 
 --------∫--------
 
-### {c_time} -+- Sessionit
+### {c_time} -+- Session.init
 """
 
     day_dir = f"{day_num}_{lang}_{subject}"
