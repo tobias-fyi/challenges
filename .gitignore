@@ -2,6 +2,11 @@
 00_Admin/
 */db_data/
 
+# Creative files
+*.indd
+*.ai
+*.psd
+
 # Compiled source
 *.com
 *.class
