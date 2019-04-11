@@ -13,7 +13,7 @@
     - [00:33 -+- django-model-utils](#0033----django-model-utils)
     - [00:37 -+- Template Extendor](#0037----template-extendor)
     - [00:48 -+- Utilitades del Djangos Modelos](#0048----utilitades-del-djangos-modelos)
-    - [22:01 -+- Session.save()](#2201----sessionsave)
+    - [01:22 -+- Session.save()](#0122----sessionsave)
 
 ---
 
@@ -207,7 +207,7 @@ I forgot that I need to register the model in tobiasfyi_project/admin.py. Also w
 
 ---
 
-### 22:01 -+- Session.save()
+### 01:22 -+- Session.save()
 
 And there you have it!
 
