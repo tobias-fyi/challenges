@@ -7,10 +7,8 @@ import time
 
 
 @click.command()
-# @click.argument("input", type=click.File(mode="rb"), default="md_template.md")
-# @click.argument("output", type=click.File(mode="wb"), default="journal.md")
 def cli():
-    """Initialize session from input."""
+    """Initializes new coding session."""
 
     def justify_center(content, width, symbol):
         """Centers string in symbol - width chars wide."""
@@ -31,15 +29,16 @@ def cli():
             print(str(k).ljust(left_width, ".") + str(v).rjust(right_width))
 
     def exit_program():
+        """Waits 1 second then aborts the program."""
         print("Exiting program...")
         time.sleep(1)
         sys.exit()
 
-    def prompter(prompt):
+    def prompter(prompt, scope):
         """Returns user input from prompt."""
 
         print(sep)
-        print(f"{prompt.title()} for this session:")
+        print(f"What is this {scope}'s {prompt}:")
         print(sep)
         print(sep_ps)
         return input()
@@ -87,6 +86,7 @@ def cli():
     v_width = 33
     p_icon = "º"
     s_icon = "-"
+    hashtag = "#"  # linter doesn't like the escaped hash in template below
     spacer = " "
     ps_spacer = f"{s_icon*2}{p_icon}{s_icon*2}"
 
@@ -113,29 +113,35 @@ def cli():
     # dir_picker(os.getcwd(), "chal")
     # dir_picker(os.getcwd(), "day")
 
-    lang = prompter("language")
-    subject = prompter("subject")
-    session_goal = prompter("goal")
+    subject = prompter("subject", "session")
+    project = prompter("project", "session")
+    project_icon = prompter("icon", "project")
+    project_goal = prompter("goal", "project")
+    session_goal = prompter("goal", "session")
 
     template = f"""# {c_date} | #{day_num}
 
-\#100DaysofCode
+{hashtag}100DaysofCode
 
 ---
 
-## Today's Menu
+## SELECT * FROM Project
 
-### Main Course
+### Abstract
 
-    GOAL_ : {session_goal}
+    GOAL_ : {project_goal}
 
---------∫--------
+### Loxocache
 
-### SELECT * FROM session
+    TASK_AT : Get   
 
-#### Soundtrack
+--------{project_icon}--------
 
-- pass
+## SELECT * FROM Session
+
+### Abstract
+
+    GOAL_{day_num} : {session_goal}
 
 #### Extras
 
@@ -145,12 +151,12 @@ def cli():
 
 ## Session.log
 
---------∫--------
+--------{project_icon}--------
 
 ### {c_time} -+- Session.init
 """
 
-    day_dir = f"{day_num}_{lang}_{subject}"
+    day_dir = f"{day_num}_{subject}_{project}"
     p_paths["day_path"] = os.path.join(os.getcwd(), day_dir)
 
     if os.path.isdir(p_paths["day_path"]):
