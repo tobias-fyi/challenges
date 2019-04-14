@@ -135,7 +135,7 @@ def cli():
 
     GOAL__ : {project_goal}
 
-### Loxocache({c_year}-{c_month})
+### Project.loxocache({c_year}-{c_month})
 
     TASK__ : Collect tags from other documents
 
@@ -154,6 +154,8 @@ def cli():
 ---
 
 ## Session.log({c_date})
+
+### Loxocache
 
 --------{project_icon}--------
 
