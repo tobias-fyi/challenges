@@ -1,6 +1,20 @@
 # 2019-04-11 | #039
 
-#100DaysofCode
+\#100DaysofCode
+
+- [2019-04-11 | #039](#2019-04-11--039)
+  - [SELECT * FROM Project](#select--from-project)
+    - [Abstract](#abstract)
+    - [Loxocache](#loxocache)
+  - [SELECT * FROM Session](#select--from-session)
+    - [Attenoir](#attenoir)
+      - [Extras](#extras)
+  - [Session.log](#sessionlog)
+    - [21:10 -+- Python - Weasyprint](#2110----python---weasyprint)
+    - [21:50 JavaScript - pdf-lib](#2150-javascript---pdf-lib)
+    - [22:10 -+- Django Static Files](#2210----django-static-files)
+    - [22:15 JavaScript Promises](#2215-javascript-promises)
+    - [22:16 -+- de.Session](#2216----desession)
 
 ---
 
