@@ -79,6 +79,10 @@ def cli():
     today = datetime.date.today()
     c_date = str(today)
 
+    c_year = str(today.year)
+    c_month = str(today.month).zfill(2)
+    # c_day = str(today.day).zfill(2)
+
     start_date = datetime.date(2019, 3, 4)
     day_num = str((today - start_date).days + 1).zfill(3)
 
@@ -127,29 +131,29 @@ def cli():
 
 ## SELECT * FROM Project
 
-### Abstract
+### Project.abstract
 
-    GOAL__ : {project_goal}  
+    GOAL__ : {project_goal}
 
-### Loxocache
+### Loxocache({c_year}-{c_month})
 
-    TASK__ : Collect tags from other documents  
+    TASK__ : Collect tags from other documents
 
 --------{project_icon}--------
 
 ## SELECT * FROM Session
 
-### Attenoir
+### Session.abstract
 
     GOAL_{day_num} : {session_goal}  
 
-#### Extras
+#### Session.cache
 
 - pass
 
 ---
 
-## Session.log
+## Session.log({c_date})
 
 --------{project_icon}--------
 
