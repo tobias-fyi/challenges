@@ -129,19 +129,19 @@ def cli():
 
 ### Abstract
 
-    GOAL_ : {project_goal}
+    GOAL__ : {project_goal}  
 
 ### Loxocache
 
-    TASK_AT : Get   
+    TASK__ : Collect tags from other documents  
 
 --------{project_icon}--------
 
 ## SELECT * FROM Session
 
-### Abstract
+### Attenoir
 
-    GOAL_{day_num} : {session_goal}
+    GOAL_{day_num} : {session_goal}  
 
 #### Extras
 
