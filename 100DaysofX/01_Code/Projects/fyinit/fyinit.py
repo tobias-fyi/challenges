@@ -86,7 +86,7 @@ def cli():
     v_width = 33
     p_icon = "º"
     s_icon = "-"
-    hashtag = "#"  # linter doesn't like the escaped hash in template below
+    escape = "\\"  # linter doesn't like the escaped hash in template below
     spacer = " "
     ps_spacer = f"{s_icon*2}{p_icon}{s_icon*2}"
 
@@ -121,7 +121,7 @@ def cli():
 
     template = f"""# {c_date} | #{day_num}
 
-{hashtag}100DaysofCode
+{escape}#100DaysofCode
 
 ---
 
