@@ -117,7 +117,7 @@ def cli():
     # dir_picker(os.getcwd(), "chal")
     # dir_picker(os.getcwd(), "day")
 
-    subject = prompter("subject", "session")
+    subject = prompter("language", "session")
     project = prompter("project", "session")
     project_icon = prompter("icon", "project")
     project_goal = prompter("goal", "project")
@@ -153,7 +153,7 @@ def cli():
 
 ---
 
-## Session.log({c_date})
+## Session.journal({c_date})
 
 ### Loxocache
 
@@ -162,7 +162,7 @@ def cli():
 ### {c_time} -+- Session.init
 """
 
-    day_dir = f"{day_num}_{subject}_{project}"
+    day_dir = f"{day_num}-{subject}_{project}"
     p_paths["day_path"] = os.path.join(os.getcwd(), day_dir)
 
     if os.path.isdir(p_paths["day_path"]):
@@ -179,7 +179,7 @@ def cli():
     print(sep_sm)
     os.chdir(p_paths["day_path"])
 
-    j_name = f"{day_num}_journal.md"
+    j_name = f"{day_num}-journal.md"
     p_paths["j_path"] = os.path.join(os.getcwd(), j_name)
     term_commands["code"].append(p_paths["j_path"])
 

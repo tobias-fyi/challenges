@@ -2,11 +2,12 @@
 
 - [100 Day Challenges - 2019](#100-day-challenges---2019)
   - [100 Days of Code](#100-days-of-code)
-  - [SELECT * FROM challenges](#select--from-challenges)
-    - [01_Code](#01code)
-      - [GOAL_01](#goal01)
-      - [IDEA_01](#idea01)
-      - [Extras](#extras)
+  - [SELECT * FROM 01_Code](#select--from-01code)
+    - [Goals](#goals)
+    - [Ideas](#ideas)
+      - [Projects](#projects)
+      - [Topics](#topics)
+    - [Extras](#extras)
 
 ## 100 Days of Code
 
@@ -23,11 +24,9 @@
 
 ---
 
-## SELECT * FROM challenges
+## SELECT * FROM 01_Code
 
-### 01_Code
-
-#### GOAL_01
+### Goals
 
     GOAL_01.01 : Code for 1+ hours every day for 100 days  
     GOAL_01.02 : Complete HarvardX's CS50W course on edX / receive certificate  
@@ -35,15 +34,16 @@
 
 ----∫----
 
-#### IDEA_01
+### Ideas
 
-Projects
+#### Projects
 
 - Auto-tweet when I push a new session's code to the Challenge remote repo
 - Fitbit app that creates timestamped "acivities"  in the session_log
 - Script or CLI Tool that finds and copies journal entries from all my different projects into one cental repository
+- CLI Tool that auto-formats directories and files into my current naming convention
 
-Topics
+#### Topics
 
 - Python
   - Django
@@ -73,9 +73,9 @@ Topics
     - General SQL
   - Containers (Docker + Kubernetes)
 
-----∫----
+---
 
-#### Extras
+### Extras
 
 - [I](https://soundcloud.com/adrianjeopard) [make music](https://soundcloud.com/seigyn)
-- [The Phrontistery](http://phrontistery.info/index.html)
+- If you like words, [The Phrontistery](http://phrontistery.info/index.html) is a supremely fun website to browse
