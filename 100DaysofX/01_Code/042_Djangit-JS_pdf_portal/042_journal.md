@@ -2,6 +2,20 @@
 
 \#100DaysofCode
 
+- [2019-04-14 | #042](#2019-04-14--042)
+  - [SELECT * FROM Project](#select--from-project)
+    - [Abstract](#abstract)
+    - [Loxocache](#loxocache)
+  - [SELECT * FROM Session](#select--from-session)
+    - [Attenoir](#attenoir)
+      - [Extras](#extras)
+  - [Session.log](#sessionlog)
+    - [22:19 -+- Session.init](#2219----sessioninit)
+    - [22:20 -+- Positionalisms](#2220----positionalisms)
+    - [22:53 -+- Associate With Fancy Arrays](#2253----associate-with-fancy-arrays)
+    - [22:06 -+- Testies](#2206----testies)
+    - [23:25 -+- de.Session](#2325----desession)
+
 ---
 
 ## SELECT * FROM Project
@@ -46,31 +60,31 @@ This makes it much easier to get the measurements / positions. I set the origin 
 
 x, y - coordinates (in points) from the origin (bottom left) of page.
 
-    field_name          	x  	y
+    field_name              x   y
     **Information**
-    order_dept-school   	184	680  
-    order_street_address	142	655  
-    order_city          	72 	631  
-    order_state_code    	360	631  
-    order_zip_code      	485	631  
-    order_phone         	84 	606  
+    order_dept-school       184 680  
+    order_street_address    142 655  
+    order_city              72  631  
+    order_state_code        360 631  
+    order_zip_code          485 631  
+    order_phone             84  606  
 
     **Options**
-    box_qty_1           	525	490  
-    box_qty_2           	525	461  
-    box_qty_3           	525	343  
-    box_qty_4           	525	314  
+    box_qty_1               525 490  
+    box_qty_2               525 461  
+    box_qty_3               525 343  
+    box_qty_4               525 314  
 
     **Billing**
-    billing_name        	84 	208  
-    billing_dept-school 	130	184  
-    billing_address     	98 	158  
-    billing_city        	72 	132  
-    billing_state_code  	360	132  
-    billing_zip_code    	485	132  
-    billing_phone       	84 	106  
-    billing_fax         	360	106  
-    billing_email       	84 	82  
+    billing_name            84  208  
+    billing_dept-school     130 184  
+    billing_address         98  158  
+    billing_city            72  132  
+    billing_state_code      360 132  
+    billing_zip_code        485 132  
+    billing_phone           84  106  
+    billing_fax             360 106  
+    billing_email           84  82  
 
 Now I just need to set these up as variables in the JavaScript code. That multicurser functionality really makes things like this much *much **much*** easier. I can't believe I went my whole life up to a couple months ago without ever knowing that existed. My life is forever changed for the better.
 
