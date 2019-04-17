@@ -334,3 +334,11 @@ There's definitely something funky with the backup. It ain't doing shit like it'
 Shoutout once again to probably my favorite Python teacher thus far, Corey Schafer, for teaching me [more about pipenv and how awesome it is](https://youtu.be/zDYL22QNiWk). His tutorials are always on point and give me hope for understanding the complexities of development. Not sure what it is but the way he explains / goes through stuff really works for me. His Django series is one of the main reasons I'm so stoked on Django right now.
 
 Ok time for bed but tomorrow I'm going to cut the conda umbilical and get down and dirty with pipenv.
+
+----ø----
+
+Ayyyyyy the backup actually went through! Crazy. It did end up taking arond 2 hours.
+
+----ø----
+
+Hasta Bananas, Yamigos!
