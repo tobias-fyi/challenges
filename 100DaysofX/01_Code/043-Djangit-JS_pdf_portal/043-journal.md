@@ -2,6 +2,26 @@
 
 \#100DaysofCode
 
+- [2019-04-15 | #043](#2019-04-15--043)
+  - [SELECT * FROM Project](#select--from-project)
+    - [Project.abstract](#projectabstract)
+    - [Project.loxocache(2019-04)](#projectloxocache2019-04)
+  - [SELECT * FROM Session](#select--from-session)
+    - [Session.abstract](#sessionabstract)
+      - [Session.cache](#sessioncache)
+  - [Session.journal(2019-04-15)](#sessionjournal2019-04-15)
+    - [Loxocache](#loxocache)
+    - [20:35 -+- Session.init](#2035----sessioninit)
+    - [20:37 -+- Methods and Madness](#2037----methods-and-madness)
+    - [20:40 -+- id.Render](#2040----idrender)
+    - [20:51 -+- PDF Goodies](#2051----pdf-goodies)
+    - [21:37 -+- Succ Yess (kinda)](#2137----succ-yess-kinda)
+    - [21:45 -+- A Django Thot](#2145----a-django-thot)
+    - [22:18 -+- Resolutions](#2218----resolutions)
+    - [22:40 -+- More Asynchronicity](#2240----more-asynchronicity)
+    - [00:05 -+- Mo'Resolutions](#0005----moresolutions)
+    - [00:30 -+- Polishing](#0030----polishing)
+
 ---
 
 ## SELECT * FROM Project
