@@ -447,3 +447,8 @@ Gettings fyinit up and running.
     $ pip install pylint
 
 Decided I should probably use `git clone` instead of rsync to bring the repository over to the new workshop directory.
+
+    $ rm -rf Challenges
+    $ git status
+    $ git add 045-...
+    $ git commit -m "Updated day 045 with 046 until new entry created"
