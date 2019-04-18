@@ -101,7 +101,7 @@ def cli():
     sep_ps = justify_center(ps_spacer, v_width, spacer)
 
     p_paths = {
-        "p_all": "/Users/Tobias/Documents/Projects/Challenges/",
+        "p_all": "/Users/Tobias/workshop/Challenges/",
         "chal_root": "100DaysofX/01_Code",
     }  # dict to hold paths
 

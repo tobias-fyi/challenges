@@ -19,8 +19,6 @@
     - [23:59 -+- Pyenv](#2359----pyenv)
     - [01:11 -+- Workshop Vega](#0111----workshop-vega)
     - [01:44 -+- de.session](#0144----desession)
-    - [10:17 -+- DAY 046 - PRE-CONFIG](#1017----day-046---pre-config)
-    - [10:53 -+- fyinit](#1053----fyinit)
 
 ---
 
@@ -28,12 +26,11 @@
 
 ### Project.abstract
 
-    GOAL__ : Uninstall anaconda + rebuild my Python dev workflow
+    GOAL√_ : Uninstall anaconda + rebuild my Python dev workflow
 
 ### Project.loxocache(2019-04)
 
-    TASK__ : Collect tags from other documents 
-    TASK_044 : Copy session from on_form build journal
+    TASK_044 : Copy session from on_form build journal  
 
 --------ƒ--------
 
@@ -41,7 +38,7 @@
 
 ### Session.abstract
 
-    GOAL_045 : Export environment files for all important projects + uninstall + reinstall + use pipenv  
+    GOAL√045 : Export environment files for all important projects + uninstall + reinstall + use pipenv  
 
 #### Session.cache
 
@@ -367,88 +364,3 @@ Also found [this article](https://hackernoon.com/reaching-python-development-nir
 And here's a [link to the other one](https://liatas.com/posts/anaconda-vs-pyenv-pipenv/) from yesterday.
 
 Hasta vega, amiga!
-
----
-
-### 10:17 -+- DAY 046 - PRE-CONFIG
-
-    GOAL_046 : My initial goal for this session is to get my fyinit click program up and running with the new environment setup
-
-I copied over the Challenges repository / directory using one of my favorite bash tools `rsync`
-
-    $ rsync -ah --info=progress2 --append-verify ~/Documents/Projects/Challenges ~/workshop
-
-1. Installed pyenv-virtualenv
-2. Installed pyenv-virtualenvwrapper
-
-With virtualenvwrapper all your virtualenvs are kept on a same directory and your projects’ code on another. As I defined yesterday (and won't spend any more time on today, I promise...):
-
-    # All virtualenvs will be in...
-    mkdir ~/.vega
-    # All projects will be in...
-    mkdir ~/workshop
-
-I created my .zshenv file and edited as follows:
-
-    export WORKON_HOME=~/.vega
-    export PROJECT_HOME=~/workshop
-    if command -v pyenv 1>/dev/null 2>&1; then
-        eval "$(pyenv init -)"
-    fi
-
-Restarted the shell. Now installing CPython 3.7.3. 
-
-Here's a handy link to the [pyenv commands reference](https://github.com/pyenv/pyenv/blob/master/COMMANDS.md).
-
-    $ pyenv install 3.7.3
-    ... zlib not available
-
-I got the notorious zlib not available error because I'm running Mojave. Went through some [GitHub issue discussion](https://github.com/pyenv/pyenv/issues/1219) and tried this (which worked):
-
-    $ CFLAGS="-I$(xcrun --show-sdk-path)/usr/include" pyenv install -v 3.7.3
-    Installed Python-3.7.3 to /Users/Tobias/.pyenv/versions/3.7.3
-
-    $ pyenv global 3.7.3
-
----
-
-### 10:53 -+- fyinit
-
-Setting environment variables specific to each virtual environment. Once inside the project root:
-
-    $ touch .env
-    SECRET_KEY="SuperSecretQue"
-
-Gettings fyinit up and running.
-
-    $ cd ~/workshop/Challenges/100DaysofX/01_Code/Projects/fyinit
-    $ pipenv install
-    $ pipenv install click
-    Installing click…
-    Adding click to Pipfile's [packages]…
-    ✔ Installation Succeeded
-    Pipfile.lock (182788) out of date, updating to (a65489)…
-    Locking [dev-packages] dependencies…
-    Locking [packages] dependencies…
-    ✔ Success!
-    Updated Pipfile.lock (182788)!
-    Installing dependencies from Pipfile.lock (182788)…
-    🐍   ▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉ 1/1 — 00:00:01
-    To activate this project's virtualenv, run pipenv shell.
-    Alternatively, run a command inside the virtualenv with pipenv run.
-
-    $ pip install --editable .
-    Obtaining file:///Users/Tobias/workshop/Challenges/100DaysofX/01_Code/Projects/fyinit
-    Requirement already satisfied: Click in /Users/Tobias/.local/share/virtualenvs/fyinit-Ctn_MiSA/lib/python3.7/site-packages (from fyinit==0.1) (7.0)
-    Installing collected packages: fyinit
-    Running setup.py develop for fyinit
-    Successfully installed fyinit
-
-    $ pip install pylint
-
-Decided I should probably use `git clone` instead of rsync to bring the repository over to the new workshop directory.
-
-    $ rm -rf Challenges
-    $ git status
-    $ git add 045-...
-    $ git commit -m "Updated day 045 with 046 until new entry created"
