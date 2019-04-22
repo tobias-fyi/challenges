@@ -3,5 +3,6 @@
     "python.unitTest.pyTestEnabled": false,
     "python.unitTest.unittestEnabled": false,
     "python.unitTest.nosetestsEnabled": false,
-    "python.pythonPath": "/anaconda3/envs/fineye/bin/python"
+    "python.pythonPath": "/anaconda3/envs/fineye/bin/python",
+    "python.formatting.provider": "black"
 }
