@@ -123,9 +123,9 @@ def cli():
     project_goal = prompter("goal", "project")
     session_goal = prompter("goal", "session")
 
-    template = f"""# {c_date} | #{day_num}
+    template = f"""# {c_date} | #100DaysofCode
 
-{escape}#100DaysofCode
+{escape}## Day {day_num} / 100
 
 ---
 
