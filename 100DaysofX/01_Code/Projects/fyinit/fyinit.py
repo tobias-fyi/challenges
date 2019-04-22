@@ -133,7 +133,7 @@ def cli():
 
 ### Project.abstract
 
-    GOAL__ : {project_goal}
+    GOAL_{project} : {project_goal}  
 
 ### Project.loxocache({c_year}-{c_month})
 
