@@ -90,7 +90,6 @@ def cli():
     v_width = 33
     p_icon = "º"
     s_icon = "-"
-    escape = "\\"  # linter doesn't like the escaped hash in template below
     spacer = " "
     ps_spacer = f"{s_icon*2}{p_icon}{s_icon*2}"
 
@@ -125,7 +124,7 @@ def cli():
 
     template = f"""# {c_date} | #100DaysofCode
 
-{escape}## Day {day_num} / 100
+## Day {day_num} / 100
 
 ---
 
@@ -159,7 +158,7 @@ def cli():
 
 --------{project_icon}--------
 
-### {c_time} -+- Session.init
+### {c_time} ~ Session.init
 """
 
     day_dir = f"{day_num}-{subject}_{project}"
