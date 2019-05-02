@@ -29,12 +29,11 @@
 
 ### Project.loxocache(2019-04)
 
-    TASK_047 : Figure out a way to have the navbar change the "active" page  
     TASK_044 : Ask if billing address is the same, if so, fill in automatically  
+        TASK_048 : Add checkbox / functionality for same address as above  
     TASK_047 : Figure out a way to have the navbar change the "active" page  
     TASK_048 : Write to the database via the form  
     TASK√048 : Write to the database via the admin page  
-    TASK_048 : Add checkbox / functionality for same address as above  
     TASK_048 : Fix black so it autoformats  
 
     CUE_043 : Set up script to automatically post parts of this coding journal to blog app  
