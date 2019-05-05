@@ -37,7 +37,7 @@
 
 #### Session.cache
 
-- pass
+- [CS50w Lecture 2 - Flask](https://youtu.be/j5wysXqaIV8)
 
 ---
 
