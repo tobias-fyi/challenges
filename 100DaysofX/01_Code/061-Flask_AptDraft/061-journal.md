@@ -2,7 +2,24 @@
 
 ## Day 061 / 100
 
-
+- [2019-05-03 | #100DaysofCode](#2019-05-03--100daysofcode)
+  - [Day 061 / 100](#day-061--100)
+  - [SELECT * FROM Project](#select--from-project)
+    - [Project.abstract](#projectabstract)
+    - [Project.loxocache(2019-05)](#projectloxocache2019-05)
+  - [SELECT * FROM Session](#select--from-session)
+    - [Session.abstract](#sessionabstract)
+      - [Session.cache](#sessioncache)
+  - [Session.journal(2019-05-03)](#sessionjournal2019-05-03)
+    - [Loxocache](#loxocache)
+    - [14:20 ~ sess.init](#1420--sessinit)
+    - [14:20 ~ Creatation](#1420--creatation)
+      - [New Project](#new-project)
+      - [Postgres Me Timbers](#postgres-me-timbers)
+    - [15:18 ~ Insertion](#1518--insertion)
+    - [15:34 ~ Dropped To Make Anew](#1534--dropped-to-make-anew)
+    - [15:40 ~ Selectation](#1540--selectation)
+    - [15:54 ~ Finitamos](#1554--finitamos)
 
 ## SELECT * FROM Project
 
