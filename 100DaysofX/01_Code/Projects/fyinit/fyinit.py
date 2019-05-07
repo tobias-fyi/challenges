@@ -136,7 +136,7 @@ def cli():
 
 ### Project.loxocache({c_year}-{c_month})
 
-    TASK__ : Collect tags from other documents
+    TASK__ : Collect tags from related documents  
 
 --------{project_icon}--------
 
@@ -152,7 +152,7 @@ def cli():
 
 ---
 
-## Session.journal({c_date})
+## Session.sojourn({c_date})
 
 ### Loxocache
 
