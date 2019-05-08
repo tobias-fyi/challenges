@@ -58,7 +58,7 @@
 
     TASK√063 : Create new virtual environment / project dir for Challenges  
     TASK√063 : Update Challenges workspace settings  
-    TASK√063 : Fix the integrated terminal in my Fineyedesign code-workspace  
+    TASK_063 : Fix the integrated terminal in my Fineyedesign code-workspace  
 
     IDEA_063 : Add day of the year to prompt - e.g. 128/365  
     IDEA_063 : Click CLI function to format terminal output  
@@ -83,7 +83,7 @@ Glad to see that [Corey Schafer has a tutorial](https://youtu.be/VGgTmxXp7xQ) on
 Before I get going on grep, I have a couple of things I'd like to try and figure out.
 
     TASK√063 : Create new virtual environment / project dir for Challenges  
-    TASK√063 : Fix the integrated terminal in my Fineyedesign code-workspace  
+    TASK_063 : Fix the integrated terminal in my Fineyedesign code-workspace  
 
     IDEA_063 : Add day of the year to prompt - e.g. 128/365  
 
@@ -218,7 +218,7 @@ Aaaaaaaand...it did!
 
 Boom! No more Chinese laundry!
 
-    TASK√063 : Fix the integrated terminal in my Fineyedesign code-workspace  
+    TASK_063 : Fix the integrated terminal in my Fineyedesign code-workspace  
 
 Actually...I'm not sure that it did. Nope. I feel like it is a bug in vscode, not something I'm doing.
 
