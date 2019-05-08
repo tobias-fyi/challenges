@@ -63,7 +63,7 @@
     IDEA_063 : Add day of the year to prompt - e.g. 128/365  
     IDEA_063 : Click CLI function to format terminal output  
     IDEA_063 : Set envirovars for each workspace to use in snippets  
-    IDEA_063 : Environment Variable Blog / Site - envirovar.com
+    IDEA_063 : Environment Variable Blog / Site - envirovar.com  
 
 
 --------∫--------
