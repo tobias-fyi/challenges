@@ -2,6 +2,27 @@
 
 ## Day 063 / 100
 
+- [2019-05-05 | #100DaysofCode](#2019-05-05--100daysofcode)
+  - [Day 063 / 100](#day-063--100)
+  - [SELECT * FROM Project](#select--from-project)
+    - [Project.abstract](#projectabstract)
+    - [Project.loxocache(2019-05)](#projectloxocache2019-05)
+  - [SELECT * FROM Session](#select--from-session)
+    - [Session.abstract](#sessionabstract)
+      - [Session.cache](#sessioncache)
+  - [Session.sojourn(2019-05-05)](#sessionsojourn2019-05-05)
+    - [Loxocache](#loxocache)
+    - [08:58 ~ Grep](#0858--grep)
+    - [09:14 ~ Some Minor Greps](#0914--some-minor-greps)
+    - [09:45 ~ Finishments](#0945--finishments)
+    - [10:12 ~ SumChaecks](#1012--sumchaecks)
+    - [10:20 ~ In The Grep of the Moment](#1020--in-the-grep-of-the-moment)
+    - [VSCode EnviroVars](#vscode-envirovars)
+      - [Predefined variables](#predefined-variables)
+      - [Environment variables](#environment-variables)
+      - [Snippets](#snippets)
+    - [11:28 ~ (On/Up)Ward](#1128--onupward)
+
 ---
 
 ## SELECT * FROM Project
@@ -35,14 +56,14 @@
 
 ### Loxocache
 
-    TASK√128 : Create new virtual environment / project dir for Challenges  
-    TASK√128 : Update Challenges workspace settings  
-    TASK√128 : Fix the integrated terminal in my Fineyedesign code-workspace  
+    TASK√063 : Create new virtual environment / project dir for Challenges  
+    TASK√063 : Update Challenges workspace settings  
+    TASK√063 : Fix the integrated terminal in my Fineyedesign code-workspace  
 
-    IDEA_128 : Add day of the year to prompt - e.g. 128/365  
-    IDEA_128 : Click CLI function to format terminal output  
-    IDEA_128 : Set envirovars for each workspace to use in snippets  
-    IDEA_128 : Environment Variable Blog / Site - envirovar.com
+    IDEA_063 : Add day of the year to prompt - e.g. 128/365  
+    IDEA_063 : Click CLI function to format terminal output  
+    IDEA_063 : Set envirovars for each workspace to use in snippets  
+    IDEA_063 : Environment Variable Blog / Site - envirovar.com
 
 
 --------∫--------
@@ -61,10 +82,10 @@ Glad to see that [Corey Schafer has a tutorial](https://youtu.be/VGgTmxXp7xQ) on
 
 Before I get going on grep, I have a couple of things I'd like to try and figure out.
 
-    TASK√128 : Create new virtual environment / project dir for Challenges  
-    TASK√128 : Fix the integrated terminal in my Fineyedesign code-workspace  
+    TASK√063 : Create new virtual environment / project dir for Challenges  
+    TASK√063 : Fix the integrated terminal in my Fineyedesign code-workspace  
 
-    IDEA_128 : Add day of the year to prompt - e.g. 128/365  
+    IDEA_063 : Add day of the year to prompt - e.g. 128/365  
 
 I moved the current `Challenges` directory to the desktop, then ran the command to create a new project...
 
@@ -124,7 +145,7 @@ Nice to switch it up a bit. Keeps my mind fresh / on me toesies.
 
 ### 09:45 ~ Finishments
 
-    TASK√128 : Create new virtual environment / project dir for Challenges  
+    TASK√063 : Create new virtual environment / project dir for Challenges  
 
 Just need to update the workspace settings for `Challenges` and I'll be groovy on this TASK.
 
@@ -160,7 +181,7 @@ Which results in the following prompt...a bit nicer, to be sure...
 
 Now for the final polish...
 
-    TASK√128 : Update Challenges workspace settings  
+    TASK√063 : Update Challenges workspace settings  
 
     "settings": {
         "python.pythonPath": "/Users/Tobias/.vega/Challenges/bin/python",
@@ -197,7 +218,7 @@ Aaaaaaaand...it did!
 
 Boom! No more Chinese laundry!
 
-    TASK√128 : Fix the integrated terminal in my Fineyedesign code-workspace  
+    TASK√063 : Fix the integrated terminal in my Fineyedesign code-workspace  
 
 Actually...I'm not sure that it did. Nope. I feel like it is a bug in vscode, not something I'm doing.
 
@@ -222,7 +243,7 @@ Time to search through my journal entries to see where I last mentioned the pip 
 
 Had an idea earlier that I forgot to write down—it would be super sweeeeeeet to be able to type in a command in the terminal and have the terminal output in my clipboard to be formatted nicely. I.e. I want the right side of the prompt to be aligned to the right and everything tabbed out correctly so I can simply paste and move on.
 
-    IDEA_128 : Click CLI function to format terminal output  
+    IDEA_063 : Click CLI function to format terminal output  
 
 ----ƒ----
 
@@ -241,11 +262,11 @@ Doing it this way is fine. But I still have to manually input the project symbol
 
 damnit...that's another good URL that I can't afford right now...
 
-    IDEA_128 : Environment Variable Blog / Site - envirovar.com
+    IDEA_063 : Environment Variable Blog / Site - envirovar.com
 
 Anyways...if I could set envirovars for each workspace, I could potentially put the symbol into the snippet automatically. That'd be quite nice.
 
-    IDEA_128 : Set envirovars for each workspace to use in snippets  
+    IDEA_063 : Set envirovars for each workspace to use in snippets  
 
 Looking through [the vscode docs](https://code.visualstudio.com/docs/editor/variables-reference#_environment-variables) on the subject, I found some useful info...
 
