@@ -65,8 +65,8 @@ def cli():
         try:  # find selected directory + add path to dict for later
             d_index = int(input())
             d_root = dir_list[d_index]
-            p_paths[f"{prefix}_root"] = os.path.join(path, d_root)
-            os.chdir(p_paths[f"{prefix}_root"])
+            paths[f"{prefix}_root"] = os.path.join(path, d_root)
+            os.chdir(paths[f"{prefix}_root"])
             print()
         except FileNotFoundError:
             print()
@@ -99,22 +99,20 @@ def cli():
     sep_space = justify_center(p_icon, v_width, spacer)
     sep_ps = justify_center(ps_spacer, v_width, spacer)
 
-    p_paths = {
-        "p_all": "/Users/Tobias/workshop/Challenges/",
+    paths = {
+        "proj_root": "/Users/Tobias/workshop/Challenges/",
         "chal_root": "100DaysofX/01_Code",
     }  # dict to hold paths
 
-    term_commands = {
+    cmds = {
         "code": ["code"],
-        "ws_code": ["code", "challenges.code-workspace"],
+        "ws_code": ["code", "Challenges.code-workspace"],
+        # "find": ["find", "-type f", "-name"] # TODO: find and open file
     }  # dict to hold terminal commands
 
-    os.chdir(p_paths["p_all"])
-    p_paths["current_root"] = os.path.join(os.getcwd(), p_paths["chal_root"])
-    os.chdir(p_paths["current_root"])
-
-    # dir_picker(os.getcwd(), "chal")
-    # dir_picker(os.getcwd(), "day")
+    os.chdir(paths["proj_root"])
+    paths["current_root"] = os.path.join(os.getcwd(), paths["chal_root"])
+    os.chdir(paths["current_root"])
 
     subject = prompter("language", "session")
     project = prompter("project", "session")
@@ -162,9 +160,9 @@ def cli():
 """
 
     day_dir = f"{day_num}-{subject}_{project}"
-    p_paths["day_path"] = os.path.join(os.getcwd(), day_dir)
+    paths["day_path"] = os.path.join(os.getcwd(), day_dir)
 
-    if os.path.isdir(p_paths["day_path"]):
+    if os.path.isdir(paths["day_path"]):
         print("Directory already exists.")
         time.sleep(1)
         exit_program()
@@ -176,11 +174,11 @@ def cli():
     print(sep_sm)
     print("Directory created.")
     print(sep_sm)
-    os.chdir(p_paths["day_path"])
+    os.chdir(paths["day_path"])
 
     j_name = f"{day_num}-journal.md"
-    p_paths["j_path"] = os.path.join(os.getcwd(), j_name)
-    term_commands["code"].append(p_paths["j_path"])
+    paths["j_path"] = os.path.join(os.getcwd(), j_name)
+    cmds["code"].append(paths["j_path"])
 
     print(sep_space)
     print(sep_sm)
@@ -200,12 +198,22 @@ def cli():
     print(sep_sm)
     time.sleep(0.5)
 
-    p_paths["ws_path"] = os.path.join(p_paths["p_all"], "00_Admin")
-    os.chdir(p_paths["ws_path"])
+    paths["ws_path"] = os.path.join(paths["proj_root"], ".vscode")
+    os.chdir(paths["ws_path"])
+
+    print(sep_sm)
+    time.sleep(0.5)
+    print(sep_sm)
+    print(sep_space)
+
+    print(sep_sm)
+    time.sleep(0.5)
+    print(sep_sm)
+    print(sep_space)
 
     click.echo("And BOOM!")
     time.sleep(1)
     click.echo("No more Chinese laundry...")
 
-    subprocess.run(term_commands["ws_code"])
-    subprocess.run(term_commands["code"])
+    subprocess.run(cmds["ws_code"])
+    subprocess.run(cmds["code"])
