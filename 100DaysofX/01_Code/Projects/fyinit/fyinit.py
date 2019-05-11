@@ -130,11 +130,11 @@ def cli():
 
 ### Project.abstract
 
-    GOAL_{project} : {project_goal}  
+    GOAL-{project} : {project_goal}  
 
 ### Project.loxocache({c_year}-{c_month})
 
-    TASK__ : Collect tags from related documents  
+    TASK--Collect tags from related documents  
 
 --------{project_icon}--------
 
@@ -142,11 +142,11 @@ def cli():
 
 ### Session.abstract
 
-    GOAL_{day_num} : {session_goal}  
+    GOAL-{day_num} : {session_goal}  
 
 #### Session.cache
 
-- pass
+- Extras
 
 ---
 
@@ -201,15 +201,16 @@ def cli():
     paths["ws_path"] = os.path.join(paths["proj_root"], ".vscode")
     os.chdir(paths["ws_path"])
 
-    print(sep_sm)
-    time.sleep(0.5)
-    print(sep_sm)
     print(sep_space)
-
-    print(sep_sm)
     time.sleep(0.5)
-    print(sep_sm)
     print(sep_space)
+    time.sleep(0.4)
+    print(sep_space)
+    time.sleep(0.3)
+    print(sep_space)
+    time.sleep(0.2)
+    print("...")
+    time.sleep(0.6)
 
     click.echo("And BOOM!")
     time.sleep(1)
