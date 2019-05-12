@@ -2,6 +2,27 @@
 
 ## Day 066 / 100
 
+- [2019-05-08 | #100DaysofCode](#2019-05-08--100daysofcode)
+  - [Day 066 / 100](#day-066--100)
+  - [SELECT * FROM Project](#select--from-project)
+    - [Project.abstract](#projectabstract)
+    - [Project.loxocache(2019-05)](#projectloxocache2019-05)
+  - [SELECT * FROM Session](#select--from-session)
+    - [Session.abstract](#sessionabstract)
+      - [Session.cache](#sessioncache)
+  - [Session.sojourn(2019-05-08)](#sessionsojourn2019-05-08)
+    - [Loxocache](#loxocache)
+    - [20:19 ~ å.init](#2019--åinit)
+    - [20:20 ~ MoreSQL](#2020--moresql)
+    - [20:21 ~ FlaSQL](#2021--flasql)
+    - [20:31 -+- å.init](#2031----åinit)
+      - [PostgreSQL](#postgresql)
+    - [21:29 ~ Make Da Project](#2129--make-da-project)
+      - [Requirements](#requirements)
+      - [EnviroVars](#envirovars)
+    - [21:55 ~ GoodReads API](#2155--goodreads-api)
+    - [22:44 ~ Planning](#2244--planning)
+
 ---
 
 ## SELECT * FROM Project
