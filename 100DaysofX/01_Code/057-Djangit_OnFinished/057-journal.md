@@ -17,8 +17,8 @@
       - [TASK√051 : Install + Configure Web Server](#task051--install--configure-web-server)
       - [TASK√054 : Format billing_phone/fax like normal phone](#task054--format-billing_phonefax-like-normal-phone)
       - [TASK√050 : Create user account for jeffco](#task050--create-user-account-for-jeffco)
-      - [LVL1_050 : Add success message to orderdetail](#lvl1_050--add-success-message-to-orderdetail)
-      - [LVL1_051 : Configure subdomain](#lvl1_051--configure-subdomain)
+      - [LVL1-050 : Add success message to orderdetail](#lvl1-050--add-success-message-to-orderdetail)
+      - [LVL1-051 : Configure subdomain](#lvl1-051--configure-subdomain)
       - [Jeffco's user](#jeffcos-user)
     - [05:04 ~ Subdomain](#0504--subdomain)
     - [05:40 ~ de.Session'd](#0540--desessiond)
@@ -27,51 +27,51 @@
 
 ### Project.abstract
 
-    GOAL_Onform : A simple form-based application for PDF generation  
+    GOAL-Onform : A simple form-based application for PDF generation  
 
 ### Project.loxocache(2019-04)
 
-    LVL0_051 : Copy sojourn into Challanges + redact sensitive info  
+    LVL0-051 : Copy sojourn into Challanges + redact sensitive info  
 
-    GOAL_051 : Deploy to production server  
+    GOAL-051 : Deploy to production server  
 
     TASK√051 : Install git on the onform server  
     TASK√050 : Connect server to GitHub remote repo  
-    LVL1_051 : Go through the Django Deployment Checklist  
+    LVL1-051 : Go through the Django Deployment Checklist  
         TASK√051 : Set up env vars on server  
         TASK√051 : No more SECRETs shall PASS  
         TASK√051 : Commit the newly private django + push to github  
         TASK√051 : Fetch the newly private django repo  
         TASK√051 : Set up env vars on local machine  
-        LVL1_054 : Set production Postgres to only accept connections from application  
-    LVL1_051 : Install + Configure Web Server  
-    LVL1_051 : Configure subdomain  
-    LVL1_050 : Add success message to orderdetail  
-    TASK√054 : Format billing_phone/fax like normal phone  
-    LVL1_050 : Create user account for jeffco  
+        LVL1-054 : Set production Postgres to only accept connections from application  
+    LVL1-051 : Install + Configure Nginx Web Server  
+    LVL1-051 : Configure SSL on subdomain  
+    LVL1-050 : Add success message to orderdetail  
+    TASK√050 : Create user account for jeffco  
+    TASK√054 : Format billing-phone/fax like normal phone  
 
-    LVL2_050 : Implement email feature with SendGrid  
-        LVL2_054 : Set email environment variables in production  
+    LVL2-050 : Implement email feature with SendGrid  
+        LVL2-054 : Set email environment variables in production  
 
     TASK√051 : Footer should be stuck to bottom of page (login page)  
     TASK√051 : Add our phone number to footer  
-    LVL2_050 : Serialize model data + display PDF  
-    LVL2_050 : Fix labels on OrderFormView  
+    LVL2-050 : Serialize model data + display PDF  
+    LVL2-050 : Fix labels on OrderFormView  
 
-    LVL3_044 : Ask if billing address is the same, if so, fill in automatically  
-    LVL3_050 : Randomish numbering scheme for orders  
-    LVL3_050 : Fix formatting of OrderDetail info @top - unless displaying PDF  
+    LVL3-044 : Ask if billing address is the same, if so, fill in automatically  
+    LVL3-050 : Randomish numbering scheme for orders  
+    LVL3-050 : Fix formatting of OrderDetail info @top - unless displaying PDF  
 
-    IDEA_050 : render_pdf.js - loop through field_data for drawText  
+    IDEA-050 : render_pdf.js - loop through field_data for drawText  
 
 ### Global.loxicache(2019-04)
 
-    CUE_043 : Set up script to automatically post parts of this coding journal to blog app  
-    CUE_043 : Save the output PDF into a django/postgres table  
-    CUE_047 : Start learning Django REST Framework  
-    CUE_047 : Read up on REST = Representational State Transfer  
+    CUE-043 : Set up script to automatically post parts of this coding journal to blog app  
+    CUE-043 : Save the output PDF into a django/postgres table  
+    CUE-047 : Start learning Django REST Framework  
+    CUE-047 : Read up on REST = Representational State Transfer  
 
-    IDEA_01 : Write CLI tool that sets up the basic Django template with a couple of commands  
+    IDEA-01 : Write CLI tool that sets up the basic Django template with a couple of commands  
 
 --------ø--------
 
@@ -79,8 +79,8 @@
 
 ### Session.abstract
 
-    GOAL_057 : Set up the OnForm application on a subdomain  
-    GOAL_057 : Set up email functionality  
+    GOAL-057 : Set up the OnForm application on a subdomain  
+    GOAL-057 : Set up email functionality  
 
 ### Session.cache
 
@@ -119,9 +119,9 @@ Yeah it's something else, as the code for the footer is the same as what I have 
 
 #### TASK√050 : Create user account for jeffco  
 
-#### LVL1_050 : Add success message to orderdetail  
+#### LVL1-050 : Add success message to orderdetail  
 
-#### LVL1_051 : Configure subdomain  
+#### LVL1-051 : Configure subdomain  
 
 #### Jeffco's user
 
