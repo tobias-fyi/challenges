@@ -11,11 +11,19 @@
     - [Get Started](#get-started)
       - [LVL1-OnForm : Set up Django Logging](#lvl1-onform--set-up-django-logging)
       - [Allow HTTPS (and TCP?)](#allow-https-and-tcp)
-    - [22:16 ~ Checking the Castrametation](#2216--checking-the-castrametation)
+    - [21:16 ~ Other Riziform Rivage](#2116--other-riziform-rivage)
+      - [IDEA-AptDraft : Generate PDF art using text as an input (and output - generative word maps)](#idea-aptdraft--generate-pdf-art-using-text-as-an-input-and-output---generative-word-maps)
+    - [22:42 ~ Organization Gyrostatics](#2242--organization-gyrostatics)
+    - [23:14 ~ API - Acatamathesiastic Psychotaxis Ivresse](#2314--api---acatamathesiastic-psychotaxis-ivresse)
+    - [23:46 ~ Checking the Castrametation](#2346--checking-the-castrametation)
 
 ---- Tasks ----
 
     LVL1-OnForm : Set up [Django Logging](https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/#logging)  
+
+---- Notes ----
+
+    IDEA-AptDraft : Generate PDF art using text as an input (and output - generative word maps)  
 
 ---- Resources ----
 
@@ -412,7 +420,42 @@ Feelin good.
 
 ---
 
-### 22:16 ~ Checking the Castrametation
+### 21:16 ~ Other Riziform Rivage
+
+I was going to write down a reminder I'd set regarding building another version of OnForm that I can use in my portfolio. However, that will be part of tobias.fyi.
+
+It would be pretty cool to integrate some of the things I've learned from the OnForm Build into AptDraft / Flask. Would give me more experience implementing that type of thing in different circumstances.
+
+I'm not sure exactly what I would use it for yet, but I can probably find a cool use-case.
+
+I mean it is an app about books / text. Maybe it can cobble together random pages from PDF versions of copyright-free books. Including some sort of random aspect would be pretty neat.
+
+What would be even neater is to combine ReportLab + PyPDF + Processing.py + p5.js to create some crazy generative PDF graphics based off of words found in a given passage or page.
+
+#### IDEA-AptDraft : Generate PDF art using text as an input (and output - generative word maps)  
+
+---
+
+### 22:42 ~ Organization Gyrostatics
+
+Just spent the last while organizing my session journals. I haven't opened up the 100DaysofCode can of code in a while, but I don't want to get caught up in that right now. I spent enough time just now that I want to get down on some more learning!
+
+But first, a word from my sponsors...
+
+    Celestial Seasonings Tea is Tastea!
+    ...
+    Our vape juice is addicting.
+        - Vapergate
+
+---
+
+### 23:14 ~ API - Acatamathesiastic Psychotaxis Ivresse
+
+Began watching the next CS50 lecture and was pleasantly surprised that it is also part of Project 1. I thought that the flask and SQL lectures were the only ones I was supposed to watch before finishing the project. As it turns out, I do get to learn about OOP + ORMs + APIs while working on it.
+
+---
+
+### 23:46 ~ Checking the Castrametation
 
 Castrametation: The art of designing a camp.
 Castophrenia: The belief that one's thoughts are being stolen.
