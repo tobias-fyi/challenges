@@ -1,10 +1,21 @@
-# 2019-05-15 | #100DaysofCode
+# 2019-05-16 | #100DaysofCode
 
-    GOAL-05-15 ~ Get the basic skeleton of AptDraft up and running  
+    GOAL-05-16 ~ Get the basic skeleton of AptDraft up and running  
 
-## Day 073/100 | 134/365
+## Day 074/100 | 135/365
 
-Table of Contents
+- [2019-05-16 | #100DaysofCode](#2019-05-16--100daysofcode)
+  - [Day 074/100 | 135/365](#day-074100--135365)
+    - [10:19 ~ Absentaneous AptDraft](#1019--absentaneous-aptdraft)
+    - [10:35 -+- Imponent.init](#1035----imponentinit)
+    - [11:00 ~ Fastuous First Contact](#1100--fastuous-first-contact)
+      - [LVL1-136 : Create basic templates for all pages](#lvl1-136--create-basic-templates-for-all-pages)
+    - [11:41 ~ Betimes Brand](#1141--betimes-brand)
+      - [LVL1-136 : Design a simple branding package for AptDraft](#lvl1-136--design-a-simple-branding-package-for-aptdraft)
+    - [15:35 ~ Carminative Conversation](#1535--carminative-conversation)
+    - [15:44 ~ More Techytelic Templates](#1544--more-techytelic-templates)
+      - [Template Inheritance](#template-inheritance)
+    - [16:08 ~ Left Off Laccolith](#1608--left-off-laccolith)
 
 ---- Tasks ----
 
@@ -17,66 +28,11 @@ Table of Contents
     LVL2-136 : Connect to the GoodReads API  
     LVL2-136 : Create reading journal table + journal page functionality  
 
----- Notes ----
-
-
 ---- Resources ----
 
 - [Adobe Color](https://color.adobe.com/create)
 
----- Selects ----
-
-
 ---- Sojourn ----
-
-### 06:39 -+- Session.init
-
-On the plane atm. Decided I'm not going to be sleeping so will get some work done.
-
----
-
-### 07:26 ~ Optional Optimization
-
-Decided to set an alias and an environment variable for Fineyedesign (and probably other projects as I go) to make navigation a little quicker.
-
-To start out I simply made it a three-letter command to navigate to the project home and a one-letter one to get the project name...
-
-    # ================ Navigation ================ #
-    export P="Fineyedesign"
-    alias cdp="cd ~/workshop/Fineyedesign"
-
-Decided to test out fyinit with my addition / re-addition of the code to open the correct workspace, and found another bug—when navigating up directories, the old paths are still in the dictionary and so any choice of path will result in the one previously chosen.
-
-I need a way to remove the entry from the dictionary if navigating up. Or I could find another way to store the paths entirely.
-
----
-
-### 07:59 ~ Cali Coding
-
-Landed 30 mins ago or so. Philip isn't answering so I'm just hanging out writing some code.
-
-Added one line of code to `fyinit` and fixed the bug...
-
-    elif root == "..":
-        prefix -= 1
-        os.chdir(nav_target[prefix])
-        nav_target.pop(prefix + 1) # new
-
-There's likely a better way of doing this, but that works for now.
-
----
-
-### 10:04 ~ Collaborative [Cacographic Caconym](http://phrontistery.info/c.html)
-
-Made it into Phil's office around 09:30. Interesting little place nestled in amongst some "edgy" lofts. Definitely not what I was expecting, though it made me go down the mental pathway / practice of not setting any prior expectations.
-
-There is not really anything good that can come out of them.
-
-----ƒ----
-
-There are a few things that I can be doing right now. Top of the list is AptDraft.
-
-Go for launch.
 
 ---
 
