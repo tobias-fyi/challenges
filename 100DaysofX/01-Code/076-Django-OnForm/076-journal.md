@@ -7,22 +7,22 @@
 - [2019-05-18 | #100DaysofCode](#2019-05-18--100daysofcode)
   - [Day 076/100 | 138/365](#day-076100--138365)
     - [17:13 ~ OnForm.init](#1713--onforminit)
-      - [LVL1-141 : Figure out how to pull data from database for PDF](#lvl1-141--figure-out-how-to-pull-data-from-database-for-pdf)
+      - [LVL1-138 : Figure out how to pull data from database for PDF](#lvl1-138--figure-out-how-to-pull-data-from-database-for-pdf)
     - [16:29 ~ Making Scortative Sense](#1629--making-scortative-sense)
-      - [LVL2-141 : Fix the Form Labels](#lvl2-141--fix-the-form-labels)
-      - [LVL-141 : Add success message to confirm that PDF was generated and sent](#lvl-141--add-success-message-to-confirm-that-pdf-was-generated-and-sent)
-      - [LVL-141 : Create EnviroVar for destination filepath](#lvl-141--create-envirovar-for-destination-filepath)
+      - [LVL2-138 : Fix the Form Labels](#lvl2-138--fix-the-form-labels)
+      - [LVL-138 : Add success message to confirm that PDF was generated and sent](#lvl-138--add-success-message-to-confirm-that-pdf-was-generated-and-sent)
+      - [LVL-138 : Create EnviroVar for destination filepath](#lvl-138--create-envirovar-for-destination-filepath)
     - [00:20 ~ Ridotto Random](#0020--ridotto-random)
     - [00:41 ~ Email Engastrimyth](#0041--email-engastrimyth)
     - [00:47 ~ Gnight](#0047--gnight)
 
 ---- Tasks ----
 
-    LVL1-141 : Figure out how to pull data from database for PDF  
+    LVL1-138 : Figure out how to pull data from database for PDF  
 
-    LVL2-141 : Fix the Form Labels  
-    LVL2-141 : Add success message to confirm that PDF was generated and sent  
-    LVL2-141 : Create EnviroVar for destination filepath  
+    LVL2-138 : Fix the Form Labels  
+    LVL2-138 : Add success message to confirm that PDF was generated and sent  
+    LVL2-138 : Create EnviroVar for destination filepath  
 
 ---- Resources ----
 
@@ -34,7 +34,7 @@
 
 ### 17:13 ~ OnForm.init
 
-#### LVL1-141 : Figure out how to pull data from database for PDF  
+#### LVL1-138 : Figure out how to pull data from database for PDF  
 
 I can think of two options for how to integrate this into a Django view. The first, easier way would be to simply copy that code into the view directly. That would get a little lengthy, which is not how it *should* be done. The second way would be to put that Python code into a new module that I then import into the view.
 
@@ -141,11 +141,11 @@ VSCode comes up with the suggestions when I start typing those in so I'm assumin
 
 Some things I just remembered while cleaning up the views file:
 
-#### LVL2-141 : Fix the Form Labels  
+#### LVL2-138 : Fix the Form Labels  
 
-#### LVL-141 : Add success message to confirm that PDF was generated and sent  
+#### LVL-138 : Add success message to confirm that PDF was generated and sent  
 
-#### LVL-141 : Create EnviroVar for destination filepath  
+#### LVL-138 : Create EnviroVar for destination filepath  
 
 ----ƒ----
 
