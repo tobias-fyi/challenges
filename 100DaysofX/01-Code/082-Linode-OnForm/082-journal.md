@@ -438,7 +438,9 @@ What would be even neater is to combine ReportLab + PyPDF + Processing.py + p5.j
 
 ### 22:42 ~ Organization Gyrostatics
 
-Just spent the last while organizing my session journals. I haven't opened up the 100DaysofCode can of code in a while, but I don't want to get caught up in that right now. I spent enough time just now that I want to get down on some more learning!
+Just spent the last while organizing my session journals. I haven't opened up any other can of code in a while, but I don't want to get caught up in those right now.
+
+I spent enough time just now that I want to get down on some more learning!
 
 But first, a word from my sponsors...
 
