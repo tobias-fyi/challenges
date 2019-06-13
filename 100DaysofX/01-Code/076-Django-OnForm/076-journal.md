@@ -13,6 +13,8 @@
       - [LVL-141 : Add success message to confirm that PDF was generated and sent](#lvl-141--add-success-message-to-confirm-that-pdf-was-generated-and-sent)
       - [LVL-141 : Create EnviroVar for destination filepath](#lvl-141--create-envirovar-for-destination-filepath)
     - [00:20 ~ Ridotto Random](#0020--ridotto-random)
+    - [00:41 ~ Email Engastrimyth](#0041--email-engastrimyth)
+    - [00:47 ~ Gnight](#0047--gnight)
 
 ---- Tasks ----
 
@@ -22,16 +24,11 @@
     LVL2-141 : Add success message to confirm that PDF was generated and sent  
     LVL2-141 : Create EnviroVar for destination filepath  
 
----- Notes ----
-
-
 ---- Resources ----
 
 - [ClassBasedViews in Django Docs](https://docs.djangoproject.com/en/2.2/topics/class-based-views/generic-display/)
 - I was checking out the Schedule module to schedule an email to be sent tomorrow morning, when I came across [a bit of info](https://schedule.readthedocs.io/en/stable/faq.html#i-m-getting-an-attributeerror-module-object-has-no-attribute-every-when-i-try-to-use-schedule-how-can-i-fix-this) that might be very useful for me in troubleshooting the error I ran into earlier
-
----- Selects ----
-
+- Some relevant / useful info from Dan Bader's Python [Schedule Module Documentation](https://schedule.readthedocs.io/en/stable/)
 
 ---- Sojourn ----
 
@@ -270,4 +267,32 @@ Nope still getting the error...
 
 Oh well. I know I'll figure it out. I guess it wouldn't really make sense that the import would be conflicting because the issue is being traced back to the imported module.
 
-Hasta sensical, amigo!
+---
+
+### 00:41 ~ Email Engastrimyth
+
+Some relevant / useful info from Dan Bader's Python [Schedule Module Documentation](https://schedule.readthedocs.io/en/stable/).
+
+----ƒ----
+
+How can I run a job only once?
+
+```python
+def job_that_executes_once():
+    # Do some work ...
+    return schedule.CancelJob
+
+schedule.every().day.at('22:30').do(job_that_executes_once)
+```
+
+----ƒ----
+
+What about timezones?
+
+Check out [this pull request](https://github.com/dbader/schedule/pull/16) where someone added the functionality. However, I don't think I would really need it as I am only sending from / to Mountain Time.
+
+---
+
+### 00:47 ~ Gnight
+
+Hasta Buenos Noches, Amigos!
