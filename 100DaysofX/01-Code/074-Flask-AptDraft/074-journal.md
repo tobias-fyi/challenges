@@ -2,10 +2,10 @@
 
     GOAL-05-16 ~ Get the basic skeleton of AptDraft up and running  
 
-## Day 074/100 | 135/365
+## Day 074/100 | 136/365
 
 - [2019-05-16 | #100DaysofCode](#2019-05-16--100daysofcode)
-  - [Day 074/100 | 135/365](#day-074100--135365)
+  - [Day 074/100 | 136/365](#day-074100--136365)
     - [10:19 ~ Absentaneous AptDraft](#1019--absentaneous-aptdraft)
     - [10:35 -+- Imponent.init](#1035----imponentinit)
     - [11:00 ~ Fastuous First Contact](#1100--fastuous-first-contact)
