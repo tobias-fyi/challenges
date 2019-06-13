@@ -1,6 +1,6 @@
 # 2019-05-20 | #100DaysofCode
 
-    GOAL-05-20 ~ Online order form + PDF creation + automatic email  
+    GOAL-05-20 ~ PDF creation + automatic email  
 
 ## Day 078/100 | 140/365
 
