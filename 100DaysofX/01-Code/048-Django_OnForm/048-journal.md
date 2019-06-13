@@ -1,8 +1,8 @@
-# 2019-04-21 | #100DaysofCode
+# 2019-04-20 | #100DaysofCode
 
 ## Day 048 / 100
 
-- [2019-04-21 | #100DaysofCode](#2019-04-21--100daysofcode)
+- [2019-04-20 | #100DaysofCode](#2019-04-20--100daysofcode)
   - [Day 048 / 100](#day-048--100)
   - [SELECT * FROM Project](#select--from-project)
     - [Project.abstract](#projectabstract)
@@ -10,7 +10,7 @@
   - [SELECT * FROM Session](#select--from-session)
     - [Session.abstract](#sessionabstract)
       - [Session.cache](#sessioncache)
-  - [Session.journal(2019-04-21)](#sessionjournal2019-04-21)
+  - [Session.journal(2019-04-20)](#sessionjournal2019-04-20)
     - [Loxocache](#loxocache)
     - [17:49 -+- Session.init](#1749----sessioninit)
     - [17:50 -+- JSerializerON](#1750----jserializeron)
@@ -55,7 +55,7 @@
 
 ---
 
-## Session.journal(2019-04-21)
+## Session.journal(2019-04-20)
 
 ### Loxocache
 
