@@ -13,18 +13,9 @@
     - [01:58 ~ Multiple Page Mischief](#0158--multiple-page-mischief)
     - [02:41 ~ Better Luck Next Time - But Really](#0241--better-luck-next-time---but-really)
 
----- Tasks ----
-
-
----- Notes ----
-
-
 ---- Resources ----
 
 - Corey Schafer's Python [Tips and Tricks video](https://youtu.be/C-gEQdGVXbk)
-
----- Selects ----
-
 
 ---- Sojourn ----
 
