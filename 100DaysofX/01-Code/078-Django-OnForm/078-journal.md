@@ -19,7 +19,6 @@
     LVL3-OnForm : Calculate time spent on developing OnForm  
 
     TASK√OnForm : Generate PDF from within Django  
-    TASK√OnForm : Email generated PDF from within Django  
 
 ---- Notes ----
 
