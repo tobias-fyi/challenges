@@ -1,81 +1,50 @@
-# 100 Day Challenges - 2019
+# 100DaysofX
 
-- [100 Day Challenges - 2019](#100-day-challenges---2019)
-  - [100 Days of Code](#100-days-of-code)
-  - [SELECT * FROM 01_Code](#select--from-01code)
-    - [Goals](#goals)
-    - [Ideas](#ideas)
-      - [Projects](#projects)
-      - [Topics](#topics)
-    - [Extras](#extras)
-
-## 100 Days of Code
-
-\#100DaysofCode is the first of three #100DaysofX challenges I plan to complete by the end of 2019.
-
-- Day 001: Mon, Mar 04, 2019.
-- Day 100: Wed, Jun 12, 2019.
-
-----∫----
-
-- [Live day counter](https://tobyreaper.com/) and (soon to be) more.
-- [Medium blog](https://medium.com/@tobiasfyi)
-- [Twitter](https://twitter.com/tobiasfyi)
+- [100DaysofX](#100daysofx)
+  - [2019](#2019)
+    - [01 - Code](#01---code)
+    - [02 - Story](#02---story)
+    - [03 - ?](#03---)
 
 ---
 
-## SELECT * FROM 01_Code
+## 2019
 
-### Goals
+I plan to complete three #100DaysofX challenges in 2019.  
 
-    GOAL_01.01 : Code for 1+ hours every day for 100 days  
-    GOAL_01.02 : Complete HarvardX's CS50W course on edX / receive certificate  
-    GOAL_01.03 : Attend at least 3 meetups (probably in / around Denver)  
+1. 100DaysofCode
+2. 100DaysofStory
+3. 100Daysof...
 
-----∫----
-
-### Ideas
-
-#### Projects
-
-- Auto-tweet when I push a new session's code to the Challenge remote repo
-- Fitbit app that creates timestamped "acivities"  in the session_log
-- Script or CLI Tool that finds and copies journal entries from all my different projects into one cental repository
-- CLI Tool that auto-formats directories and files into my current naming convention
-
-#### Topics
-
-- Python
-  - Django
-  - Flask
-  - Kivy
-  - Click
-  - Pandas and other data science libraries
-  - Generative sound design (and visual design—see Processing below)
-- JavaScript
-  - Vanilla
-    - Wes Bos' [Javascript30 course](https://javascript30.com/)
-  - Vue
-- Cross-Platform / Other Languages
-  - [Processing](https://processing.org/)
-    - [Processing.py](https://py.processing.org/)
-    - [p5.js](http://p5js.org/)
-  - JSON
-  - Go
-  - [(S)CSS](https://sass-lang.com/styleguide)
-- General Software Development
-  - Testing / test-driven development
-  - Linux
-    - Home server as main central repository for my personal / professional data
-    - Remote servers for deployment and collaboration
-  - Database Administration
-    - Postgres
-    - General SQL
-  - Containers (Docker + Kubernetes)
+And I might just keep doing three per year after that...
 
 ---
 
-### Extras
+### 01 - Code
 
-- [I](https://soundcloud.com/adrianjeopard) [make music](https://soundcloud.com/seigyn)
-- If you like words, [The Phrontistery](http://phrontistery.info/index.html) is a supremely fun website to browse
+\#100DaysofCode
+
+- Day 001: Mon, Mar 04, 2019
+- Day 100: Wed, Jun 11, 2019
+
+    GOAL√01.01 : Spend at least one hour coding every day for one hundred days  
+    GOAL-01.02 : Complete HarvardX's CS50W course on edX / receive certificate  
+    GOAL-01.03 : Attend at least 3 meetups (probably in / around Denver)  
+
+I completed the primary goal of coding for at least one hour every day for 100 days. I did not complete the other two. However, those goals were more of stretch goals.
+
+---
+
+### 02 - Story
+
+\#100DaysofStory
+
+- Day 001: Fri, Jun 14, 2019
+- Day 100: Sun, Sep 21, 2019
+
+    GOAL-02.01 : Spend at least one hour writing every day for one hundred days  
+    GOAL-02.02 : TBD  
+
+---
+
+### 03 - ?
