@@ -24,6 +24,12 @@
       - [22:43 ~ Static Templates](#2243--static-templates)
       - [22:53 ~ Mabsoot Macadamized Model](#2253--mabsoot-macadamized-model)
       - [LVL2-fyi : fyi.func - markdown to html](#lvl2-fyi--fyifunc---markdown-to-html)
+      - [23:35 ~ Admin Anomia](#2335--admin-anomia)
+    - [00:03 ~ Onwards to Apophasis](#0003--onwards-to-apophasis)
+      - [00:05 ~ URLs](#0005--urls)
+      - [00:11 ~ Velary Views](#0011--velary-views)
+      - [01:11 ~ Styles and Such](#0111--styles-and-such)
+      - [01:21 ~ Winding Witherling](#0121--winding-witherling)
 
 ---- Tasks ----
 
@@ -41,6 +47,7 @@
 - [Poker Alice](https://en.wikipedia.org/wiki/Poker_Alice)
 - I get more ClassPractice! How [super()](https://realpython.com/python-super/)
 - CCBV: for looking through the [Django CBV Source Code](http://ccbv.co.uk/projects/Django/2.1/)
+- [Jinja2 Docs](http://jinja.pocoo.org/docs/dev/templates/#template-inheritance)
 
 ---- Selects ----
 
@@ -453,6 +460,131 @@ COMMIT;
     Running migrations:
       Applying sojourn.0001_initial... OK
 
-And that, kids, is all she wrote.
+---- ∫ ----
 
-Buenos migrations, amigos!
+#### 23:35 ~ Admin Anomia
+
+Anomia: inability to remember names.
+Anonymuncule: minor anonymous writer.
+
+Now it's time to get the admin page up and running. Superusers unite!
+
+    ╭─ Fineyedesign » tobiasfyi » ..cts/fineyedesign »  master ● ?      19.06.09 ∫ 23:38:19
+    ╰─ python manage.py createsuperuser
+    Username (leave blank to use 'tobias'):
+    Email address: hi@tobias.fyi
+    Password:
+    Password (again):
+    Error: Your passwords didn't match.
+    Password:
+    Password (again):
+    Error: Your passwords didn't match.
+    Password: Wh4tt4N00B!
+    Password (again): Wh4tt4N00B!
+    Superuser created successfully.
+
+Update the admin code to include the new `Rep` model...
+
+> sojourn/admin.py
+
+```python
+from django.contrib import admin
+from .models import Rep
+
+admin.site.register(Rep)
+```
+
+I decided to disable the MarkdownLint Extension for this workspace as well.
+
+Tried to run the server and ran into a weird error. I guess I still have the onform_admin user floating around in the system somewhere?
+
+    File "/Users/Tobias/.vega/Fineyedesign/lib/python3.7/site-packages/psycopg2/__init__.py", line 126, in connect
+      conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+    django.db.utils.OperationalError: FATAL:  role "onform_admin" does not exist
+
+---- ∫ ----
+
+Ok good...had to reload and try out some things to get the tab situation to start working again for this markdown file. When I disabled the linter, it somehow changed the tab size to 4. Spent a while fixing it.
+
+I believe I know why that error came up though. I don't think I sourced the postactivate script on that terminal window...and I was correct!
+
+    ╭─ Fineyedesign » tobiasfyi » ..cts/fineyedesign »  master ● ?      19.06.09 ∫ 23:54:14
+    ╰─ source ~/.vega/Fineyedesign/bin/postactivate
+
+    ╭─ Fineyedesign » tobiasfyi » ..cts/fineyedesign »  master ● ?      19.06.09 ∫ 23:54:43
+    ╰─ python manage.py runserver
+    ...
+    Starting development server at http://127.0.0.1:8000/
+    Quit the server with CONTROL-C.
+
+....and...I'm in! I know kung fu... ....
+
+But really though....
+
+This time, I'm adding the initial data via the admin site, not via SQL query like I'd done before, though I might do that as well just for good measure. I'd hafta figure out how to add the user.id...
+
+---
+
+### 00:03 ~ Onwards to Apophasis
+
+Apophasis: saying something by stating that you will not mention it.
+
+#### 00:05 ~ URLs
+
+    ╭─ Fineyedesign » tobiasfyi » ..cts/fineyedesign »  master ● ?      19.06.09 ∫ 23:59:15
+    ╰─ touch sojourn/urls.py
+
+```python
+from django.urls import path
+from .views import RepListView
+
+urlpatterns = [path("", RepListView.as_view(), name="home")]
+```
+
+> fineyedesign/urls.py
+
+```python
+from django.contrib import admin
+from django.urls import path, include
+
+urlpatterns = [path("admin/", admin.site.urls), path("", include("sojourn.urls"))]
+```
+
+And as it should, the log says it cannot import the view...because reasons...
+
+    ImportError: cannot import name 'RepListView' from 'sojourn.views' (/Users/Tobias/workshop/Fineyedesign/08-Projects/fineyedesign/sojourn/views.py)
+
+#### 00:11 ~ Velary Views
+
+Velary: pertaining to the sails of a ship.
+Velar: of sounds, produced using the soft palate.
+Velar: dome terminated by four or more walls.
+
+Time to get *Classy*!
+
+> sojourn/views.py
+
+```python
+from django.views.generic import ListView
+from .models import Rep
+
+class RepListView(ListView):
+    model = Rep
+    template_name = "home.html"
+```
+
+Unfortunately the logo doesn't show up well on the dark background. I'll have to either put a background behind it or make it a lighter color.
+
+I guess it's not as easy to pass in a title to the template as it is with Flask. I looked around a little bit but couldn't find anything, except that the [Jinja2 Docs](http://jinja.pocoo.org/docs/dev/templates/#template-inheritance) use the same method I'd used before in the examples.
+
+#### 01:11 ~ Styles and Such
+
+Spent probably the last hour playing around with styles and logos to get a good theme going. I exported the logo series again with a light theme - now I have white and offwhite options.
+
+#### 01:21 ~ Winding Witherling
+
+Witherling: withered or decrepit person; an adversary.
+
+I'm ready to start winding down now so I can continue working on this tomorrow and the next day. At least I got something up! Time to start thinking about some sweet design features.
+
+Hasta Windward, Amish!
