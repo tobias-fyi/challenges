@@ -1,6 +1,6 @@
 # 2019-06-02 | #100DaysofCode
 
-    GOAL-06-02 ~ workon Vibrary +  
+    GOAL-06-02 ~ workon Vibrary+  
 
 ## Day 091/100 | 153/365
 
@@ -12,18 +12,6 @@
       - [11:48 ~ Lintationator](#1148--lintationator)
       - [12:00 ~ The Final Countups](#1200--the-final-countups)
       - [12:32 ~ Behither Beddy By Buy](#1232--behither-beddy-by-buy)
-
----- Tasks ----
-
-
----- Notes ----
-
-
----- Resources ----
-
-
----- Selects ----
-
 
 ---- Sojourn ----
 
