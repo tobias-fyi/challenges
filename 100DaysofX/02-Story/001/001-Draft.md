@@ -1,10 +1,54 @@
-# 100 Days of Story
+# 2019-06-14 | #100DaysofStory
 
-## 001/100 — 2019-06-14
+    REP-001 ~ Bones  
 
-![Bones Visual Inspiration](001-bones.jpg)
+## 001/100 | 165/365
 
-## Bones
+- [2019-06-14 | #100DaysofStory](#2019-06-14--100daysofstory)
+  - [001/100 | 165/365](#001100--165365)
+      - [CWS-001 | Device ~ Black Humor](#cws-001--device--black-humor)
+      - [CWS-001 | Device ~ Logos - Deductive Reasoning](#cws-001--device--logos---deductive-reasoning)
+    - [18:00 -+- Story.init](#1800----storyinit)
+      - [18:44 ~ Break](#1844--break)
+      - [21:27 ~ My Bones](#2127--my-bones)
+
+---
+
+----{ Notes }----
+
+#### CWS-001 | Device ~ Black Humor  
+
+[Black Humor - No emotion about a dire situation](https://literarydevices.net/black-humor/)
+
+A non-serious way of treating or dealing with serious subjects. It is often used to present any serious, gruesome or painful incidents lightly. The writers use it as a tool to explore serious issues, inciting serious thoughts and discomfort in the audience.
+
+No emotion about a dire situation. Not even the motivation to try and remember how or why the situation is such. Without emotion, can humor exist? The audience still has emotion—I want to guide their emotion using current outlook.
+
+---- ∫ ----
+
+#### CWS-001 | Device ~ Logos - Deductive Reasoning  
+
+[Logos - Inductive Reasoning](https://literarydevices.net/logos/)
+
+Specific observation / piece of evidence that leads to a more general understanding.
+
+----{ Selects }----
+
+- Be Svendsen - Bones (Original Mix)
+- Be Svendsen - Bones (Bwoy De Bhajans Klovborg Remix)
+
+----{ Times }----
+
+| Friday | Jun 14 |
+| ------ | ------ |
+| In     | 17:49  |
+| Out    | --:--  |
+| Break  | -- hr  |
+| Total  | -- hr  |
+
+----{ Sojourn }----
+
+### 18:00 -+- Story.init
 
 There are bones in the road.
 
@@ -38,17 +82,28 @@ _Shit_...Torlan thought, this time without his mouth opening. If he had taken in
 
 _One: I accidentally took in too much water._ _Two: I am more dehydrated than I thought._
 
+#### 18:44 ~ Break
+
+#### 21:27 ~ My Bones
+
 He walked on the road. He traveled over bones. _This road has a history._
 
 Torlan wandered on down the road. He was being led to something, he knew. How he knew, he worried not. A carefree traveler _does_ still have a history, whether or not he carries it with him.
 
 Everything has a history, even if it is never considered. Each one of the bones has its own history. Torlan wondered not about the them—why or how they got there.
 
+    CWS-001 ~ The road is the skeleton of a immense snake, long dead  
+    CWS-001 ~ Remembers one thing about his past at the end
+
+    CWS-001 ~ Line in the Sand  
+
 Torlan noticed that he actually was getting somewhere. Small dunes paralleled the road to his left, stretching into the distance until being lost in the haze near the horizon. 
 
 Each mound of the offwhite sand was indistinguishable from the next, particularly when no one is paying them much attention. Torlan felt a new thought bump up to against the edge of his consciousness, his mouth half-forming the half-forgotten question.
 
 His attention was on the bones, however, forcing all other thoughts out into the haze of his subconscious. Some of the bones on which he walked were easily as long as he was tall.
+
+    CWS-001 ~ Mind starts coming back // Ability to reason increases
 
 There are bones in the road. They hadn't always been this size...
 
@@ -57,6 +112,8 @@ There are bones in the road. They hadn't always been this size...
 He watched one bone in particular, as thick around as his waist, from when it first appeared out of the dusty haze until he he stepped over it. It was curved slightly upward, causing a section of one end to jut out of the loose almost-white sand next to the road.
 
 Torlan noticed that he'd stopped walking. He was standing on the packed sand directly on top of where he imagined the bone would intersect the road.
+
+    CWS-001 ~ The sand is made of bones
 
 His ears still expected to hear the sound of his footsteps; his consistent breath, in and out; the occasional creak of something in his pack; a scrape as two external surfaces of his exosuit rubbed against on another. Now, he could hear the sand, seemingly able to pick out the faint clicking of individual grains as they shifted with the wind.
 
@@ -110,4 +167,3 @@ His voice trailed off....
 
 A slightly confused expression faded from his dark features as Torlan closed his mouth, turned to face the waiting road, drew in a deep breath through the filters in his nostrils, and walked.
 
----
