@@ -1,6 +1,6 @@
 # #100DaysofStory
 
-## 002/100 — 2019-06-15
+## 002/100 ~ 2019-06-15
 
 ![Airloom Visual Inspiration by Juhani Jokinen](002-airloom-sm.png)
 
