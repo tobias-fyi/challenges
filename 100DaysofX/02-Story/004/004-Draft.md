@@ -15,13 +15,6 @@
 - [Solarpunk Concept Art](https://duckduckgo.com/?q=solarpunk+concept+art&t=ffab&iar=images&iax=images&ia=images)
 - [Merriam-Webster API Index](https://dictionaryapi.com/products/index)
 
-| Monday | Jun 17 |
-| ------ | ------ |
-| In     | 23:21  |
-| Out    | --:--  |
-| Break  | -- hr  |
-| Total  | -- hr  |
-
 ---
 
 ![Marooned Visual Inspiration](004-Marooned.jpg)
