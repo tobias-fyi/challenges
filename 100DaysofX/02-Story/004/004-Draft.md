@@ -6,7 +6,7 @@
 
 -----{ Notes }------
 
-    CWS-004 | Device ~ Anthropomorphism
+    CWS-004 | Device ~ Prosopopoeia
 
     CWS-004 ~ Joris de Man - Meridian, Shining
 
