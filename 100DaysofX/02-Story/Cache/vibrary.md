@@ -17,8 +17,8 @@ Come on in and check out some vibes!
 ### ---- Lexigraph ----
 
 - [ ] Makeshift
-- [ ] Lossless
 - [ ] Proverbial
+- [x] Lossless
 
 ### ---- Names ----
 
