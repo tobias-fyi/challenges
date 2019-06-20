@@ -1,21 +1,19 @@
 # #100DaysofStory: 005
 
+Tuesday, June 18, 2019
+
     REP-005 ~ Lossless  
-
-## 005/100 — 2019-06-18
-
----
-
-- [#100DaysofStory: 005](#100DaysofStory-005)
-  - [005/100 — 2019-06-18](#005100--2019-06-18)
-    - [Bob Moses - The Only Thing We Know](#Bob-Moses---The-Only-Thing-We-Know)
-  - [Lossless](#Lossless)
 
 | Tuesday | Jun 18 | In    | Out   |
 | ------- | ------ | ----- | ----- |
 | Prep    | --:--  | 23:32 | 00:15 |
-| Write   | --:--  | 00:15 | --:-- |
-| Total   | -- hr  | hr    | hr    |
+| Write   | --:--  | 00:15 | 01:58 |
+
+---
+
+- [#100DaysofStory: 005](#100DaysofStory-005)
+    - [Bob Moses - The Only Thing We Know](#Bob-Moses---The-Only-Thing-We-Know)
+  - [Lossless](#Lossless)
 
 ---
 
