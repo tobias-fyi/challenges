@@ -13,11 +13,19 @@ Come on in and check out some vibes!
 - [ ] Planet Pandora Documentary
 - [ ] Bird in a Hail Storm
 - [ ] Sentient Camera
+- [ ] The flash of euphoria that comes from listening to a certain song or smelling a certain scent
 
 ### ---- Lexigraph ----
 
-- [ ] Makeshift
+- [ ] Ad-Hoc
+- [ ] Adenoid: of, like, or pertaining to a gland
+- [ ] Bespeak
+- [ ] Befire
+- [ ] Dataspace
+- [ ] Mindset
 - [ ] Proverbial
+- [ ] Ubique: everywhere
+- [x] Makeshift
 - [x] Lossless
 
 ### ---- Names ----
@@ -30,8 +38,12 @@ Come on in and check out some vibes!
 
 ### ---- Visual ----
 
-- [Paul Chadeisson](https://paulchadeisson.com/projects)
+- [Imaginary Network](https://www.reddit.com/r/ImaginaryNetwork/wiki/networksublist)
+  - [r/ImaginaryBestOf](https://www.reddit.com/r/ImaginaryBestOf/)
 - [r/ConceptArt](https://www.reddit.com/r/conceptart/)
+- Visual Artists
+  - [Paul Chadeisson](https://paulchadeisson.com/projects)
+  - [Paul Chadeisson](https://ianmcque.bigcartel.com)
 
 ### ---- Aural ----
 
