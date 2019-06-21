@@ -1,12 +1,12 @@
 # #100DaysofStory: 007
 
-## REP-007 ~ Ad-Hoc  
+## REP-007 ~ Vantage  
 
 - [#100DaysofStory: 007](#100DaysofStory-007)
-  - [REP-007 ~ Ad-Hoc](#REP-007--Ad-Hoc)
+  - [REP-007 ~ Vantage](#REP-007--Vantage)
     - [Thursday, June 20, 2019](#Thursday-June-20-2019)
     - [Alon Mor - Los Recuerdos](#Alon-Mor---Los-Recuerdos)
-  - [Ad-Hoc](#Ad-Hoc)
+  - [Vantage](#Vantage)
 
 ---
 
@@ -18,13 +18,13 @@
 | Write | 01:44 | 00:12 | 01:56 |
 
 
-![Ad-Hoc Visual Inspiration by Magnus Schram](ad-hoc.jpg)
+![Vantage Visual Inspiration by Magnus Schram](vantage.jpg)
 
 ### [Alon Mor - Los Recuerdos](https://youtu.be/8AVawqfmPzM)
 
 ---
 
-## Ad-Hoc
+## Vantage
 
     CWS-006 ~ The "ruins" are actually their testing facility, with an Machrobian mind controlling it. The mind had its own unique intelligence, as did all Machrobians soon after coming online, and thus the partners never knew exactly what the facility would throw at them. The goal was to push the suits to the very edge without injuring the humans inside—not permanently, anyways.
 

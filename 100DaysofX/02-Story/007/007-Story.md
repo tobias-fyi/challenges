@@ -1,15 +1,12 @@
 # #100DaysofStory: 007
 
-
-
-
-![Ad-Hoc Visual Inspiration by Magnus Schram](ad-hoc.jpg)
+![Vantage Visual Inspiration by Magnus Schram](vantage.jpg)
 
 ### [Alon Mor - Los Recuerdos](https://youtu.be/8AVawqfmPzM)
 
 ---
 
-## Ad-Hoc
+## Vantage
 
 The journey to get to the facility, including the reconnaissance once the facility was in range; entering the compound; obtaining the objective, whatever it turned out to be; and the escape from the compound—they were all part of the test. 
 
@@ -27,7 +24,7 @@ Either of those sensations could get particularly vivid on a ring as small as KG
 
 ---- ∫ ----
 
-"Looks like we'll see first-hand how waterproof these bad boys are," he said after initiating their secure coms channel by touching the other man's suit with his own. This was a standard feature on just about every half-decent exosuit on the market.
+"Looks like we'll get to see first-hand how waterproof these bad boys are," he said after initiating their secure coms channel by touching the other man's suit with his own. This was a standard feature on just about every half-decent exosuit on the market.
 
 They would maintain radio silence from now until they had a _very_ good reason to break it. With an opponent as capable as the one they faced, they could not take any chances. Even tightbeam light communication over short distances could potentially be traced and intercepted.
 
