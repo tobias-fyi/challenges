@@ -14,6 +14,7 @@ Come on in and check out some vibes!
 - [ ] Bird in a Hail Storm
 - [ ] Sentient Camera
 - [ ] The flash of euphoria that comes from listening to a certain song or smelling a certain scent
+  - [ ] Juxtapose that with the nostalgia of returning to a place that holds emotional memory
 
 ### ---- Lexigraph ----
 
@@ -27,6 +28,7 @@ Come on in and check out some vibes!
 - [ ] Ubique: everywhere
 - [x] Makeshift
 - [x] Lossless
+- [x] Vantage
 
 ### ---- Names ----
 
