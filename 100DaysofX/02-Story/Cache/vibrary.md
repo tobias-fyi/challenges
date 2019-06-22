@@ -22,9 +22,13 @@ Come on in and check out some vibes!
 - [ ] Adenoid: of, like, or pertaining to a gland
 - [ ] Bespeak
 - [ ] Befire
+- [ ] Bewilder
+  - [ ] Confound
+  - [ ] Perplex
 - [ ] Dataspace
 - [ ] Mindset
 - [ ] Proverbial
+- [ ] Prosaic: dull, unimaginitive; a characteristic of prose as distinguished from poetry; everyday, ordinary.
 - [ ] Ubique: everywhere
 - [x] Makeshift
 - [x] Lossless
@@ -45,13 +49,14 @@ Come on in and check out some vibes!
 - [r/ConceptArt](https://www.reddit.com/r/conceptart/)
 - Visual Artists
   - [Paul Chadeisson](https://paulchadeisson.com/projects)
-  - [Paul Chadeisson](https://ianmcque.bigcartel.com)
+  - [Ian McQue](https://ianmcque.bigcartel.com)
 
 ### ---- Aural ----
 
-- [ ] Jacob Gurevitsch - Motivo Loco
-- [ ] Chick Corea - Prelude to El Bozo
+- [ ] Skeewiff - Coming Home Baby
 - [ ] Ludovic Beier - Georginho Oh !
+- [ ] Chick Corea - Prelude to El Bozo
+- [x] Jacob Gurevitsch - Motivo Loco
 
 ---
 
