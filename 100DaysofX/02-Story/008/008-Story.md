@@ -1,25 +1,10 @@
-# #100DaysofStory: 008
+# Ubique
 
-    REP-008 ~ Ubique  
+## #100DaysofStory: 008
 
-- [#100DaysofStory: 008](#100DaysofStory-008)
-  - [Friday, June 21, 2019](#Friday-June-21-2019)
-  - [Ubique](#Ubique)
-
----
-
-## Friday, June 21, 2019
-
-| Time  | Total | In    | Out   |
-| ----- | ----- | ----- | ----- |
-| Prep  | 00:27 | 15:42 | 16:09 |
-| Write | 01:52 | 21:12 | 23:15 |
+### [Jacob Gurevitsch](https://jacobgurevitsch.bandcamp.com/) - [Motivo Loco](https://youtu.be/oCgbr6KelgY)
 
 ![Visual Inspiration by Lok Du](ubique.jpg)
-
-[Jacob Gurevitsch](https://jacobgurevitsch.bandcamp.com/) - [Motivo Loco](https://youtu.be/oCgbr6KelgY)
-
----
 
 ## Ubique
 
@@ -63,10 +48,6 @@ _...things would work..._
 
 ---- ∫ ----
 
-    CWS-008 ~ He feels nostalgia and the pang of long-forgotten regret when he's stuck in the past. His future beckons, however, and gives him the mental wherewithall to move past it.
-
-    CWS-008 ~ He was recruited by the newly-formed covert organization Outside to cross the Well and work on behalf of the Vana and those opposing Syn Domarian.
-
 Feeling despondent, he closed his eyes and moved his supporting arms out from under his shoulders and allowed himself to lay down, his spine stretched out over the rough surface of the rocks. He opened his eyes and gazed up at the darkening sky, which was mostly devoid of clouds now. Stars were beginning to peak through the envelope of Ubique's atmosphere.
 
 The travel garb he was wearing easily kept his body temperature perfect and provided padding for his back so the rocks did not bruise his spine. The garb was his most advanced—and favorite—piece of equipment. He'd spent a number of standard decades working as an exotech for a luxury space-yacht contractor, a position that also had him working on some secret military projects. Upon announcing his departure from the company, his team all pitched in to gift the garb to him.
@@ -80,8 +61,6 @@ The people he'll be working with and the cause they'll be fighting for were the 
 The very beginning.
 
 ---- ∫ ----
-
-    CWS-008 ~ Amazing how easily gratefulness and hopefulness will dispell negative nostalgia and regret
 
 He smiled and hopped up to his feet, sweeping his gaze across the dark valley. Even without the assistance of the garb's eyepieces, he could make out the shapes of the trees by the lights of those that loved among them.
 
