@@ -20,16 +20,16 @@ Come on in and check out some vibes!
 
 - [ ] Ad-Hoc
 - [ ] Adenoid: of, like, or pertaining to a gland
-- [ ] Bespeak
 - [ ] Befire
-- [ ] Bewilder
-  - [ ] Confound
-  - [ ] Perplex
+- [ ] Confound
+- [ ] Perplex
 - [ ] Dataspace
 - [ ] Mindset
 - [ ] Proverbial
 - [ ] Prosaic: dull, unimaginitive; a characteristic of prose as distinguished from poetry; everyday, ordinary.
-- [ ] Ubique: everywhere
+- [x] Bewilder
+- [x] Bespeak
+- [x] Ubique: everywhere
 - [x] Makeshift
 - [x] Lossless
 - [x] Vantage
@@ -53,9 +53,10 @@ Come on in and check out some vibes!
 
 ### ---- Aural ----
 
-- [ ] Skeewiff - Coming Home Baby
 - [ ] Ludovic Beier - Georginho Oh !
 - [ ] Chick Corea - Prelude to El Bozo
+- [ ] LTJ Xperience - [I Don't Want This Beat To Ever End](https://open.spotify.com/track/245mcsKYrqSnBAhMc5U0xK?si=knb3OrKiTm-Lj-2lr9cZjw)
+- [x] Skeewiff - Coming Home Baby
 - [x] Jacob Gurevitsch - Motivo Loco
 
 ---
