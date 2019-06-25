@@ -27,6 +27,8 @@ Come on in and check out some vibes!
 - [ ] Mindset
 - [ ] Proverbial
 - [ ] Prosaic: dull, unimaginitive; a characteristic of prose as distinguished from poetry; everyday, ordinary.
+- [ ] Besoul
+- [ ] Besort
 - [x] Bewilder
 - [x] Bespeak
 - [x] Ubique: everywhere
@@ -48,6 +50,7 @@ Come on in and check out some vibes!
   - [r/ImaginaryBestOf](https://www.reddit.com/r/ImaginaryBestOf/)
 - [r/ConceptArt](https://www.reddit.com/r/conceptart/)
 - Visual Artists
+  - [Syd Mead](http://sydmead.com/)
   - [Paul Chadeisson](https://paulchadeisson.com/projects)
   - [Ian McQue](https://ianmcque.bigcartel.com)
 
@@ -58,6 +61,10 @@ Come on in and check out some vibes!
 - [ ] LTJ Xperience - [I Don't Want This Beat To Ever End](https://open.spotify.com/track/245mcsKYrqSnBAhMc5U0xK?si=knb3OrKiTm-Lj-2lr9cZjw)
 - [x] Skeewiff - Coming Home Baby
 - [x] Jacob Gurevitsch - Motivo Loco
+
+### Conceptual
+
+- [ ] [Trojan War](https://en.wikipedia.org/wiki/Trojan_War)
 
 ---
 
