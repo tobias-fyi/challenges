@@ -1,69 +1,11 @@
-# #100DaysofStory: 011
+# Bewilder
 
-    REP-011 ~ Bewilder  
+## #100DaysofStory: 011
 
-- [#100DaysofStory: 011](#100DaysofStory-011)
-  - [Monday, June 24, 2019](#Monday-June-24-2019)
-  - [Personality](#Personality)
-  - [Bewilder](#Bewilder)
-
----
-
-## Monday, June 24, 2019
-
-| Time  | Total | In    | Out   |
-| ----- | ----- | ----- | ----- |
-| Prep  | 00:45 | 15:58 | 16:43 |
-| Write | 04:27 | 08:36 | 13:03 |
-
----
-
-    CWS-011 | Device ~ Dialogue
-
-Only one of my stories thus far has really had any [dialogue](https://literarydevices.net/dialogue/). I guess I hadn't really thought deeply about how to use it effectively. Only now that I sit down to write some dialogue do I realize how difficult it can be.
-
-One way I was thinking of getting warmed up is to sketch out some of the scenes where Alia enters into dialogue with those who help implement her plan. One of the difficult things for me is to imagine difficult conversations; conflict. I need to break it down and just focus on one part at a time.
-
-Here's [an article](https://www.standoutbooks.com/6-insanely-good-dialogue-tips-from-your-future-literary-agent/) that seems to have some good advice for writing dialogue.
-
-1. No explanation necessary
-   1. Focus on what the character is saying, not how they are saying it
-   2. Dialogue that requires explanation is probably badly written.
-2. Don't use "-ly" adverbs
-   1. A powerful dialogue conveys through what's being said rather than how it is being said
-3. Keep your dialogue transparent
-   1. "Said" should be the go-to verb when writing dialogue
-4. Become a student of conversation
-   1. Listen to people talking and note all the aspects of the conversation
-      1. Gestures
-      2. Expressions
-      3. Tones
-      4. Reactions
-      5. Body language
-   2. Body language can be used (sparingly; effectively) to break up the monotony of "said"
-5. If it serves no purpose, it has to go
-   1. Dialogue that doesn't move the plot or provide depth to a character or relevant subject, it should be removed
-6. Read it aloud
-
-[Another article on the same site](https://www.standoutbooks.com/your-dialogue-just-characters-talking/) has some good tidbits about the balance between writing "real" and clear dialogue. Expressionist dialogue is nothing like real speech, but is so tailored to express a deeper truth that it feels more genuine than real speech.
-
----- ∫ ----
-
-## [Personality](https://www.standoutbooks.com/hero-personality/)
-
-Disposition - A character's mood; seeing things in a positive or negative light.
-
-Motivation - What does a character want in life? What do they value above everything else? How do they cope with challenges?
-
-Self-narrative - The glue that binds the different personality traits together; making sense of the past and current position; the intersection between cultural and psychological/individual identity.
-
----
 
 ![Bewilder Visual Inspiration by Christian hecker](bewilder.jpg)
 
-Visual Inspiration by [Christian Hecker](http://www.tigaer-design.com/)
-
-Musical Inspiration: Cheshire - [Dream Sipping](https://youtu.be/9urxbWAf0_o)
+Visual Inspiration by [Christian Hecker](http://www.tigaer-design.com/) || Musical Inspiration: Cheshire - [Dream Sipping](https://youtu.be/9urxbWAf0_o)
 
 ---
 
@@ -73,48 +15,15 @@ Bewilder: to be suitable to.
 
 ---- ∫ ----
 
-This was the most fun she'd had in decades.
-
-    CWS-011 ~ That line is cheesy af but I'm leaving it in for now as a reminder until I can figure out a way for her to express her utter enjoyment through dialogue alone.
-
----- ∫ ----
-
-    CWS-011 ~ The purpose of this scene's dialogue:
-
-    #1 - Deepen the Queen's personality + background
-    #2 - Deepen Alia's personality
-    #3 - Subtle hints at Annelo's background strategies in prep for the war
-
----- ∫ ----
-
 As the guest—and because she had suggested that they alternate—the Queen asked Alia to mix the first round. Without waiting for the answer, the Queen touched the middle panel of the elliptical table between them, causing the panel to slide under one of the adjoining panels. The panel completed its motion with a barely audible click while something else began to ascend through the gap.
-
-    CWS-011 ~ Need a good name for the drug dispenser that comes up. Looking for a term that can be flexible enough to encompass the entire class of objects that includes the dispenser.
-
-    What it usually contains
-    - Psychoactive, psychotropic, nootropic, and narcotic substances/drugs
-
-    Descriptions / Existing Terms
-    - Waiter
-    - Repository
-    - Box
-    - Dispenser
-    - Container
-    - Dock
-
-    Mix and Match
-    - Bock
-    - Mix Dock
-    - Drug Dock
-    - Sub Dock
 
 "Whoa...very impressive, I must say." Alia surveyed the multifaceted machine as it finished rising and clicked into place,base flush with the table's surface. She had yet to hear of a space-faring society that did not have some permutation of this device; Khaonos locals simply called it a dock.
 
 Containers of various shapes, sizes, and colors lined the inside of the roughly box-shaped contraption, while the external surfaces sported arrays of dispensers of all types—faucets, drip tips, hoses, and even an inhaler mask or two. She was sure there were other features hidden within the dock.
 
-"I was curious about the...preferences, of one such as yourself." Alia said, allowing a subtle hint of slyness into her smile as her eyes met the Queen's. "So far, your reputation seems to be well-earned."
+---- ∫ ----
 
-    CWS-011 ~ Too obvious: "As you likely already know, research and development of novel substances is one of our most important exports." | "You should see what constitutes a normal affair in Solamor."
+"I was curious about the...preferences, of one such as yourself." Alia said, allowing a subtle hint of slyness into her smile as her eyes met the Queen's. "So far, your reputation seems to be well-earned."
 
 The Queen returned her gaze evenly. "I take it you have never been to Solamor." Alia inclined her head in acquiescence as the Queen continued, "That should make this rather interesting."
 
@@ -126,6 +35,8 @@ After popping the top off the cylinder, she reached over to the dock again and p
 
 "Originally, it was going to be my a vacation, with Solamor as a minor stop. But I decided to make it a tour after I began seeing a Solamian client on a...." Her voice trailed off. The hissing was being drowned out by a low rumbling as the Mechanine pack approached their viewing box.
 
+---- ∫ ----
+
 Alia paused her work to watch the spectacle. She caught her breath momentarily as the powerful, sleek machines faced them down, sprinting directly at them as if to trample the entire structure surrounding them—they were definitely big enough. Even with the certain knowledge that such a catastrophe would never happen, her heartbeat quickened.
 
 "Double to top on Myradeon," the Queen said, apparently to no one. Alia noticed numbers and graphs on the overlay change in response to her command. "And keep a lookout for anyone asking five-two or more for Krano midrange."
@@ -135,6 +46,8 @@ Alia pulled the hose from the cylinder with a small pop, letting it snake back i
 Two translucent vessels had appeared on the table. Alia considered them for a moment, then reached past them to grab another bottle from the dock, dropping the remains of the original cylinder into a newly-formed hole in the table as she did so. She looked up at the Queen, who was now watching her work with some interest.
 
 She filled a third of each vessel with the contents of the bottle—a shimmering semi-translucent substance somewhere between a gas and a liquid. She then pressed each of them, in turn, into a depression on the dock. The top layer of the liquid hardened into a thin sheet of silver ice, over which she filled another third from one of the dock's many dispensers.
+
+---- ∫ ----
 
 Locking eyes with the Queen once again, Alia smiled broadly, showing off small crystal fangs. The Queen raised an eyebrow, the hint of a smile turning up one side of her lips.
 
@@ -148,14 +61,18 @@ Alie had time to think, _Damn she's good_, before two pressurized capsules each 
 
 The two simultaneous impacts seemed to make a single sucking sound as they passed through the upper layer of liquid. After that, an unnatural silence.
 
-"Let's explore the deep end," Alia said, her smooth voice piercing the air between them, causing the Queen to blink. 
+"Let's explore the deep end," Alia said, her smooth voice piercing the taught air between them, causing the Queen to blink. 
 
 The frozen silver began to crack, quickly followed by puffs of blue smoke. Alia sighted through blue smoke rings as she brought the vessel to her face, the Queen following suit.
 
 "Shall we?"
+
+---- ∫ ----
 
 They watched as each other's face was bathed in an explosion of turquoise light and more smoke. They both inhaled deeply, the blueness immediately seeping into their bloodstreams.
 
 After the initial chemical reaction had fizzled out, the two women began to laugh as fractal patterns danced in the turbulent blue air around them.
 
 They both turned to watch the Mechanines complete another lap.
+
+---- ∫ ----
