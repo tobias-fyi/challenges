@@ -27,6 +27,7 @@ Come on in and check out some vibes!
 - [ ] Mindset
 - [ ] Proverbial
 - [ ] Prosaic: dull, unimaginitive; a characteristic of prose as distinguished from poetry; everyday, ordinary.
+- [ ] Supersede
 - [ ] Besoul
 - [ ] Besort
 - [x] Bewilder
