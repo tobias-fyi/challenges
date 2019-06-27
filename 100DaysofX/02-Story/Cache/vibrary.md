@@ -54,6 +54,7 @@ Come on in and check out some vibes!
   - [Syd Mead](http://sydmead.com/)
   - [Paul Chadeisson](https://paulchadeisson.com/projects)
   - [Ian McQue](https://ianmcque.bigcartel.com)
+  - Simon Stålenhag is [so damn good](https://designyoutrust.com/2017/08/the-electric-state-simon-stalenhag-comes-a-new-narrative-artbook-about-a-girl-and-her-robot-traveling-west-in-an-alternate-90s-usa/)
 
 ### ---- Aural ----
 
@@ -76,3 +77,4 @@ Come on in and check out some vibes!
 - [Phrontistery Rhetorical Device Glossary](http://phrontistery.info/rhetoric.html)
 - [21 Rhetorical Devices Explained](http://mentalfloss.com/article/60234/21-rhetorical-devices-explained)
 
+:smirk:
