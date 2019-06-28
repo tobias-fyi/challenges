@@ -20,16 +20,21 @@ Come on in and check out some vibes!
 
 - [ ] Ad-Hoc
 - [ ] Adenoid: of, like, or pertaining to a gland
+- [ ] Afterwords
+- [ ] Altar / Alter
 - [ ] Befire
+- [ ] Besoul
+- [ ] Besort
 - [ ] Confound
 - [ ] Perplex
 - [ ] Dataspace
 - [ ] Mindset
+- [ ] Parimary
 - [ ] Proverbial
 - [ ] Prosaic: dull, unimaginitive; a characteristic of prose as distinguished from poetry; everyday, ordinary.
 - [ ] Supersede
-- [ ] Besoul
-- [ ] Besort
+- [ ] Supercilious: disdainfully superior; overbearing
+- [x] Supercargo: ship's official in charge of business affairs
 - [x] Bewilder
 - [x] Bespeak
 - [x] Ubique: everywhere
@@ -39,7 +44,10 @@ Come on in and check out some vibes!
 
 ### ---- Names ----
 
+- [ ] Holm: island in a river
+  - [ ] Holt: woody hill or grove
 - [ ] Corky / Corkin
+- [ ] Aphta
 
 ---
 
