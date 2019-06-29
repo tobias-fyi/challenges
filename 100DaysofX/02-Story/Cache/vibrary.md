@@ -10,28 +10,41 @@ Come on in and check out some vibes!
 
 ### ---- Sketches ----
 
+- [ ] Cosmic Leviathan
 - [ ] Planet Pandora Documentary
 - [ ] Bird in a Hail Storm
 - [ ] Sentient Camera
 - [ ] The flash of euphoria that comes from listening to a certain song or smelling a certain scent
   - [ ] Juxtapose that with the nostalgia of returning to a place that holds emotional memory
 
+---- ∫ ----
+
+"Trying to think of something better is where I went wrong."
+
 ### ---- Lexigraph ----
 
+- [ ] Phenomena
 - [ ] Ad-Hoc
-- [ ] Adenoid: of, like, or pertaining to a gland
 - [ ] Afterwords
 - [ ] Altar / Alter
 - [ ] Befire
 - [ ] Besoul
-- [ ] Besort
 - [ ] Confound
 - [ ] Perplex
 - [ ] Dataspace
+- [ ] Esoteric
 - [ ] Mindset
 - [ ] Parimary
 - [ ] Proverbial
 - [ ] Prosaic: dull, unimaginitive; a characteristic of prose as distinguished from poetry; everyday, ordinary.
+- [ ] Camisade: night attack
+- [ ] Aboulia: loss of ability to make a decision
+  - [ ] Aboulomania: pathological indecisiveness
+- [ ] Ablution: ritual washing
+- [ ] Acracy: government by none; anarchy
+- [ ] Adenoid: of, like, or pertaining to a gland
+- [ ] Agrypnotic: anything taken to aid wakefulness
+- [ ] Albarello: cylincrical jar used to hold drugs
 - [ ] Supersede
 - [ ] Supercilious: disdainfully superior; overbearing
 - [x] Supercargo: ship's official in charge of business affairs
@@ -48,6 +61,7 @@ Come on in and check out some vibes!
   - [ ] Holt: woody hill or grove
 - [ ] Corky / Corkin
 - [ ] Aphta
+- [ ] Aegis: protection; support
 
 ---
 
