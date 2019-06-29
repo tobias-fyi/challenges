@@ -132,4 +132,4 @@ A slightly confused expression faded from his dark features.
 
 Torlan closed his mouth, turned to face the waiting road, drew in a deep breath through the filters in his nostrils, and walked.
 
----
+---- ∫ ----
