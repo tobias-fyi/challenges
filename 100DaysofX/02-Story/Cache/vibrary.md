@@ -23,6 +23,7 @@ Come on in and check out some vibes!
 
 ### ---- Lexigraph ----
 
+- [ ] Miscellanea
 - [ ] Phenomena
 - [ ] Ad-Hoc
 - [ ] Afterwords
@@ -47,13 +48,6 @@ Come on in and check out some vibes!
 - [ ] Albarello: cylincrical jar used to hold drugs
 - [ ] Supersede
 - [ ] Supercilious: disdainfully superior; overbearing
-- [x] Supercargo: ship's official in charge of business affairs
-- [x] Bewilder
-- [x] Bespeak
-- [x] Ubique: everywhere
-- [x] Makeshift
-- [x] Lossless
-- [x] Vantage
 
 ### ---- Names ----
 
