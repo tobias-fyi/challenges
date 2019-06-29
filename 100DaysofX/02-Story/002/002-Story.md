@@ -22,6 +22,8 @@ The machrobians on Noema, as their human counterparts had called the world that 
 
 The surviving machrobians used those guts to repair their own guts and to build their own little civilization.
 
+---- ∫ ----
+
 The reactor's explosion washed everything on the planet in a wave of electromagnetic energy. To humans outside the blast radius itself, the frequency and strength did relatively little damage. What damage it did cause could mostly be healed by time.
 
 The machrobians were not so lucky. The dose of energy they received was just strong enough and at just the right frequency such that the processing unit of every single one of them was altered ever so slightly. It was a subtle change—neither the humans nor the machros even noticed. But the damage was done, and could not be healed.
@@ -36,4 +38,4 @@ An even smaller group of them survived that encounter, and the rest of their day
 
 Alone on the unknown planet, the machrobians continued their cycle of scavenging, repairing, and occasionally even building something new.
 
----
+---- ∫ ----
