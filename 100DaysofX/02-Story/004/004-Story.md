@@ -36,4 +36,4 @@ The world is changing. It may be so that the young isles have a chance at a peac
 
 That alone is worth the fight.
 
----
+---- ∫ ----
