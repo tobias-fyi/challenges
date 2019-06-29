@@ -4,7 +4,7 @@
 
 ---
 
-## Friday, June 28, 2019
+## Thursday, June 27, 2019
 
 | Time  | Total | In    | Out   |
 | ----- | ----- | ----- | ----- |

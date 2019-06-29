@@ -2,7 +2,7 @@
 
 ## #100DaysofStory: 014
 
-### Friday, June 28, 2019
+### Thursday, June 27, 2019
 
 ---
 
