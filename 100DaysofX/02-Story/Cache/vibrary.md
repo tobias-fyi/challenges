@@ -26,7 +26,6 @@ Come on in and check out some vibes!
 
 - [ ] Ianthine: violet-coloured
 - [ ] Lazaret: space in ship between decks used for storage
-- [ ] Miscellanea
 - [ ] Phenomena
 - [ ] Ad-Hoc
 - [ ] Afterwords
