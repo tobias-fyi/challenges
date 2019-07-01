@@ -10,7 +10,8 @@ Come on in and check out some vibes!
 
 ### ---- Sketches ----
 
-- [ ] Cosmic Leviathan
+- [ ] The Legend of the DSW (Deep Space Well)
+  - [ ] Cosmic Leviathan
 - [ ] Planet Pandora Documentary
 - [ ] Bird in a Hail Storm
 - [ ] Sentient Camera
@@ -23,6 +24,8 @@ Come on in and check out some vibes!
 
 ### ---- Lexigraph ----
 
+- [ ] Ianthine: violet-coloured
+- [ ] Lazaret: space in ship between decks used for storage
 - [ ] Miscellanea
 - [ ] Phenomena
 - [ ] Ad-Hoc
