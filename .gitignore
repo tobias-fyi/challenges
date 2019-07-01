@@ -1,11 +1,10 @@
 # Project-specific
-00_Admin/
-*/db_data/
+
+db_data/
 
 # Creative files
-*.indd
-*.ai
 *.psd
+*.indd
 
 # Compiled source
 *.com
