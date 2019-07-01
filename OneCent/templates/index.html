@@ -1,0 +1,48 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Stories{% endblock title %}
+
+{% block content %}
+<!-- Wrapper -->
+<div id="wrapper">
+
+	<!-- Header -->
+	<header id="header" class="alt">
+		<span class="logo"><img src="{% static '/images/logo.svg' %}" alt="vibrary logo" /></span>
+		<h1>#100DaysofStory</h1>
+		<p>:: Micro-Stories :100: Micro-Adventures ::</p>
+	</header>
+
+	<!-- Nav -->
+	<nav id="nav">
+		<ul>
+			{% for story in stories %}
+			<li><a href="#{{ story.pk }}" class="active">{{ story.title }}</a></li>
+			{% endfor %}
+		</ul>
+	</nav>
+
+	<!-- Main -->
+	<div id="main">
+
+		<!-- Display Story / Image Previews -->
+		{% for story in stories %}
+		<section id="{{ story.pk }}" class="main">
+			<div class="spotlight">
+				<div class="content">
+					<header class="major">
+						<h2>{{ story.title }}</h2>
+					</header>
+					<p>{{ story.body|linebreaksbr|truncatewords:24 }}</p>
+					<ul class="actions">
+						<li><a href="{% url 'story_detail' story.pk %}" class="button">Read On</a></li>
+					</ul>
+				</div>
+				<span class="image"><img src="{% static '/images/pic01.jpg' %}" alt="" /></span>
+			</div>
+		</section>
+		{% endfor %}
+
+	</div>
+	{% endblock content %}

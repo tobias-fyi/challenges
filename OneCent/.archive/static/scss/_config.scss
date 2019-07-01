@@ -1,0 +1,25 @@
+// Primary
+$primary: #0e668e;
+$paper: #f2f1f4;
+$light: #bbd2d9;
+$navy: #073a50;
+$red: #83192b;
+$red-dk: #5C111E;
+$maroon: #37050d;
+$dark: #09080a;
+$max-width: 1100px;
+
+// Set text color based on background
+@function set-text-color($color) {
+    @if(lightness($color) > 50) {
+        @return $dark;
+    } @else {
+        @return $light;
+    }
+}
+
+// Set background & text color
+@mixin set-background($color) {
+    background-color: $color;
+    color: set-text-color($color);
+}

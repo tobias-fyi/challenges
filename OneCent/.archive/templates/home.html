@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Home{% endblock title %}
+
+{% block body %}
+<section class="landing">
+	<div class="dark-overlay">
+		<div class="landing-inner">
+			<h1 class="x-large">#100DaysofStory</h1>
+			<p class="lead">Micro-Stories | Micro-Adventures
+				<div class="buttons">
+					<a href="{% url 'story_list' %}" class="btn">Read the Stories</a>
+				</div>
+		</div>
+	</div>
+</section>
+{% endblock body %}

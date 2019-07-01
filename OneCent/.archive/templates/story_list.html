@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Stories{% endblock title %}
+
+{% block body %}
+<section class="excerpt">
+	<div class="container">
+		{% for story in stories %}
+		<div class="excerpt-inner">
+			<h1 class="x-large">{{ story.title }}</h1>
+			<p class="lead">{{ story.body|linebreaksbr|truncatewords:40 }}</p>
+			<div class="buttons">
+				<a href="{% url 'story_detail' story.pk %}" class="btn btn-primary">Read On</a>
+			</div>
+		</div>
+		{% endfor %}
+	</div>
+</section>
+{% endblock body %}

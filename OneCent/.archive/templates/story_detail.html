@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}{{ story.title }}{% endblock title %}
+
+{% block body %}
+<section class="story">
+	<div class="container">
+		<div class="story-inner">
+			<h1 class="x-large">{{ story.title }}</h1>
+			<p class="lead">{{ story.body|linebreaksbr }}</p>
+			<div class="buttons">
+				<a href="{% url 'story_list' %}" class="btn btn-primary">Back to List</a>
+			</div>
+		</div>
+	</div>
+</section>
+{% endblock body %}

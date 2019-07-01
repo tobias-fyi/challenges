@@ -1,0 +1,125 @@
+// Container
+.container {
+    max-width: $max-width;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 2rem;
+    margin-top: 6rem;
+    margin-bottom: 3rem;
+}
+
+// Text Styles
+.x-large {
+    font-size: 4rem;
+    line-height: 1.2;
+    margin-bottom: 1.5rem;
+}
+
+.large {
+    font-size: 3rem;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+}
+
+.lead {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+// Backgrounds
+.bg {
+    &-primary {
+        @include set-background($primary);
+    }
+    &-paper {
+        @include set-background($paper);
+        border: $navy 1px solid;
+    }
+    &-light {
+        @include set-background($light);
+        border: $navy 1px solid;
+    }
+    &-navy {
+        @include set-background($navy);
+    }
+    &-red {
+        @include set-background($red);
+    }
+    &-maroon {
+        @include set-background($maroon);
+    }
+    &-dark {
+        @include set-background($dark);
+    }
+}
+
+// Buttons
+.btn {
+    display: inline-block;
+    background: $light;
+    color: $navy;
+    padding: 0.4rem 1.3rem;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-right: 0.5rem;
+    margin-top: 0.5rem;
+    outline: none;
+    transition: all 0.2s ease-in;
+
+    &.btn-primary {
+        @include set-background($primary);
+        &:hover {
+            background: lighten($primary, 10%);
+        }
+    }
+
+    &.btn-paper {
+        @include set-background($paper);
+        &:hover {
+            background: lighten($paper, 10%);
+        }
+    }
+
+    &.btn-navy {
+        @include set-background($navy);
+        &:hover {
+            background: lighten($navy, 10%);
+        }
+    }
+
+    &.btn-red {
+        @include set-background($red);
+        &:hover {
+            background: lighten($red, 10%);
+        }
+    }
+
+    &.btn-maroon {
+        @include set-background($maroon);
+        &:hover {
+            background: lighten($maroon, 10%);
+        }
+    }
+
+    &.btn-dark {
+        @include set-background($dark);
+        &:hover {
+            background: lighten($dark, 10%);
+        }
+    }
+
+    &:hover {
+        background: lighten($navy, 5%);
+        color: $light;
+    }
+}
+
+.dark-overlay {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7)
+}

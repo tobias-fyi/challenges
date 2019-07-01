@@ -1,0 +1,130 @@
+@import 'config';
+@import 'utilities';
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    // font-family: 'Amiri', serif;
+    // font-family: 'Crimson Text', serif;
+    font-family: 'Nanum Myeongjo', serif;
+    // font-family: 'Lora', serif;
+    // font-family: 'Tinos', serif;
+    font-size: 1rem;
+    line-height: 1.6;
+    background-color: $light;
+    color: $dark;
+}
+
+a {
+    text-decoration: none;
+    color: $maroon;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    width: 100%;
+}
+
+//Navbar
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.3rem 2rem;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    top: 0;
+    border-bottom: solid 1px $dark;
+    opacity: 0.9;
+
+    ul {
+        display: flex;
+    }
+
+    a {
+        color: $light;
+        padding: 0.45rem;
+        margin: 0 0.25rem;
+        
+        &:hover {
+            color: $primary;
+        }
+    }
+
+    svg {
+        height: 3rem;
+    }
+}
+
+// Landing
+.landing {
+    position: relative;
+    background: url(../assets/images/lostocean.jpg) no-repeat center center/cover;
+    height: 100vh;
+
+    &-inner {
+        color: $paper;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+// Excerpt
+.excerpt {
+    position: relative;
+    background-color: $light;
+    height: 100vh;
+
+    &-inner {
+        color: $dark;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin: auto;
+        margin-bottom: 4rem;
+        padding-bottom: 2rem;
+        border-bottom: 2px groove $primary;
+        align-items: center;
+        justify-content: center;
+        text-justify: inter-word;
+        text-align: justify;
+    }
+}
+
+// Story
+.story {
+    position: relative;
+    background-color: $light;
+    height: 100vh;
+
+    &-inner {
+        color: $dark;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin: auto;
+        margin-bottom: 4rem;
+        padding-bottom: 2rem;
+        border-bottom: 2px groove $primary;
+        align-items: center;
+        justify-content: center;
+        text-justify: inter-word;
+        text-align: justify;
+    }
+}

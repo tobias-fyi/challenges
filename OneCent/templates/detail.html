@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}{{ story.title }}{% endblock title %}
+
+{% block content %}
+<div id="wrapper">
+
+	<header id="header">
+		<h1>{{ story.title }}</h1>
+		<p>Ipsum dolor sit amet nullam</p>
+	</header>
+
+	<div id="main">
+
+		<section id="content" class="main">
+			<span class="image main"><img src="{% static '/images/pic04.jpg' %}" alt="" /></span>
+			<h2>{{ story.title }}</h2>
+			<p>{{ story.body|linebreaksbr }}</p>
+			<ul class="actions">
+				<li><a href="{% url 'story_list' %}" class="button">Back to List</a></li>
+				<li><a href="{% url 'story_list' %}" class="button">Next Story</a></li>
+			</ul>
+		</section>
+
+	</div>
+	{% endblock content %}

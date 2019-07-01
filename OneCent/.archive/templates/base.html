@@ -1,0 +1,54 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+	<!-- Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Crimson+Text&display=swap" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css?family=Amiri&display=swap" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css?family=Nanum+Myeongjo&display=swap" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css?family=Tinos:400,400i&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="{% static '/css/style.min.css' %}">
+
+	<link rel="icon" href="{% static '/assets/favicon.png' %}">
+
+	<title>{% block title %}{% endblock title %}</title>
+
+</head>
+
+<body>
+
+	<nav class="navbar bg-navy">
+		<a href="{% url 'home' %}">
+			<!-- <img id="nav-logo" src="{% static '/assets/logo.svg' %} " alt="Tobias fyi Logo"> -->
+			<svg id="f9373302-ab64-4eb9-9210-151973d6c83f nav-logo" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"
+				viewBox="0 0 400 100">
+				<title>logo-text-tinos</title>
+				<text transform="translate(42.79 71.71)" font-size="88" fill="#8C3737" font-family="Tinos-Italic, Tinos"
+					font-style="italic">tobias<tspan x="215.14" y="0" font-family="Tinos-Regular, Tinos" font-style="normal">fyi
+					</tspan>
+				</text>
+			</svg>
+		</a>
+		<ul>
+			<li><a href="#" class="active">Story</a></li>
+			<li><a href="#" class="active">Code</a></li>
+		</ul>
+	</nav>
+
+
+	{% block body %}
+	{% endblock body %}
+
+	</div>
+
+</body>
+
+</html>
