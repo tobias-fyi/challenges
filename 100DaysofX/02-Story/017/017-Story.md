@@ -10,7 +10,7 @@
 
 Visual Inspiration: Martin Faragasso - Camping in the Woods
 
-Musical Inspiration: CloZee - [Koto (Lazy Syrup Orchestra & Waspy Remix)](https://soundcloud.com/lazysyruporchestra/clozee-koto-lazysyrup-x-waspy-remix)
+Musical Inspiration: CloZee - [Koto (Lazy Syrup Orchestra & Waspy Remix)](https://open.spotify.com/track/71GsJ9KKmLZNAEoSzOVzuk)
 
 ---
 

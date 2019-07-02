@@ -10,7 +10,10 @@
 
 Visual Inspiration: Barthelemy Aupetit - Outer Rim
 
-Musical Inspiration: Sebastien Leger - [Underwater](https://youtu.be/36t7NOrVmUo) | Township Rebellion - Dolores
+Musical Inspiration:
+
+- Sebastien Leger - [Underwater](https://open.spotify.com/track/1rhT1jR5v1KOSQqp7sWorH)
+- Township Rebellion - [Dolores](https://open.spotify.com/track/2wMyIlpQtspgx0eiLhDB2I)
 
 ---
 

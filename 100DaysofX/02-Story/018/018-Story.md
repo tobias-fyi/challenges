@@ -8,15 +8,12 @@
 
 ![Miscellanea Visual Inspiration by Maskym Harahulin](miscellanea.jpg)
 
-Visual Inspiration: 
-
-- [Maksym Harahulin - Village](https://www.artstation.com/artwork/kQNPA)
+Visual Inspiration: [Maksym Harahulin - Village](https://www.artstation.com/artwork/kQNPA)
 
 Musical Inspiration:
 
-- Be Svendsen - [Twilight in Tankwa](https://youtu.be/hjrg-Rp41X8)
-- Oliver Koletzki - [Tankwa Town (Niko Schwind Remix)](https://youtu.be/erXwNWyFZ18)
-- Be Svendsen - [Drop the Gun](https://youtu.be/gxhsYnBr7fI)
+- Be Svendsen - [Twilight in Tankwa](https://open.spotify.com/track/2FRLszWM6EYIiKd5afU5cw)
+- Oliver Koletzki - [Tankwa Town (Niko Schwind Remix)](https://open.spotify.com/track/00qenE0KcVFh36T9JKhWG2)
 
 ---
 

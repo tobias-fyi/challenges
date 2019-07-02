@@ -10,7 +10,7 @@
 
 Visual Inspiration: Kaithzer Morejón - Ayer Spaceship
 
-Musical Inspiration: Parov Stelar - [The Lonely Trumpet](https://youtu.be/sN0uU9eggEs)
+Musical Inspiration: Parov Stelar - [The Lonely Trumpet](https://open.spotify.com/track/1QyAE58vhI63rsOO4ywD0T)
 
 ---
 

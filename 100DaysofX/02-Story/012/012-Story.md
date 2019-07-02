@@ -8,7 +8,9 @@
 
 ![Hedron Visual Inspiration by Mike Winkelmann](hedron.jpg)
 
-Visual Inspiration: Mike Winkelmann - Moonbase.7 | Musical Inspiration: Kotek - [Communication](https://youtu.be/wzN2gwuFQOw)
+Visual Inspiration: Mike Winkelmann - Moonbase.7
+
+Musical Inspiration: Kotek - [Communication](https://open.spotify.com/track/7MAaCzRs5cMEZ4hKy73elV)
 
 ---
 

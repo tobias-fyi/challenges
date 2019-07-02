@@ -10,7 +10,7 @@
 
 Visual Inspiration by [Syd Mead](http://sydmead.com/running-of-the-six-drgxx/)
 
-Musical Inspiration: Dusky - [Ingrid is a Hybrid](https://youtu.be/2nusu7fzvHg)
+Musical Inspiration: Dusky - [Ingrid is a Hybrid](https://open.spotify.com/track/6hREi7jxcLZyq02dAIsyjL)
 
 ---
 

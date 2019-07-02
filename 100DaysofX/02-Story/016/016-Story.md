@@ -11,7 +11,7 @@
 
 Visual Inspiration: [Leon Tukker](https://www.artstation.com/leontukker) - [Ephemeris](https://www.artstation.com/artwork/JlZE3Z)
 
-Musical Inspiration: Space Ranger - [Galactic Spice](https://youtu.be/OAGXis9fLgY)
+Musical Inspiration: Space Ranger - [Galactic Spice](https://open.spotify.com/track/6zR3r0pDnS2P3V8zIxRlAf)
 
 ---
 

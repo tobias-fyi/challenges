@@ -2,10 +2,15 @@
 
 ## #100DaysofStory: 011
 
+### Monday, June 24, 2019
+
+---
 
 ![Bewilder Visual Inspiration by Christian hecker](bewilder.jpg)
 
-Visual Inspiration by [Christian Hecker](http://www.tigaer-design.com/) || Musical Inspiration: Cheshire - [Dream Sipping](https://youtu.be/9urxbWAf0_o)
+Visual Inspiration by [Christian Hecker](http://www.tigaer-design.com/)
+
+Musical Inspiration: Cheshire - [Dream Sipping](https://open.spotify.com/track/6SUYi9rGF3Tvf4BJEqNXVv)
 
 ---
 

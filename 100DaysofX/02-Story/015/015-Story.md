@@ -10,7 +10,7 @@
 
 Visual Inspiration: Leon Tukker - Ephemeris
 
-Musical Inspiration: Mahalo & Milkwish - [Social Experiment](https://youtu.be/y_ItE8J40ps)
+Musical Inspiration: Mahalo & Milkwish - [Social Experiment](https://open.spotify.com/track/4WMBRuafworQrn5KpkA8jI?si=UUugK3ITQC2hRJ-Th3lE7w)
 
 ---
 
