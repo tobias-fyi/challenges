@@ -2,11 +2,15 @@
 
 ## #100DaysofStory: 010
 
+### Sunday, June 23, 2019
+
+---
+
 ![Beside Visual Inspiration by Syd Mead](beside.jpg)
 
-Beside Visual Inspiration by [Syd Mead](http://sydmead.com/running-of-the-six-drgxx/)
+Visual Inspiration by [Syd Mead](http://sydmead.com/running-of-the-six-drgxx/)
 
-Dusky - [Ingrid is a Hybrid](https://youtu.be/2nusu7fzvHg)
+Musical Inspiration: Dusky - [Ingrid is a Hybrid](https://youtu.be/2nusu7fzvHg)
 
 ---
 

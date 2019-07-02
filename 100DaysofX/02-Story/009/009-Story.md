@@ -2,11 +2,15 @@
 
 ## #100DaysofStory: 009
 
-![Bespeak Visual Inspiration by Stanley Argerm Lau](alia.png)
+### Saturday, June 22, 2019
 
-Bespeak Visual Inspiration by Stanley Argerm Lau
+---
 
-Skeewiff - [Coming Home Baby](https://youtu.be/y9iXeSqMfDo)
+![Bespeak Visual Inspiration by Stanley Argerm Lau](bespeak.png)
+
+Visual Inspiration: Stanley Argerm Lau - Catwoman
+
+Musical Inspiration: Skeewiff - [Coming Home Baby](https://open.spotify.com/track/4fuEahngW3YAzE4SNkGJcF)
 
 ---
 

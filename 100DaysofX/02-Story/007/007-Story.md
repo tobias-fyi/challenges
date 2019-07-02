@@ -1,8 +1,16 @@
-# #100DaysofStory: 007
+# Vantage
+
+## #100DaysofStory: 007
+
+### Thursday, June 20, 2019
+
+---
 
 ![Vantage Visual Inspiration by Magnus Schram](vantage.jpg)
 
-### [Alon Mor - Los Recuerdos](https://youtu.be/8AVawqfmPzM)
+Visual Inspiration: [Magnus Schram](https://www.artstation.com/mschm) - Swamp Outpost
+
+Musical Inspiration: [Alon Mor - Los Recuerdos](https://open.spotify.com/track/3QJPLhERChpd0QEKOMl1p6)
 
 ---
 

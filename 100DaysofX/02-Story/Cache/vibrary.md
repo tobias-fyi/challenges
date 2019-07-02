@@ -73,6 +73,7 @@ Come on in and check out some vibes!
   - [Paul Chadeisson](https://paulchadeisson.com/projects)
   - [Ian McQue](https://ianmcque.bigcartel.com)
   - Simon Stålenhag is [so damn good](https://designyoutrust.com/2017/08/the-electric-state-simon-stalenhag-comes-a-new-narrative-artbook-about-a-girl-and-her-robot-traveling-west-in-an-alternate-90s-usa/)
+  - [Juhani Jokinen](https://www.artstation.com/artofjokinen)
 
 ### ---- Aural ----
 

@@ -2,9 +2,17 @@
 
 ## #100DaysofStory: 008
 
-### [Jacob Gurevitsch](https://jacobgurevitsch.bandcamp.com/) - [Motivo Loco](https://youtu.be/oCgbr6KelgY)
+### Friday, June 21, 2019
+
+---
 
 ![Visual Inspiration by Lok Du](ubique.jpg)
+
+Visual Inspiration: [Lok Du](https://www.artstation.com/lokdu) - The Quiet Nest
+
+Musical Inspiration: [Jacob Gurevitsch](https://jacobgurevitsch.bandcamp.com/) - [Motivo Loco](https://open.spotify.com/track/6OeryjHXFbVh7Xttk8TOf0)
+
+---
 
 ## Ubique
 

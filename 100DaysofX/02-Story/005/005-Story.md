@@ -1,12 +1,10 @@
-# #100DaysofStory
+# Lossless
 
-## 005/100
+## #100DaysofStory: 005
 
-Tuesday, June 18, 2019.
+### Tuesday, June 18, 2019
 
 ---
-
-### Bob Moses - [The Only Thing We Know](https://youtu.be/RDiKw_Xv1Aw)
 
 If you won't leave me  
 Then I won't go  
@@ -16,9 +14,7 @@ Guess I'm a shadow
 If I say sorry  
 Would you let go?  
 
-It's the only thing we know.
-
----- ∫ ----
+It's the only thing we know
 
 If you don't need me  
 Say it ain't so  
@@ -32,7 +28,13 @@ It's the only thing we know
 
 ---
 
-![Visual Inspiration for Lossless](005-1-lossless.jpg)
+![Visual Inspiration for Lossless](lossless.jpg)
+
+Visual Inspiration: Unknown
+
+Musical Inspiration: Bob Moses - [The Only Thing We Know](https://open.spotify.com/track/6C4zZL5USMZ72bAFBytQeg)
+
+---
 
 ## Lossless
 

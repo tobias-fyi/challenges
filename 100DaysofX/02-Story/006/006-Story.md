@@ -1,10 +1,16 @@
-# #100DaysofStory: 006
+# Makeshift
+
+## #100DaysofStory: 006
 
 ## Wednesday, June 19, 2019
 
+---
+
 ![Makeshift Visual Inspiration](makeshift.png)
 
-### MnyKin - Intelligent Machines (Alon Mor Remix)
+Visual Inspiration: Ildar Kharisov - Rising From The Sand
+
+Musical Inspiration: MnyKin - Intelligent Machines (Alon Mor Remix)
 
 ---
 

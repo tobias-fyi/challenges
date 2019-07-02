@@ -1,8 +1,21 @@
-# 100 Days of Story
+# Bones
 
-## 001/100 — 2019-06-14
+## #100DaysofStory: 001
 
-![Bones Visual Inspiration](001-bones.jpg)
+### Friday, June 14, 2019
+
+---
+
+![Bones Visual Inspiration](bones.jpg)
+
+Visual Inspiration: Unknown
+
+Musical Inspiration:
+
+- Be Svendsen - [Bones](https://open.spotify.com/track/44PS8lB5MuUKnqMnmtZWX6)
+- Be Svendsen - [Bones (Bwoy De Bhajans Klovborg Remix)](https://open.spotify.com/track/5DIvDefES3gfvsLSRLVyMD)
+
+---
 
 ## Bones
 

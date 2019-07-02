@@ -1,10 +1,18 @@
-# #100DaysofStory
+# Marooned
 
-## 004/100 — 2019-06-17
+## #100DaysofStory: 004
 
-Joris de Man - Meridian, Shining
+### Monday, June 17, 2019
 
-![Marooned Visual Inspiration](004-Marooned.jpg)
+---
+
+![Marooned Visual Inspiration](marooned.jpg)
+
+Visual Inspiration: artofkiko - The Floating Island
+
+Musical Inspiration: Joris de Man - [Meridian, Shining](https://open.spotify.com/track/715FRW6xaSn2x9S4XPk0NC)
+
+---
 
 ## Marooned
 

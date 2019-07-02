@@ -1,10 +1,18 @@
-# #100DaysofStory
+# Proximate
 
-## 003/100 ~ 2019-06-16
+## #100DaysofStory: 003
 
-Tristan Mélia Trio - [No Problem](https://youtu.be/LZAft3xmwyE)
+### Sunday, June 16, 2019
 
-![Proximate Visual Inspiration - Observation Station](003-proximate.jpg)
+---
+
+![Proximate Visual Inspiration - Observation Station](proximate.jpg)
+
+Visual Inspiration: Ryan Church - Space Dock
+
+Musical Inspiration: Tristan Mélia Trio - [No Problem](https://open.spotify.com/track/0yFNLTyXf0xln5RBR89LVt?si=PPVCltVIR0KFsX_4p0ltnA)
+
+---
 
 ## Proximate
 
