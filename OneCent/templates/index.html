@@ -11,7 +11,7 @@
 	<header id="header" class="alt">
 		<span class="logo"><img src="{% static '/images/logo.svg' %}" alt="vibrary logo" /></span>
 		<h1>#100DaysofStory</h1>
-		<p>:: Micro-Stories :100: Micro-Adventures ::</p>
+		<p>:: Micro-Stories :: Micro-Adventures ::</p>
 	</header>
 
 	<!-- Nav -->
@@ -39,7 +39,7 @@
 						<li><a href="{% url 'story_detail' story.pk %}" class="button">Read On</a></li>
 					</ul>
 				</div>
-				<span class="image"><img src="{% static '/images/pic01.jpg' %}" alt="" /></span>
+				<span class="image"><img src="{{ story.image.url }}" alt="{{ story.caption }}" /></span>
 			</div>
 		</section>
 		{% endfor %}
