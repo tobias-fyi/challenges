@@ -8,26 +8,17 @@ Come on in and check out some vibes!
 
 ---
 
-### ---- Sketches ----
+### ---- Series ----
 
-- [ ] The Legend of the DSW (Deep Space Well)
-  - [ ] Cosmic Leviathan
-- [ ] Planet Pandora Documentary
-- [ ] Bird in a Hail Storm
-- [ ] Sentient Camera
-- [ ] The flash of euphoria that comes from listening to a certain song or smelling a certain scent
-  - [ ] Juxtapose that with the nostalgia of returning to a place that holds emotional memory
-
----- ∫ ----
-
-"Trying to think of something better is where I went wrong."
+- Miscellanea
+  - Lazaret: space in ship between decks used for storage
+  - Ad-Hoc
+  - Pareto
 
 ### ---- Lexigraph ----
 
 - [ ] Ianthine: violet-coloured
-- [ ] Lazaret: space in ship between decks used for storage
 - [ ] Phenomena
-- [ ] Ad-Hoc
 - [ ] Afterwords
 - [ ] Altar / Alter
 - [ ] Befire
@@ -35,7 +26,6 @@ Come on in and check out some vibes!
 - [ ] Confound
 - [ ] Perplex
 - [ ] Dataspace
-- [ ] Esoteric
 - [ ] Mindset
 - [ ] Parimary
 - [ ] Proverbial
@@ -59,6 +49,20 @@ Come on in and check out some vibes!
 - [ ] Aphta
 - [ ] Aegis: protection; support
 
+### ---- Sketches ----
+
+- [ ] The Legend of the DSW (Deep Space Well)
+  - [ ] Cosmic Leviathan
+- [ ] Planet Pandora Documentary
+- [ ] Bird in a Hail Storm
+- [ ] Sentient Camera
+- [ ] The flash of euphoria that comes from listening to a certain song or smelling a certain scent
+  - [ ] Juxtapose that with the nostalgia of returning to a place that holds emotional memory
+
+---- ∫ ----
+
+"Trying to think of something better is where I went wrong."
+
 ---
 
 ## Inspiration
@@ -77,13 +81,12 @@ Come on in and check out some vibes!
 
 ### ---- Aural ----
 
+- [ ] Julian Vaughn & Donald Hayes - Black Dynamite
 - [ ] Ludovic Beier - Georginho Oh !
 - [ ] Chick Corea - Prelude to El Bozo
 - [ ] LTJ Xperience - [I Don't Want This Beat To Ever End](https://open.spotify.com/track/245mcsKYrqSnBAhMc5U0xK?si=knb3OrKiTm-Lj-2lr9cZjw)
-- [x] Skeewiff - Coming Home Baby
-- [x] Jacob Gurevitsch - Motivo Loco
 
-### Conceptual
+### Historical
 
 - [ ] [Trojan War](https://en.wikipedia.org/wiki/Trojan_War)
 
