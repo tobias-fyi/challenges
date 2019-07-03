@@ -10,7 +10,7 @@
 
 Visual Inspiration: Ryan Church - Space Dock
 
-Musical Inspiration: Tristan Mélia Trio - [No Problem](https://open.spotify.com/track/0yFNLTyXf0xln5RBR89LVt?si=PPVCltVIR0KFsX_4p0ltnA)
+Musical Inspiration: Tristan Mélia Trio - [No Problem](https://open.spotify.com/track/0yFNLTyXf0xln5RBR89LVt)
 
 ---
 

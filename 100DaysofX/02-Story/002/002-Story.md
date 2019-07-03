@@ -10,8 +10,8 @@ Visual Inspiration: Juhani Jokinen - Home
 
 Music Inspiration:
 
-- Lee Burridge & Lost Desert - [Float On](https://open.spotify.com/track/75WlyMbLjT56pcoS20kqd8?si=8C2_Nq09T7mZ56vuMCBiIA)
-- Roy Rosenfeld - [Megakraft](https://open.spotify.com/track/0Isa5eXwi5nj6yfbXzFecI?si=bOt8qTCNT729XZtXQ_eOUw)
+- Lee Burridge & Lost Desert - [Float On](https://open.spotify.com/track/75WlyMbLjT56pcoS20kqd8)
+- Roy Rosenfeld - [Megakraft](https://open.spotify.com/track/0Isa5eXwi5nj6yfbXzFecI)
 
 ---
 
