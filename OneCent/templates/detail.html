@@ -6,11 +6,18 @@
 {% block content %}
 <div id="wrapper">
 
-	<header id="header">
+	<header id="header" class="alt">
 		<h1>{{ story.title }}</h1>
 		<p>{{ story.date }}</p>
-		<!-- TODO: Add pagination buttons -->
 	</header>
+
+	<nav id="nav" class="alt">
+		<ul>
+			<a class="active" href="{% url 'story_detail' story.pk|add:"1" %}">Next</a>
+			<a class="active" href="{% url 'story_list' %}" class="button">Back to List</a>
+			<a class="active" href="{% url 'story_detail' story.pk|add:"-1" %}">Prev</a>
+		</ul>
+	</nav>
 
 	<div id="main">
 
@@ -18,24 +25,13 @@
 			<span class="image main"><img src="{{ story.image.url }}" alt="{{ story.caption }}" /></span>
 			<div class="content">
 				<header class="major">
-					<h4>Artwork: {{ story.caption }}</h4>
-					<h4>Soundtrack: {{ story.music }}</h4>
+					<h4>Artwork: <a href="{{ story.art_link }}" target="_blank">{{ story.artwork }}</a></h4>
+					<h4>Soundtrack: <a href="{{ story.music_link }}" target="_blank">{{ story.music }}</a></h4>
 				</header>
-				<!-- <iframe src="{{ story.music_link }}" width="300" height="380" frameborder="0" allowtransparency="true"
-					allow="encrypted-media"></iframe> -->
 				<hr>
 			</div>
 			<div>
-				<p>{{ story.body|linebreaksbr }}</p>
-			</div>
-			<div>
-				<ul class="actions">
-					<!-- TODO: Add pagination buttons -->
-					<!-- TODO: Add if statement to include Next / Previous if exists
-					<li><a href="{% url 'story_list' %}" class="button">Next Story</a></li> -->
-					<li><a href="{% url 'story_list' %}" class="button">Back to List</a></li>
-					<li><a href="{% url 'story_list' %}" class="button">Next Story</a></li>
-				</ul>
+				<p>{{ story.body|safe }}</p>
 			</div>
 		</section>
 

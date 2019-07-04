@@ -17,9 +17,23 @@
 	<!-- Nav -->
 	<nav id="nav">
 		<ul>
+			{% if is_paginated %}
+			{% if page_obj.has_previous %}
+			<a href="?page=1">Latest</a>
+			<a href="?page={{ page_obj.previous_page_number }}">Later</a>
+			{% endif %}
+			{% endif %}
+
 			{% for story in stories %}
 			<li><a href="#{{ story.pk }}" class="active">{{ story.title }}</a></li>
 			{% endfor %}
+
+			{% if is_paginated %}
+			{% if page_obj.has_next %}
+			<a href="?page={{ page_obj.next_page_number }}">Earlier</a>
+			<a href="?page={{ page_obj.paginator.num_pages }}">Earliest</a>
+			{% endif %}
+			{% endif %}
 		</ul>
 	</nav>
 
@@ -34,7 +48,7 @@
 					<header class="major">
 						<h2>{{ story.title }}</h2>
 					</header>
-					<p>{{ story.body|linebreaksbr|truncatewords:24 }}</p>
+					<p>{{ story.body|truncatewords_html:24|safe }}</p>
 					<ul class="actions">
 						<li><a href="{% url 'story_detail' story.pk %}" class="button">Read On</a></li>
 					</ul>
