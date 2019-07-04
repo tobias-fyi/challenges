@@ -10,7 +10,7 @@
 
 Visual Inspiration: [Alexia Cadou](https://www.artstation.com/afcvisual) - [Tavern](https://www.artstation.com/artwork/NO6Pd)
 
-Musical Inspiration: Serge Devant - [It's Like That (Sebastien Leger Remix)](https://open.spotify.com/track/6Qo6cxBZ6ovjZuobscYtUg?si=oleQrjCFRTWwKoa1G1vYwg)
+Musical Inspiration: Serge Devant - [It's Like That (Sebastien Leger Remix)](https://open.spotify.com/track/6Qo6cxBZ6ovjZuobscYtUg)
 
 ---
 
