@@ -10,15 +10,38 @@ Come on in and check out some vibes!
 
 ### ---- Series ----
 
-- Miscellanea
+- The Opali Proximate
+  - Proximate
+  - Esoteris
+  - Humunuclay
+  - Advocate
+  - Ianthine
+
+---- ∫ ----
+
+- Khaonos
+  - Bespeak
+  - Beside
+  - Bewilder
+  - Namantine
+  - Mindscape
+
+---- ∫ ----
+
+- The Olonor Storyline
+  - Miscellanea
   - Lazaret: space in ship between decks used for storage
   - Ad-Hoc
   - Pareto
 
+---- ∫ ----
+
+- Ayer Misáhre
+  - Supercargo
+  - Aft
+
 ### ---- Lexigraph ----
 
-- [ ] Ianthine: violet-coloured
-- [ ] Phenomena
 - [ ] Afterwords
 - [ ] Altar / Alter
 - [ ] Befire
