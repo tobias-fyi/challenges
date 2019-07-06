@@ -3,12 +3,12 @@
     REP-009 ~ Bespeak  
 
 - [#100DaysofStory: 009](#100DaysofStory-009)
-  - [Saturday, June 22, 2019](#Saturday-June-22-2019)
-  - [Story Components](#Story-Components)
-    - [Themes and Concepts](#Themes-and-Concepts)
-    - [Characters](#Characters)
-    - [Setting](#Setting)
-  - [Bespeak](#Bespeak)
+    - [Saturday, June 22, 2019](#Saturday-June-22-2019)
+    - [Story Components](#Story-Components)
+        - [Themes and Concepts](#Themes-and-Concepts)
+        - [Characters](#Characters)
+        - [Setting](#Setting)
+    - [Bespeak](#Bespeak)
 
 ---
 
@@ -57,7 +57,7 @@
 
 ---
 
-![Bespeak Visual Inspiration by Stanley Argerm Lau](alia.png)
+![Bespeak Visual Inspiration by Stanley Argerm Lau](bespeak.png)
 
 Bespeak Visual Inspiration by Stanley Argerm Lau
 
