@@ -4,40 +4,33 @@
 {% block title %}Stories{% endblock title %}
 
 {% block content %}
-<!-- Wrapper -->
 <div id="wrapper">
 
-	<!-- Header -->
 	<header id="header" class="alt">
 		<span class="logo"><img src="{% static '/images/logo.svg' %}" alt="vibrary logo" /></span>
 		<h1>#100DaysofStory</h1>
-		<p>:: Micro-Stories :: Micro-Adventures ::</p>
+		<p>100 Micro-Adventures by <i>Tobias Reaper</i></p>
 	</header>
 
-	<!-- Nav -->
 	<nav id="nav">
 		<ul>
-			{% if is_paginated %}
-			{% if page_obj.has_previous %}
-			<a href="?page=1">Latest</a>
-			<a href="?page={{ page_obj.previous_page_number }}">Later</a>
-			{% endif %}
+			{% if page_obj.has_next %}
+			<li><a href="?page={{ page_obj.next_page_number }}">‹</a></li>
+			<li><a href="?page={{ page_obj.paginator.num_pages }}">«</a></li>
 			{% endif %}
 
-			{% for story in stories %}
+			{% for story in stories reversed %}
 			<li><a href="#{{ story.pk }}" class="active">{{ story.title }}</a></li>
 			{% endfor %}
 
-			{% if is_paginated %}
-			{% if page_obj.has_next %}
-			<a href="?page={{ page_obj.next_page_number }}">Earlier</a>
-			<a href="?page={{ page_obj.paginator.num_pages }}">Earliest</a>
-			{% endif %}
+			{% if page_obj.has_previous %}
+			<li><a href="?page=1">»</a></li>
+			<li><a href="?page={{ page_obj.previous_page_number }}">›</a></li>
 			{% endif %}
 		</ul>
 	</nav>
 
-	<!-- Main -->
+	<!-- Main Container -->
 	<div id="main">
 
 		<!-- Display Story / Image Previews -->

@@ -13,9 +13,9 @@
 
 	<nav id="nav" class="alt">
 		<ul>
-			<a class="active" href="{% url 'story_detail' story.pk|add:"1" %}">Next</a>
-			<a class="active" href="{% url 'story_list' %}" class="button">Back to List</a>
-			<a class="active" href="{% url 'story_detail' story.pk|add:"-1" %}">Prev</a>
+			<li><a href="{% url 'story_detail' story.pk|add:"-1" %}">‹</a></li>
+			<li><a class="active" href="{% url 'story_list' %}" class="button">Back to List</a></li>
+			<li><a href="{% url 'story_detail' story.pk|add:"1" %}">›</a></li>
 		</ul>
 	</nav>
 
