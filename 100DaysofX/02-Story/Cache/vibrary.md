@@ -20,10 +20,11 @@ Come on in and check out some vibes!
 ---- ∫ ----
 
 - Khaonos
-  - Bespeak
-  - Beside
-  - Bewilder
-  - Namantine
+  - 009 ~ Bespeak
+  - 010 ~ Beside
+  - 011 ~ Bewilder
+  - 023 ~ Namantine
+  - 024 ~ Substance
   - Mindscape
 
 ---- ∫ ----
@@ -42,6 +43,7 @@ Come on in and check out some vibes!
 
 ### ---- Lexigraph ----
 
+- [ ] Landfall
 - [ ] Afterwords
 - [ ] Altar / Alter
 - [ ] Befire
