@@ -25,13 +25,19 @@ Come on in and check out some vibes!
   - 011 ~ Bewilder
   - 023 ~ Namantine
   - 024 ~ Substance
-  - Mindscape
+  - 025 ~ Mindscape
 
 ---- ∫ ----
 
-- The Olonor Storyline
+- Delirevae
+  - 026 ~ Deliria
+  - 027 ~ Mindset
+
+---- ∫ ----
+
+- Olonor Township
   - Miscellanea
-  - Lazaret: space in ship between decks used for storage
+  - Lazaret
   - Ad-Hoc
   - Pareto
 
@@ -51,7 +57,6 @@ Come on in and check out some vibes!
 - [ ] Confound
 - [ ] Perplex
 - [ ] Dataspace
-- [ ] Mindset
 - [ ] Parimary
 - [ ] Proverbial
 - [ ] Prosaic: dull, unimaginitive; a characteristic of prose as distinguished from poetry; everyday, ordinary.
@@ -91,6 +96,10 @@ Come on in and check out some vibes!
 ---
 
 ## Inspiration
+
+### ---- Names ----
+
+- [Writer's Den (Location) Generator Tools](http://writers-den.pantomimepony.co.uk/writers-locations.php)
 
 ### ---- Visual ----
 
