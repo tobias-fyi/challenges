@@ -49,6 +49,7 @@ Come on in and check out some vibes!
 
 ### ---- Lexigraph ----
 
+- [ ] Isometric
 - [ ] Landfall
 - [ ] Afterwords
 - [ ] Altar / Alter
