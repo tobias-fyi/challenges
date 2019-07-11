@@ -10,7 +10,7 @@
 
 Visual Inspiration: Alexandr Melentiev - [Cave City](https://www.artstation.com/artwork/NyomN)
 
-Musical Inspiration: 
+Musical Inspiration: Hraach - [Delirio](https://open.spotify.com/track/7viD5dkEm7eaeGuvi4ZWBv)
 
 ---
 
