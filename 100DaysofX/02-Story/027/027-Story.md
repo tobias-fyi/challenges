@@ -16,33 +16,45 @@ Musical Inspiration: Sanoi - [Conquistador](https://open.spotify.com/track/6VRPY
 
 ## Mindset
 
-Alia was spending time on the surface with two of her friends and desimates. The three of them stood outside enjoying the primal warmth of the twin stars' radiation after months spent in the relative gloom of the Chase. 
+Two lakes took up a sizable portion of the plate, their uniformity and relative closeness making them look like a pair of eyes. Blocky, whitewashed stone buildings took up much of the available shoreline, sometimes extending out into the water. The architecture of the above-ground buildings on the Aren Plate seemed to have been inspired by that of some long-lost pre-cosmic civilization.
 
-The surface of the Aren edifice, a roughly square block of land, several kilometers to a side, that held a couple of picturesque cyaenta lakes and tasteful architecture on the surrounding land. The water flowed out from the lakes, eventually drifting off the edge of the Aren's crust to fall into the AyrenPond below.
+Yet somehow the designs worked. They were a gentle, tasteful accent to the surrounding land, the right angles and straight lines matching nicely with those of the surrounding plates. The Delir superstructure plates in this region were square pieces of landscape, each one several kilometers across. Some opted to have hills, mountains, escarpments, or other features, but the Aren's surface was flat except for two large towers, one at the center of each lake, making the pair of "eyes" look more like breasts with perky square nipples.
 
-The underside of the Aren, the AyrenPond Chase, had been Alia's home for the past few decades standard. Her designate occupied a sizable section of one of the supporting columns that connected the Aren edifice to the floor of the pond far below. The true-locals somewhat jokingly named the body of water a pond, as it could easily be called a freshwater ocean. The water stretched out for thousands of miles under the planet's superstructures, and was commonly referred to as the "real" surface of Esqe. Alia frequently wondered if that surface was yet another false bottom.
+Water continually flowed out from the lakes, lazily traversing from lake to plate edge where it drifted down off the Aren, returning to the AyrenPond below.
 
----- ∫ ----
+The underside of the Aren, the AyrenPond Chase, had been Alia's home for the past few decades standard. Her designate occupied a sizable section of one of the columns connecting the Aren Plate to the floor of the pond. The true-locals somewhat jokingly named the body of water a pond, as it could easily be called a freshwater ocean—and a large one, at that. The water stretched out for thousands of miles under the planet's superstructures.
 
-The three of them stood on one of the uppermost terraces of a large pyramidal structure situated on an island near the middle of the Aren's Dale. Alia assumed it was constructed from the same rock-like material as most of the Delir's planet-spanning superstructures. Although the material looked ordinary, she knew it was an exotic substance far beyond her scope of understanding.
+The mind would usually assume the pond was the surface of Esqe, though there was plenty that went on below that. Alia sometimes had to convince herself that surface was yet another false bottom to this intricate world. The Delirevae were one of the most advanced species in the cluster. And their level of technology was easily matched by their level of eccentricity.
 
-The building looked like a four-sided pyramid when viewed from the Dale. In fact, the structure was an octohedron; the floor of the Dale bisected the building into two perfect halves, leaving only one of the two visible from the top.
+### ---- ∫ ----
 
-The building's other quadrahedron extended down into the Chase: the cavernous space between the Aren and the pond. The size of the Chase depended on where in its cycle the Aren was at any given time—largest when the Aren was at the top of its cycle, almost a kilometer above the water. At the bottom of the cycle, the Aren's underside was only a hundred meters or so above the surface, just low enough for ten meters of the octahedron's bottom tip to be submersed.
+Alia was on the Dipper with two of her desimates, Echo and Kaido, taking a break from the controlled chaos of the last few days to rest and enjoy the primal warmth radiating from Esqe's twin suns, Insk-Erimme. Feeling the heat of the suns was something she hadn't realized she needed so badly, even after spending months in the relative gloom of the Chase. It was a different world down there, one she preferred more often than not.
 
----- ∫ ----
+The three looked out over the Aren Dale from the uppermost terrace tower. From there, the entire surface of the Aren was visible, though the far edge was hardly visible through the moist haze of bottom-cycle.
 
-Alia had been told this was how the structure replenished its water supplies, which would steadily flow along and off the Aren to be eventually reunited with the main body. She imagined that it was more of a gimmick than anything else, as the columns connecting the Aren to the surface could surely transport water as well.
+Alia assumed the towers, and the lower buildings on the flats around the water, were constructed from the same hard material as most of the Delir's planet-spanning superstructures. Although the material looked ordinary, she knew it was an exotic substance far beyond her scope of understanding.
 
-However, this process made for more dynamic sub-seasons—a short wet season corresponding to the top of the cycle, and vice versa—completely separate from that of the planet or of the neighboring superstructures.
+While the towers looked like four-sided pyramids when viewed from the surface, they were, in fact, octohedrons. The floor of the Dale bisected the buildings, allowing only a pyramid shape to be visible above the plate floor.
 
-The Aren had just reached the bottom of its cycle and was resting for a few days while slurping up its seasonal drink. Thus, even from their vantage point on top of the upper pyramid, Alia and her two companions could not see above the edges of the neighboring edifices.
+The inverted quadrahedrons extended down into the Chase, which was the inhabitants name for the cavernous space between the Aren and the pond. The height of a plate's Chase depended on where that plate was in its cycle—largest when the plate was at the top of its cycle, almost a kilometer above the water. At the bottom of the cycle, the Aren's underside was only a hundred meters or so above the surface, just low enough for ten meters of the octahedron's bottom tip to be submersed.
 
-The denizens of the Aren used the occasion to host one of the edifice's biggest parties of the year. Although all of the neighboring edifices also celebrated the bottom of their own cycles, the Aren was famous for its event.
+### ---- ∫ ----
+
+Alia had been told this was how the plate's lakes were replenished, and how the plates were kept within a certain distance from the surface of the pond. As the water inside the plate drained out via the lakes and their short rivers, the plate would get lighter—Alia guessed it was the material of the plate that gave it this strange property. Once it reached a certain weight, the plate would descend back down to the water to become saturated enough to rise up again. The entire cycle took anywhere from one month to half a year, local time.
+
+She imagined that the design of the plates was more of a gimmick than anything else—the residential columns that stretched from the plate to the pond's floor could surely transport water just as well.
+
+That's how the Deliravae were; how they thought, and thus, how they engineered their world. In a few hundred years they would probably decide to replace the planet-spanning network of superstructures with something entirely different.
+
+Alia had to admit that this process gave the plate some additional dynamics. A short wet season corresponded to the top of the cycle, and vice versa. This sub-season was completely separate from that of the planet or of the neighboring superstructures. Sometimes the different climates would interact in interesting ways.
+
+The Aren had just reached the bottom of its cycle and was resting for a few days while slurping up its seasonal drink. Thus, even from their vantage point on top of the upper pyramid, Alia and her two companions could not see above the edges of the neighboring Plates.
+
+### ---- ∫ ----
+
+The denizens of the Aren used the occasion to host one of the Plate's biggest parties of the year. Although all of the neighboring Plates also celebrated the bottom of their own cycles, the Aren was famous for its event.
 
 The three friends were taking a short break from the party to soak in the binary sunlight.
-
----- ∫ ----
 
 Echo leaned on Alia's shoulder as they both took in the dramatic view.
 
@@ -54,7 +66,7 @@ Echo leaned on Alia's shoulder as they both took in the dramatic view.
 
 "The long answer...?" Echo had an idea of the answer, but wanted another excuse to listen to Alia's voice. Alia was regarded as silver tongue of the group, not only because of smoothness her voice.
 
----- ∫ ----
+### ---- ∫ ----
 
 She was also a singer—and one of Echo's favorite lovers. In fact, Alia was scheduled to perform that night on top of the pyramid on which they now stood.
 
@@ -68,7 +80,7 @@ Alia raised the tip some more to brush it against her cheek, squeezing her legs 
 
 "But it seemed like they never truly rid themselves of the residual intrinsic conflict left over from an evolutionary track driven by natural selection."
 
----- ∫ ----
+### ---- ∫ ----
 
 Alia took a breath. The grey memories were threatening to darken her mood a few shades. She appreciated that Echo had asked, however. In her view, every experience had to be experienced at least twice: once when it actually happens, and once when it is recalled and analyzed. Without the second part of that process, she would be no better than those she had left behind on those worlds.
 
@@ -80,8 +92,10 @@ Echo looked down at Alia as she raised her hands and shrugged, the motion enclos
 
 "After a while I knew there was nothing I could do. And...this may sound ignorant—I guess I didn't want to run the risk of somehow being infected by their mindset. You..." She smiled and turned her face up to Echo, her soft hands stroking the sensitive skin on the underside of her tail. "...are much more my style."
 
----- ∫ ----
+### ---- ∫ ----
 
 A thought came to Alia just then, as she watched and felt Echo's tail curl deftly around her hand. She was surprised it had taken this long for the question to arise.
 
 She turned to Echo, her face inquisitive. "Have you ever left Esqe's gravity well? Or traveled beyond the light of Insk-Erimme?"
+
+### ---- ∫ ----
