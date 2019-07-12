@@ -16,6 +16,13 @@ class StoryDetailView(DetailView):
     model = Story
     context_object_name = "story"
 
+    def get_context_data(self, **kwargs):
+        """Adds to context a count of Story objects."""
+        context = super().get_context_data(**kwargs)
+        context["count"] = Story.objects.count()
+        print(context["count"])
+        return context
+
 
 class AboutView(TemplateView):
     template_name = "about.html"

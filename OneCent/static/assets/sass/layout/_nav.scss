@@ -1,6 +1,6 @@
 /* Nav */
 
-#nav {
+.nav {
 	@include vendor('transition', (
 		'background-color #{_duration(transition)} ease',
 		'border-top-left-radius #{_duration(transition)} ease',
@@ -20,6 +20,7 @@
 
 	& + #main {
 		padding-top: 4.25em;
+		margin-bottom: 1rem;
 	}
 
 	ul {
@@ -70,6 +71,10 @@
 		z-index: _misc(z-index-base);
 
 		ul {
+			display: grid;
+			grid-template-columns: 10% 10% 60% 10% 10%;
+			grid-column-gap: 0.25rem;
+
 			li {
 				margin: 0 0.175em;
 
@@ -80,11 +85,43 @@
 		}
 	}
 
-	@include breakpoint('<=small') {
-		display: none;
+	&.main {
+		ul {
+      display: grid;
+      grid-template-columns: 10% 10% auto auto auto auto 10% 10%;
+      grid-column-gap: 0.25rem;
 
-		& + #main {
-			padding-top: 0;
+			li {
+				margin: 0 0.175em;
+
+				a {
+					font-size: 0.9em;
+				}
+			}
 		}
 	}
+
+	// @include breakpoint('<=large') {
+	// 	& + #main {
+	// 		padding-top: 0;
+	// 	}
+	// }
+
+	// @include breakpoint('<=medium') {
+	// 	& + #main {
+	// 		padding-top: 0;
+	// 	}
+	// }
+
+	// @include breakpoint('<=small') {
+	// 	& + #main {
+	// 		padding-top: 0;
+	// 	}
+	// }
+
+	// @include breakpoint('<=xsmall') {
+	// 	& + #main {
+	// 		padding-top: 0;
+	// 	}
+	// }
 }

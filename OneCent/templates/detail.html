@@ -11,11 +11,32 @@
 		<p>{{ story.date }}</p>
 	</header>
 
-	<nav id="nav" class="alt">
+	<nav id="nav" class="nav">
 		<ul>
+			{% if story.pk > 2 %}
+			<li><a href="{% url 'story_detail' pk=1 %}">«</a></li>
+			{% else %}
+			<li></li>
+			{% endif %}
+
+			{% if story.pk > 1 %}
 			<li><a href="{% url 'story_detail' story.pk|add:"-1" %}">‹</a></li>
+			{% else %}
+			<li></li>
+			{% endif %}
+
 			<li><a class="active" href="{% url 'story_list' %}" class="button">Back to List</a></li>
+			{% if story.pk < count %}
 			<li><a href="{% url 'story_detail' story.pk|add:"1" %}">›</a></li>
+			{% else %}
+			<li></li>
+			{% endif %}
+
+			{% if story.pk < count|add:"-1" %}
+			<li><a href="{% url 'story_detail' pk=count %}">»</a></li>
+			{% else %}
+			<li></li>
+			{% endif %}
 		</ul>
 	</nav>
 

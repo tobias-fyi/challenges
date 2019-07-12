@@ -7,7 +7,6 @@
 <div id="wrapper">
 
 	<header id="header" class="alt">
-		<!-- <span class="logo"><img src="{% static '/images/logo.svg' %}" alt="vibrary logo" /></span> -->
 		<svg class="logo" xmlns="http://www.w3.org/2000/svg" width="100%" height="100" viewBox="0 0 800 800">
 			<title>19-07-05-100days-logo</title>
 			<g id="ac9c0328-58b8-475b-bbe4-6e91f854db0f" data-name="Layer 4">
@@ -19,14 +18,21 @@
 			</g>
 		</svg>
 		<h1>#100DaysofStory</h1>
-		<!-- <p>100 Micro-Adventures by <i>Tobias Reaper</i></p> -->
+		<small>100 Micro-Adventures by <i>Tobias Reaper</i></small>
 	</header>
 
-	<nav id="nav">
+	<nav id="nav" class="nav main">
 		<ul>
-			{% if page_obj.has_next %}
+			{% if page_obj.next_page_number <= page_obj.paginator.num_pages|add:"-1" %}
 			<li><a href="?page={{ page_obj.paginator.num_pages }}">«</a></li>
+			{% else %}
+			<li></li>
+			{% endif %}
+
+			{% if page_obj.has_next %}
 			<li><a href="?page={{ page_obj.next_page_number }}">‹</a></li>
+			{% else %}
+			<li></li>
 			{% endif %}
 
 			{% for story in stories reversed %}
@@ -35,7 +41,14 @@
 
 			{% if page_obj.has_previous %}
 			<li><a href="?page={{ page_obj.previous_page_number }}">›</a></li>
+			{% else %}
+			<li></li>
+			{% endif %}
+
+			{% if page_obj.previous_page_number > 1 %}
 			<li><a href="?page=1">»</a></li>
+			{% else %}
+			<li></li>
 			{% endif %}
 		</ul>
 	</nav>
