@@ -49,7 +49,8 @@ Come on in and check out some vibes!
 
 ### ---- Lexigraph ----
 
-- [ ] Isometric
+- [ ] Subdue
+- [ ] Prospice: look forward
 - [ ] Landfall
 - [ ] Afterwords
 - [ ] Altar / Alter
