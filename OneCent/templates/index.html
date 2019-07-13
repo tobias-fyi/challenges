@@ -18,37 +18,37 @@
 			</g>
 		</svg>
 		<h1>#100DaysofStory</h1>
-		<small>100 Micro-Adventures by <i>Tobias Reaper</i></small>
+		<p><small>100 Micro-adventures by <i>Tobias Reaper</i></small></p>
 	</header>
 
 	<nav id="nav" class="nav main">
 		<ul>
 			{% if page_obj.next_page_number <= page_obj.paginator.num_pages|add:"-1" %}
-			<li><a href="?page={{ page_obj.paginator.num_pages }}">«</a></li>
+			<li><a class="linked" href="?page={{ page_obj.paginator.num_pages }}">«</a></li>
 			{% else %}
-			<li></li>
+			<li><a class="disabled">«</a></li>
 			{% endif %}
 
 			{% if page_obj.has_next %}
-			<li><a href="?page={{ page_obj.next_page_number }}">‹</a></li>
+			<li><a class="linked" href="?page={{ page_obj.next_page_number }}">‹</a></li>
 			{% else %}
-			<li></li>
+			<li><a class="disabled">‹</a></li>
 			{% endif %}
 
 			{% for story in stories reversed %}
-			<li><a href="#{{ story.pk }}" class="active">{{ story.title }}</a></li>
+			<li><a href="#{{ story.pk }}" class="linked">{{ story.title }}</a></li>
 			{% endfor %}
 
 			{% if page_obj.has_previous %}
-			<li><a href="?page={{ page_obj.previous_page_number }}">›</a></li>
+			<li><a class="linked" href="?page={{ page_obj.previous_page_number }}">›</a></li>
 			{% else %}
-			<li></li>
+			<li><a class="disabled">›</a></li>
 			{% endif %}
 
 			{% if page_obj.previous_page_number > 1 %}
-			<li><a href="?page=1">»</a></li>
+			<li><a class="linked" href="?page=1">»</a></li>
 			{% else %}
-			<li></li>
+			<li><a class="disabled">»</a></li>
 			{% endif %}
 		</ul>
 	</nav>

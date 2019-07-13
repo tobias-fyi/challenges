@@ -1,5 +1,5 @@
 /* jquery.scrolly v1.0.0-dev | (c) @ajlkn | MIT licensed */
-(function(e) {
+(function (e) {
   function u(s, o) {
     var u, a, f;
     if ((u = e(s))[t] == 0) return n;
@@ -20,7 +20,7 @@
     i = "offset",
     s = "click.scrolly",
     o = e(window);
-  e.fn.scrolly = function(i) {
+  e.fn.scrolly = function (i) {
     var o,
       a,
       f,
@@ -45,11 +45,11 @@
       i
     )),
       a.pollOnce && (l = u(f, a)),
-      c.off(s).on(s, function(e) {
+      c.off(s).on(s, function (e) {
         var t = l !== n ? l : u(f, a);
         t !== n &&
           (e.preventDefault(),
-          a.parent.stop().animate({ scrollTop: t }, a.speed, a.easing));
+            a.parent.stop().animate({ scrollTop: t }, a.speed, a.easing));
       });
   };
 })(jQuery);
