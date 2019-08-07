@@ -7,7 +7,7 @@
 <div id="wrapper">
 
 	<header id="header" class="alt">
-		<h1>{{ story.title }}</h1>
+		<h1>{{ story.pk|stringformat:"03d" }} ~ {{ story.title }}</h1>
 		<p>{{ story.date }}</p>
 	</header>
 
@@ -27,7 +27,7 @@
 			<li><a class="disabled">‹</a></li>
 			{% endif %}
 
-			<li><a class="linked active" href="{% url 'story_list' %}" class="button">Back to List</a></li>
+			<li><a id="to-list" class="button linked active" href="{% url 'story_list' %}">Back to List</a></li>
 
 			{% if story.pk < count %}
 			<li><a class="linked" href="{% url 'story_detail' story.pk|add:"1" %}">›</a></li>

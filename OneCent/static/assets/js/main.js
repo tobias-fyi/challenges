@@ -1,6 +1,6 @@
 // Based on the Stellar template by HTML5UP
 
-(function($) {
+(function ($) {
   var $window = $(window),
     $body = $("body"),
     $main = $("#main");
@@ -16,8 +16,8 @@
   });
 
   // Play initial animations on page load.
-  $window.on("load", function() {
-    window.setTimeout(function() {
+  $window.on("load", function () {
+    window.setTimeout(function () {
       $body.removeClass("is-preload");
     }, 100);
   });
@@ -29,10 +29,10 @@
     // Shrink effect.
     $main.scrollex({
       mode: "top",
-      enter: function() {
+      enter: function () {
         $nav.addClass("alt");
       },
-      leave: function() {
+      leave: function () {
         $nav.removeClass("alt");
       }
     });
@@ -43,11 +43,11 @@
     $nav_a
       .scrolly({
         speed: 1000,
-        offset: function() {
+        offset: function () {
           return $nav.height();
         }
       })
-      .on("click", function() {
+      .on("click", function () {
         var $this = $(this);
 
         // External link? Bail.
@@ -59,7 +59,7 @@
         // Activate link *and* lock it (so Scrollex doesn't try to activate other links as we're scrolling to this one's section).
         $this.addClass("active").addClass("active-locked");
       })
-      .each(function() {
+      .each(function () {
         var $this = $(this),
           id = $this.attr("href"),
           $section = $(id);
@@ -70,11 +70,11 @@
         // Scrollex.
         $section.scrollex({
           mode: "middle",
-          initialize: function() {
+          initialize: function () {
             // Deactivate section.
             if (browser.canUse("transition")) $section.addClass("inactive");
           },
-          enter: function() {
+          enter: function () {
             // Activate section.
             $section.removeClass("inactive");
 

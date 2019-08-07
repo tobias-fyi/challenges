@@ -36,7 +36,7 @@
 			{% endif %}
 
 			{% for story in stories reversed %}
-			<li><a href="#{{ story.pk }}" class="linked">{{ story.title }}</a></li>
+			<li><a class="linked" href="#{{ story.pk }}">{{ story.pk|stringformat:"03d" }} ~ {{ story.title }}</a></li>
 			{% endfor %}
 
 			{% if page_obj.has_previous %}
@@ -62,7 +62,7 @@
 			<div class="spotlight">
 				<div class="content">
 					<header class="major">
-						<h2>{{ story.title }}</h2>
+						<h2>{{ story.pk|stringformat:"03d" }} ~ {{ story.title }}</h2>
 					</header>
 					<p>{{ story.body|truncatewords_html:24|safe }}</p>
 					<ul class="actions">
