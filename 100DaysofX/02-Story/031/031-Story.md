@@ -24,9 +24,9 @@ _Who isn't still?_
 
 The situation rarely demanded subduty and because of the condition of the equipment, it was only done when completely necessary. The sub that all the cadets had to use during the ceremony, Nuuva, which in the Noaic language means something along the lines of "young", was the sketchiest of all of them—which was saying something.
 
-"It's better than no sub at all, Mono," Uvet had explained as the two made their way through the lilting corridors. They were already subsurf, descending to the lowest drop point on the oversized bouy.
+"It's better than no sub at all, Mono," Uvet had explained as the two made their way through the lilting corridors. They were already subsurf, descending to the lowest drop point on the oversized buoy.
 
-The subsurf drop where they were headed was the lowest enclosed section of the bouy, where it connected to the massive chain that anchored it to the sea floor. They were headed for one of the series of outer airlocks that circled the connection point—the upper fixture.
+The subsurf drop where they were headed was the lowest enclosed section of the buoy, where it connected to the massive chain that anchored it to the sea floor. They were headed for one of the series of outer airlocks that circled the connection point—the upper fixture.
 
 ---- ∫ ----
 
@@ -36,7 +36,7 @@ The subsurf drop where they were headed was the lowest enclosed section of the b
 
 "You sure it's even worth it? Maybe it's rusted shut, or..." Mono broke off what he was saying, looking away down the corridor.
 
-"Or what? This part of the bouy is just ancient—parts aren't as smooth as they once were." Uvet looked blankly at the young boy.
+"Or what? This part of the buoy is just ancient—parts aren't as smooth as they once were." Uvet looked blankly at the young boy.
 
 "Nothing," Mono said, moving to the area of floor Uvet had gestured to. "You know a shell of a lot more about these sublevels."
 
@@ -50,11 +50,11 @@ A long metallic grinding sound ended with a satisfying click.
 
 ---- ∫ ----
 
-They descended, level by level. Gradually, the sounds of the bouy receded above them, to be replaced by the sounds of their progress.
+They descended, level by level. Gradually, the sounds of the buoy receded above them, to be replaced by the sounds of their progress.
 
 "Anyways, if there were no subs—if the Nuuva had been scrapped centides ago, as you say it should've, there'd be no way to check the fixture all the way down."
 
-The much-younger Mono visibly brightened at the sound of Mono's voice. Something to break the oppressive and unusual silence; a distraction to help drown out the deluge of thoughts that assaulted his mind. The thoughts seemed to fill the silence just as the noise did on the superlevels. He could hear his thoughts clearly without the constant din of the bouy; the desalinators; the powerplant; all of it.
+The much-younger Mono visibly brightened at the sound of Mono's voice. Something to break the oppressive and unusual silence; a distraction to help drown out the deluge of thoughts that assaulted his mind. The thoughts seemed to fill the silence just as the noise did on the superlevels. He could hear his thoughts clearly without the constant din of the buoy; the desalinators; the powerplant; all of it.
 
 "So then why don't you scrap it?" Mono looked down the hallway, seemingly distant; distracted. "Then you wouldn't have to come down here at all. I don't like it down here—at all. I'va bad feeling..."
 
@@ -82,7 +82,7 @@ He knew the feeling.
 
 "The same thing happened to me the first time I escaped the constrant noise of the superlevels." He tried to make his voice sound comforting. "All I can say is embrace it."
 
-"And this _fixture_—" he sneered in comic imitation of the boy's earlier tone, "is the reason we are still here—still alive; still holding our spot of water outside the pull of the currents." His eyes began to burrow into the boy's. "Do you know what would happen—what _did_ happen to hundreds of other bouys just like this one—or nicer..." He let the question draw out into the silence.
+"And this _fixture_—" he sneered in comic imitation of the boy's earlier tone, "is the reason we are still here—still alive; still holding our spot of water outside the pull of the currents." His eyes began to burrow into the boy's. "Do you know what would happen—what _did_ happen to hundreds of other buoys just like this one—or nicer..." He let the question draw out into the silence.
 
 ---- ∫ ----
 
@@ -90,10 +90,12 @@ He knew the feeling.
 
 Uvet took a breath, then another, deeper; a long one. He took his hand from the boy's shoulder, letting it fall to his side.
 
-Mono stook frozen, though Uvet could tell the gears were starting to turn. Now that the boy's mind had something to chew on, he seemed to stop shrinking. His expression changed from one of unconscious fright to one of mild concentration and puzzlement—and unconscious fright, just less of it.
+Mono stood frozen, though Uvet could tell the gears were starting to turn. Now that the boy's mind had something to chew on, he seemed to stop shrinking. His expression changed from one of unconscious fright to one of mild concentration and puzzlement—and unconscious fright, just less of it.
 
 "The Crux..." His eyes grew wide with realization, "I thought they were just a story."
 
-"Just because something is a story doesn't mean it's not the truth." Uvet turned and walked on.
+"Just because something is a story doesn't mean it's not the truth."
+
+Uvet turned and walked on.
 
 ---- ∫ ----
