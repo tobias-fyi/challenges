@@ -44,4 +44,6 @@ The Professor - a teacher in cosmic anthropology.
 
 "Once the majority of individuals do and say things out of a sense of obligation more than anything else, the slope to self-destruction steadily gets steeper."
 
+"Once the individual loses the individual feeling in their actions and gestures, they begin accumulating societal relics; artifacts. Each generation does something new, then once they become 'known for it', they stop progressing..."
+
 ---- ∫ ----
